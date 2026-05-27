@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Sam Forbes"
+  navbar:
+    left:
+      # - text: About
+      #   href: about.qmd
+      - text: Research
+        href: research.qmd
+      - text: Essays
+        href: essays.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    css: styles.css
+
+
+

@@ -1,0 +1,22 @@
+---
+title: "An Economic Law"
+date: "May 26, 2026"
+---
+
+<p>
+  If you study economics you get frustrated by the lack of any established laws. Does demand increase supply, do interest rates reduce inflation, does unemployment increase desperation, is anything in equilibrium, do people act in their dog's self-interest, etc? Mathematics is the economists favourite tool to get no-where with these questions. Anyway I present to you, in this incredible micro-essay, one irrefutable economic law known definitely since the dawn of economics.
+</p>
+
+<p style="text-align: center; margin: 40px 0;">
+  <strong>"There are a few rich who depend on many more poor."</strong>
+</p>
+
+<p>
+  Ok this may seem basic but is it not true? And if it is obviously true should not economics be based on this law? 
+</p>
+
+<p>
+  Mull it over and then you will agree with me.
+</p>
+
+<p style="text-align: center; font-style: italic;">--- Fin ---</p>

@@ -1,0 +1,23 @@
+---
+title: "Welcome"
+---
+
+<p>
+  The research page includes semi-mathematical research with my increasingly smart co-author A. I. 
+</p>
+
+<p>
+  Of particular research interest:
+</p>
+<ul>
+  <li>phenomena exhibiting a power law in the distribution</li>
+  <li>limits to growth - the relationship of finite resources to population</li>
+  <li>how the economy 'really works' from a macro perspective</li>
+</ul>
+
+<p>
+  The essay page unleashes my chaotic imagination - enjoy!
+</p>
+
+
+

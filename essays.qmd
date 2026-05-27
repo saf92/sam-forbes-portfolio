@@ -1,0 +1,6 @@
+## Polemics
+
+[Whither Thee, Da Vinci?](essays_files/davinci.qmd)  
+[An Economic Law](essays_files/economic_law.qmd)
+
+

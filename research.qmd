@@ -1,0 +1,33 @@
+
+
+1. **UK Income Inequality and Taxation, 2000–2023: A $\kappa$‑generalised Distribution Analysis**  
+   arXiv, 2026  
+   [PDF](https://arxiv.org/pdf/2604.03025)
+
+1. **On Properties of a Smooth Income Tax Function with Application to the UK**  
+   viXra, 2025  
+   [PDF](https://vixra.org/pdf/2511.0128v1.pdf)
+
+1. **A Dynamical Systems Model for Population and Depleting Resources**  
+   viXra, 2024  
+   [PDF](https://vixra.org/pdf/2410.0064v1.pdf)
+
+1. **The $\kappa$‑generalised Distribution for Stock Returns**  
+   arXiv, 2024  
+   [PDF](https://arxiv.org/pdf/2405.09929)
+
+1. **Linear Regression for Power Law Distribution Fitting**  
+   arXiv, 2023  
+   [Abstract](https://arxiv.org/abs/2312.13229)
+
+1. **A Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback**  
+   arXiv, 2023  
+   [Abstract](https://arxiv.org/abs/2308.10734)
+
+1. **A Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process**  
+   with S. Grosskinsky, *PLOS ONE*, 2022  
+   [Article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272864)
+
+1. **Data Driven Analysis and Modelling of the Wealth Distribution**  
+   PhD thesis, University of Warwick, 2023  
+   [Thesis](https://wrap.warwick.ac.uk/175084/)
