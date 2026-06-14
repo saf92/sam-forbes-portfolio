@@ -8,4 +8,6 @@
 
 ## Mathematics
 
+[Measuring Infinity](essays_files/measuring_infinity.qmd)  
+
 ## Economics

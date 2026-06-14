@@ -1,1 +1,3 @@
 info.txt
+/.quarto/
+**/*.quarto_ipynb

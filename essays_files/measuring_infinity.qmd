@@ -1,0 +1,74 @@
+---
+title: "Measuring Infinity"
+date: 2026-06-14
+date-format: "D MMMM YYYY"
+format: html
+---
+
+## Finite sets
+
+We can define the size of a finite set $X$ by
+$$
+S(X) = \text{number of elements of } X.
+$$
+
+Then the following two properties hold:
+
+1. If $A \subsetneq B$, then $S(A) < S(B)$.
+2. If there exists a bijection $f : A \to B$, then $S(A) = S(B)$.
+
+The first property expresses Euclid's principle that *the whole is greater than the part*. The second states that if the elements of two sets can be placed in one-to-one correspondence, then the sets have the same size; this is the fundamental idea underlying Georg Cantor's theory of cardinality.
+
+## Infinite sets
+
+Let us now leave the size of an infinite set $X$ unspecified, writing
+$$
+S(X) = \text{`size' of } X.
+$$
+
+If one wishes to define the size of an infinite set, one must decide which property to preserve: Euclid's property or Cantor's property. These two are incompatible in the infinite setting.
+
+Indeed, consider the natural numbers
+$$
+\mathbb{N} = \{1,\,2,\,3,\,\dots\}
+$$
+and the integers
+$$
+\mathbb{Z} = \{\dots,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,\dots\}.
+$$
+Since $\mathbb{N} \subsetneq \mathbb{Z}$, Euclid's property would imply that
+$$
+S(\mathbb{N}) < S(\mathbb{Z}).
+$$
+However, there exists a bijection $f:\mathbb{N}\to\mathbb{Z}$ given by
+$$
+f(n)=
+\begin{cases}
+\dfrac{n}{2}, & \text{if } n \text{ is even},\\[6pt]
+-\dfrac{n-1}{2}, & \text{if } n \text{ is odd},
+\end{cases}
+$$
+so Cantor's property would imply that
+$$
+S(\mathbb{N}) = S(\mathbb{Z}),
+$$
+which is a contradiction.
+
+Thus, if one wishes to define the size of an infinite set, one must decide which property to preserve.
+
+## Cantor's approach
+
+The simpler and more widely adopted theory is obtained by preserving Cantor's property, namely that two sets have the same size whenever there exists a bijection between them. From this point of view one finds that
+$$
+S(\mathbb{N}) = S(\mathbb{Z}) = S(\mathbb{Q}) < S(\mathbb{R}).
+$$
+
+Historically, however, this conclusion was difficult to accept, since it requires abandoning Euclid's principle that the whole is greater than the part.
+
+## Euclidean alternatives
+
+Since Cantor, there have been attempts to develop alternative theories of infinite size based instead on Euclid's property. One example is the more recent theory of numerosities. These theories are less canonical, in the sense that they depend on additional choices and do not lead to a single universally accepted notion of infinite size. They are also mathematically more complicated than Cantor's theory.
+
+## Closing thought
+
+Infinity is where familiar finite intuitions begin to separate. In the finite world, counting, one-to-one correspondence, and the idea that the whole is greater than the part all agree. At infinity, they do not, and one must decide which idea of size to preserve. Indeed, the fact that certain properties coincide in the finite case but come apart in the infinite case may reflect a more general phenomenon, extending beyond mathematics to physics at the quantum and cosmological scales.

@@ -16,7 +16,7 @@ title: "Welcome"
 </ul>
 
 <p>
-  The essay page is in progress. 
+  The essay page will contain a series of essays on varied topics. 
 </p>
 
 

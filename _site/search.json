@@ -7,18 +7,46 @@
     "text": "This is a lament for the scholar, artist, genius, mad man or whatever you want to call Da Vinci. I look around and I don’t see many, if any, drawing skulls and painting stoats (well), thinking above AND beyond, wearing cloaks with large beards in Italian heat or writing back to front and upside down.\n\n\nWhat would Da Vinci do today? Where would he be? As Trump says: I will tell you: he would be shunted out of society. Left to dwindle on the side-lines as he is ‘too interesting’.\n\n\nBut Da Vinci was a product of his time?! Well we live in boring times.\n\n\nNow don’t get me started on Diogenes.\n\n\n\n— Fin —"
   },
   {
-    "objectID": "essays.html",
-    "href": "essays.html",
-    "title": "Sam Forbes",
+    "objectID": "essays_files/measuring_infinity.html",
+    "href": "essays_files/measuring_infinity.html",
+    "title": "Measuring Infinity",
     "section": "",
-    "text": "Whither Thee, Da Vinci?\nAn Economic Law"
+    "text": "We can define the size of a finite set \\(X\\) by \\[\nS(X) = \\text{number of elements of } X.\n\\]\nThen the following two properties hold:\n\nIf \\(A \\subsetneq B\\), then \\(S(A) &lt; S(B)\\).\nIf there exists a bijection \\(f : A \\to B\\), then \\(S(A) = S(B)\\).\n\nThe first property expresses Euclid’s principle that the whole is greater than the part. The second states that if the elements of two sets can be placed in one-to-one correspondence, then the sets have the same size; this is the fundamental idea underlying Georg Cantor’s theory of cardinality."
   },
   {
-    "objectID": "essays.html#polemics",
-    "href": "essays.html#polemics",
-    "title": "Sam Forbes",
+    "objectID": "essays_files/measuring_infinity.html#finite-sets",
+    "href": "essays_files/measuring_infinity.html#finite-sets",
+    "title": "Measuring Infinity",
     "section": "",
-    "text": "Whither Thee, Da Vinci?\nAn Economic Law"
+    "text": "We can define the size of a finite set \\(X\\) by \\[\nS(X) = \\text{number of elements of } X.\n\\]\nThen the following two properties hold:\n\nIf \\(A \\subsetneq B\\), then \\(S(A) &lt; S(B)\\).\nIf there exists a bijection \\(f : A \\to B\\), then \\(S(A) = S(B)\\).\n\nThe first property expresses Euclid’s principle that the whole is greater than the part. The second states that if the elements of two sets can be placed in one-to-one correspondence, then the sets have the same size; this is the fundamental idea underlying Georg Cantor’s theory of cardinality."
+  },
+  {
+    "objectID": "essays_files/measuring_infinity.html#infinite-sets",
+    "href": "essays_files/measuring_infinity.html#infinite-sets",
+    "title": "Measuring Infinity",
+    "section": "Infinite sets",
+    "text": "Infinite sets\nLet us now leave the size of an infinite set \\(X\\) unspecified, writing \\[\nS(X) = \\text{`size' of } X.\n\\]\nIf one wishes to define the size of an infinite set, one must decide which property to preserve: Euclid’s property or Cantor’s property. These two are incompatible in the infinite setting.\nIndeed, consider the natural numbers \\[\n\\mathbb{N} = \\{1,\\,2,\\,3,\\,\\dots\\}\n\\] and the integers \\[\n\\mathbb{Z} = \\{\\dots,\\,-3,\\,-2,\\,-1,\\,0,\\,1,\\,2,\\,3,\\,\\dots\\}.\n\\] Since \\(\\mathbb{N} \\subsetneq \\mathbb{Z}\\), Euclid’s property would imply that \\[\nS(\\mathbb{N}) &lt; S(\\mathbb{Z}).\n\\] However, there exists a bijection \\(f:\\mathbb{N}\\to\\mathbb{Z}\\) given by \\[\nf(n)=\n\\begin{cases}\n\\dfrac{n}{2}, & \\text{if } n \\text{ is even},\\\\[6pt]\n-\\dfrac{n-1}{2}, & \\text{if } n \\text{ is odd},\n\\end{cases}\n\\] so Cantor’s property would imply that \\[\nS(\\mathbb{N}) = S(\\mathbb{Z}),\n\\] which is a contradiction.\nThus, if one wishes to define the size of an infinite set, one must decide which property to preserve."
+  },
+  {
+    "objectID": "essays_files/measuring_infinity.html#cantors-approach",
+    "href": "essays_files/measuring_infinity.html#cantors-approach",
+    "title": "Measuring Infinity",
+    "section": "Cantor’s approach",
+    "text": "Cantor’s approach\nThe simpler and more widely adopted theory is obtained by preserving Cantor’s property, namely that two sets have the same size whenever there exists a bijection between them. From this point of view one finds that \\[\nS(\\mathbb{N}) = S(\\mathbb{Z}) = S(\\mathbb{Q}) &lt; S(\\mathbb{R}).\n\\]\nHistorically, however, this conclusion was difficult to accept, since it requires abandoning Euclid’s principle that the whole is greater than the part."
+  },
+  {
+    "objectID": "essays_files/measuring_infinity.html#euclidean-alternatives",
+    "href": "essays_files/measuring_infinity.html#euclidean-alternatives",
+    "title": "Measuring Infinity",
+    "section": "Euclidean alternatives",
+    "text": "Euclidean alternatives\nSince Cantor, there have been attempts to develop alternative theories of infinite size based instead on Euclid’s property. One example is the more recent theory of numerosities. These theories are less canonical, in the sense that they depend on additional choices and do not lead to a single universally accepted notion of infinite size. They are also mathematically more complicated than Cantor’s theory."
+  },
+  {
+    "objectID": "essays_files/measuring_infinity.html#closing-thought",
+    "href": "essays_files/measuring_infinity.html#closing-thought",
+    "title": "Measuring Infinity",
+    "section": "Closing thought",
+    "text": "Closing thought\nInfinity is where familiar finite intuitions begin to separate. In the finite world, counting, one-to-one correspondence, and the idea that the whole is greater than the part all agree. At infinity, they do not, and one must decide which idea of size to preserve. Indeed, the fact that certain properties coincide in the finite case but come apart in the infinite case may reflect a more general phenomenon, extending beyond mathematics to physics at the quantum and cosmological scales."
   },
   {
     "objectID": "research.html",
@@ -26,6 +54,20 @@
     "title": "Sam Forbes",
     "section": "",
     "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
+  },
+  {
+    "objectID": "essays.html#mathematics",
+    "href": "essays.html#mathematics",
+    "title": "Sam Forbes",
+    "section": "Mathematics",
+    "text": "Mathematics\nMeasuring Infinity"
+  },
+  {
+    "objectID": "essays.html#economics",
+    "href": "essays.html#economics",
+    "title": "Sam Forbes",
+    "section": "Economics",
+    "text": "Economics"
   },
   {
     "objectID": "essays_files/economic_law.html",
@@ -39,6 +81,6 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "The research page includes semi-mathematical research with my increasingly smart co-author A. I.\n\n\nOf particular research interest:\n\n\n\nphenomena exhibiting a power law in the distribution\n\n\nlimits to growth - the relationship of finite resources to population\n\n\nhow the economy ‘really works’ from a macro perspective\n\n\n\nThe essay page unleashes my chaotic imagination - enjoy!"
+    "text": "The research page includes my mathematical research.\n\n\nSome of my research interests:\n\n\n\nphenomena exhibiting a power law in the distribution\n\n\nlimits to growth - the relationship of finite resources to population\n\n\nhow the economy ‘really works’ from a macro perspective\n\n\n\nThe essay page will contain a series of essays on varied topics."
   }
 ]

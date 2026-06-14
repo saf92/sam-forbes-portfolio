@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-14">
 
-<title>essays – Sam Forbes</title>
+<title>Measuring Infinity – Sam Forbes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +72,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Sam Forbes</span>
     </a>
   </div>
@@ -93,11 +123,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./essays.html" aria-current="page"> 
+    <a class="nav-link" href="../essays.html"> 
 <span class="menu-text">Essays</span></a>
   </li>  
 </ul>
@@ -113,24 +143,82 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Measuring Infinity</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<!-- ## Polemics
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">14 June 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
-[Whither Thee, Da Vinci?](essays_files/davinci.qmd)  
-[An Economic Law](essays_files/economic_law.qmd) -->
-<section id="philosophy" class="level2">
-<h2 class="anchored" data-anchor-id="philosophy">Philosophy</h2>
+
+</header>
+
+
+<section id="finite-sets" class="level2">
+<h2 class="anchored" data-anchor-id="finite-sets">Finite sets</h2>
+<p>We can define the size of a finite set <span class="math inline">\(X\)</span> by <span class="math display">\[
+S(X) = \text{number of elements of } X.
+\]</span></p>
+<p>Then the following two properties hold:</p>
+<ol type="1">
+<li>If <span class="math inline">\(A \subsetneq B\)</span>, then <span class="math inline">\(S(A) &lt; S(B)\)</span>.</li>
+<li>If there exists a bijection <span class="math inline">\(f : A \to B\)</span>, then <span class="math inline">\(S(A) = S(B)\)</span>.</li>
+</ol>
+<p>The first property expresses Euclid’s principle that <em>the whole is greater than the part</em>. The second states that if the elements of two sets can be placed in one-to-one correspondence, then the sets have the same size; this is the fundamental idea underlying Georg Cantor’s theory of cardinality.</p>
 </section>
-<section id="mathematics" class="level2">
-<h2 class="anchored" data-anchor-id="mathematics">Mathematics</h2>
-<p><a href="./essays_files/measuring_infinity.html">Measuring Infinity</a></p>
+<section id="infinite-sets" class="level2">
+<h2 class="anchored" data-anchor-id="infinite-sets">Infinite sets</h2>
+<p>Let us now leave the size of an infinite set <span class="math inline">\(X\)</span> unspecified, writing <span class="math display">\[
+S(X) = \text{`size' of } X.
+\]</span></p>
+<p>If one wishes to define the size of an infinite set, one must decide which property to preserve: Euclid’s property or Cantor’s property. These two are incompatible in the infinite setting.</p>
+<p>Indeed, consider the natural numbers <span class="math display">\[
+\mathbb{N} = \{1,\,2,\,3,\,\dots\}
+\]</span> and the integers <span class="math display">\[
+\mathbb{Z} = \{\dots,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,\dots\}.
+\]</span> Since <span class="math inline">\(\mathbb{N} \subsetneq \mathbb{Z}\)</span>, Euclid’s property would imply that <span class="math display">\[
+S(\mathbb{N}) &lt; S(\mathbb{Z}).
+\]</span> However, there exists a bijection <span class="math inline">\(f:\mathbb{N}\to\mathbb{Z}\)</span> given by <span class="math display">\[
+f(n)=
+\begin{cases}
+\dfrac{n}{2}, &amp; \text{if } n \text{ is even},\\[6pt]
+-\dfrac{n-1}{2}, &amp; \text{if } n \text{ is odd},
+\end{cases}
+\]</span> so Cantor’s property would imply that <span class="math display">\[
+S(\mathbb{N}) = S(\mathbb{Z}),
+\]</span> which is a contradiction.</p>
+<p>Thus, if one wishes to define the size of an infinite set, one must decide which property to preserve.</p>
 </section>
-<section id="economics" class="level2">
-<h2 class="anchored" data-anchor-id="economics">Economics</h2>
+<section id="cantors-approach" class="level2">
+<h2 class="anchored" data-anchor-id="cantors-approach">Cantor’s approach</h2>
+<p>The simpler and more widely adopted theory is obtained by preserving Cantor’s property, namely that two sets have the same size whenever there exists a bijection between them. From this point of view one finds that <span class="math display">\[
+S(\mathbb{N}) = S(\mathbb{Z}) = S(\mathbb{Q}) &lt; S(\mathbb{R}).
+\]</span></p>
+<p>Historically, however, this conclusion was difficult to accept, since it requires abandoning Euclid’s principle that the whole is greater than the part.</p>
+</section>
+<section id="euclidean-alternatives" class="level2">
+<h2 class="anchored" data-anchor-id="euclidean-alternatives">Euclidean alternatives</h2>
+<p>Since Cantor, there have been attempts to develop alternative theories of infinite size based instead on Euclid’s property. One example is the more recent theory of numerosities. These theories are less canonical, in the sense that they depend on additional choices and do not lead to a single universally accepted notion of infinite size. They are also mathematically more complicated than Cantor’s theory.</p>
+</section>
+<section id="closing-thought" class="level2">
+<h2 class="anchored" data-anchor-id="closing-thought">Closing thought</h2>
+<p>Infinity is where familiar finite intuitions begin to separate. In the finite world, counting, one-to-one correspondence, and the idea that the whole is greater than the part all agree. At infinity, they do not, and one must decide which idea of size to preserve. Indeed, the fact that certain properties coincide in the finite case but come apart in the infinite case may reflect a more general phenomenon, extending beyond mathematics to physics at the quantum and cosmological scales.</p>
 
 
 </section>
