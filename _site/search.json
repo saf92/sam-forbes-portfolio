@@ -7,6 +7,55 @@
     "text": "This is a lament for the scholar, artist, genius, mad man or whatever you want to call Da Vinci. I look around and I don’t see many, if any, drawing skulls and painting stoats (well), thinking above AND beyond, wearing cloaks with large beards in Italian heat or writing back to front and upside down.\n\n\nWhat would Da Vinci do today? Where would he be? As Trump says: I will tell you: he would be shunted out of society. Left to dwindle on the side-lines as he is ‘too interesting’.\n\n\nBut Da Vinci was a product of his time?! Well we live in boring times.\n\n\nNow don’t get me started on Diogenes.\n\n\n\n— Fin —"
   },
   {
+    "objectID": "essays_files/chasing_zero.html",
+    "href": "essays_files/chasing_zero.html",
+    "title": "Chasing Zero: Why Faster Speeds Don’t Always Save (Much) Time",
+    "section": "",
+    "text": "The formula for average speed is given by:\n\\[s = \\frac{d}{t}\\]\nWe can rearrange this formula to find the time (\\(t\\)) taken to travel a distance (\\(d\\)) at a constant speed (\\(s\\)):\n\\[t = \\frac{d}{s}\\]\nSuppose we want to find the time saved when travelling the same distance \\(d\\) at two different average speeds, \\(s_1\\) and \\(s_2\\). Assuming \\(s_2\\) is the faster speed (\\(s_2 &gt; s_1\\)), the time difference (\\(T\\)) is expressed as:\n\\[\\begin{align*}\nT = t_1 - t_2 &= \\frac{d}{s_1} - \\frac{d}{s_2} \\\\\n&= d\\left(\\frac{1}{s_1} - \\frac{1}{s_2}\\right)\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "essays_files/chasing_zero.html#setup",
+    "href": "essays_files/chasing_zero.html#setup",
+    "title": "Chasing Zero: Why Faster Speeds Don’t Always Save (Much) Time",
+    "section": "",
+    "text": "The formula for average speed is given by:\n\\[s = \\frac{d}{t}\\]\nWe can rearrange this formula to find the time (\\(t\\)) taken to travel a distance (\\(d\\)) at a constant speed (\\(s\\)):\n\\[t = \\frac{d}{s}\\]\nSuppose we want to find the time saved when travelling the same distance \\(d\\) at two different average speeds, \\(s_1\\) and \\(s_2\\). Assuming \\(s_2\\) is the faster speed (\\(s_2 &gt; s_1\\)), the time difference (\\(T\\)) is expressed as:\n\\[\\begin{align*}\nT = t_1 - t_2 &= \\frac{d}{s_1} - \\frac{d}{s_2} \\\\\n&= d\\left(\\frac{1}{s_1} - \\frac{1}{s_2}\\right)\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "essays_files/chasing_zero.html#examples-and-analysis",
+    "href": "essays_files/chasing_zero.html#examples-and-analysis",
+    "title": "Chasing Zero: Why Faster Speeds Don’t Always Save (Much) Time",
+    "section": "Examples and Analysis",
+    "text": "Examples and Analysis\nTo illustrate the mathematical relationship between speed and time, let \\(d = 40\\text{ miles}\\) (roughly the distance between Manchester and Leeds in the UK). By observing different speed increments, we can see a clear law of diminishing returns: as initial speed increases, equal increments of additional speed yield smaller and smaller time savings.\n\nCase 1: Driving Speeds\nFirst, consider a low-speed environment. Increasing a constant speed from \\(40\\text{ mph}\\) to \\(50\\text{ mph}\\) results in a substantial gain:\n\\[T = 40\\left( \\frac{1}{40} - \\frac{1}{50} \\right) = 0.2\\text{ hours} = 12\\text{ minutes}\\]\nHowever, as the baseline speed increases, the time savings begin to compress. Using the same distance of \\(40\\text{ miles}\\):\n\nIncreasing from \\(50\\text{ mph}\\) to \\(60\\text{ mph}\\) saves approximately 8 minutes.\nIncreasing from \\(60\\text{ mph}\\) to \\(70\\text{ mph}\\) saves approximately 5.71 minutes.\nIncreasing from \\(70\\text{ mph}\\) to \\(80\\text{ mph}\\) saves approximately 4.29 minutes.\n\nNotice that pushing from \\(70\\) to \\(80\\text{ mph}\\) saves less than half the time that was saved by pushing from \\(40\\) to \\(50\\text{ mph}\\), despite it being the exact same \\(10\\text{ mph}\\) increment.\nInterestingly, to achieve another significant chunk of time savings at higher speeds, the velocity jump must be much larger. For example, pushing from \\(80\\text{ mph}\\) to an extreme \\(100\\text{ mph}\\) (a \\(20\\text{ mph}\\) jump) saves exactly 6 minutes.\n\n\nCase 2: Jet Travel\nThis phenomenon becomes extreme when dealing with aviation speeds. Suppose we travel this same \\(40\\text{ miles}\\) by air. One jet cruises at \\(500\\text{ mph}\\) and a much faster jet flies at \\(1000\\text{ mph}\\).\nEven though the second jet has doubled its speed—adding an astronomical \\(500\\text{ mph}\\)—the baseline speed is already so high that the journey is completed almost instantly by both. Thus, the actual time saved is nominal:\n\nIncreasing from \\(500\\text{ mph}\\) to \\(1000\\text{ mph}\\) saves exactly 2.4 minutes.\n\n\n\nCase 3: Jet Travel vs Speed of Light\nTo push this concept to its absolute logical extreme, imagine comparing a commercial jet flying at \\(500\\text{ mph}\\) to a hypothetical vehicle travelling at the speed of light (\\(c \\approx 670,616,629\\text{ mph}\\)).\nAt \\(500\\text{ mph}\\), a 40-mile trip takes a mere \\(4.8\\text{ minutes}\\) (\\(288\\text{ seconds}\\)). At the speed of light, the trip is instantaneous, taking roughly \\(0.000215\\text{ seconds}\\). Despite an unimaginable increase in speed of over 670 million miles per hour, the absolute maximum amount of time you can possibly save over this distance is capped by the jet’s already brief flight time:\n\nIncreasing from \\(500\\text{ mph}\\) to the speed of light saves approximately 4.8 minutes.\n\nThis demonstrates that once travel time approaches zero, further speed increases become practically irrelevant for local commuting. Mathematically, this behavior occurs because the fast time component approaches a limit of zero:\n\\[T \\approx \\frac{d}{s_1} \\quad \\text{as} \\quad \\frac{d}{s_2} \\to 0\\]"
+  },
+  {
+    "objectID": "essays_files/chasing_zero.html#conclusion",
+    "href": "essays_files/chasing_zero.html#conclusion",
+    "title": "Chasing Zero: Why Faster Speeds Don’t Always Save (Much) Time",
+    "section": "Conclusion",
+    "text": "Conclusion\nBecause time is inversely proportional to speed, the relationship is non-linear. Travel time drops sharply at low speeds, but flattens out at high speeds. Therefore, over short distances, massive increases in high speeds produce negligible practical benefits."
+  },
+  {
+    "objectID": "essays.html#mathematics",
+    "href": "essays.html#mathematics",
+    "title": "Sam Forbes",
+    "section": "Mathematics",
+    "text": "Mathematics\n\nMeasuring Infinity — 14 June 2026\nChasing Zero — 16 June 2026"
+  },
+  {
+    "objectID": "essays.html#economics",
+    "href": "essays.html#economics",
+    "title": "Sam Forbes",
+    "section": "Economics",
+    "text": "Economics"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
+  },
+  {
     "objectID": "essays_files/measuring_infinity.html",
     "href": "essays_files/measuring_infinity.html",
     "title": "Measuring Infinity",
@@ -47,27 +96,6 @@
     "title": "Measuring Infinity",
     "section": "Closing thought",
     "text": "Closing thought\nInfinity is where familiar finite intuitions begin to separate. In the finite world, counting, one-to-one correspondence, and the idea that the whole is greater than the part all agree. At infinity, they do not, and one must decide which idea of size to preserve. Indeed, the fact that certain properties coincide in the finite case but come apart in the infinite case may reflect a more general phenomenon, extending beyond mathematics to physics at the quantum and cosmological scales."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Sam Forbes",
-    "section": "",
-    "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
-  },
-  {
-    "objectID": "essays.html#mathematics",
-    "href": "essays.html#mathematics",
-    "title": "Sam Forbes",
-    "section": "Mathematics",
-    "text": "Mathematics\nMeasuring Infinity"
-  },
-  {
-    "objectID": "essays.html#economics",
-    "href": "essays.html#economics",
-    "title": "Sam Forbes",
-    "section": "Economics",
-    "text": "Economics"
   },
   {
     "objectID": "essays_files/economic_law.html",

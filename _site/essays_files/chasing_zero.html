@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-16">
 
-<title>essays – Sam Forbes</title>
+<title>Chasing Zero: Why Faster Speeds Don’t Always Save (Much) Time – Sam Forbes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +72,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Sam Forbes</span>
     </a>
   </div>
@@ -93,11 +123,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./essays.html" aria-current="page"> 
+    <a class="nav-link" href="../essays.html"> 
 <span class="menu-text">Essays</span></a>
   </li>  
 </ul>
@@ -113,27 +143,83 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Chasing Zero: Why Faster Speeds Don’t Always Save (Much) Time</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<!-- ## Polemics
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">16 June 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
-[Whither Thee, Da Vinci?](essays_files/davinci.qmd)  
-[An Economic Law](essays_files/economic_law.qmd) -->
-<section id="philosophy" class="level2">
-<h2 class="anchored" data-anchor-id="philosophy">Philosophy</h2>
+
+</header>
+
+
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>The formula for average speed is given by:</p>
+<p><span class="math display">\[s = \frac{d}{t}\]</span></p>
+<p>We can rearrange this formula to find the time (<span class="math inline">\(t\)</span>) taken to travel a distance (<span class="math inline">\(d\)</span>) at a constant speed (<span class="math inline">\(s\)</span>):</p>
+<p><span class="math display">\[t = \frac{d}{s}\]</span></p>
+<p>Suppose we want to find the time saved when travelling the same distance <span class="math inline">\(d\)</span> at two different average speeds, <span class="math inline">\(s_1\)</span> and <span class="math inline">\(s_2\)</span>. Assuming <span class="math inline">\(s_2\)</span> is the faster speed (<span class="math inline">\(s_2 &gt; s_1\)</span>), the time difference (<span class="math inline">\(T\)</span>) is expressed as:</p>
+<p><span class="math display">\[\begin{align*}
+T = t_1 - t_2 &amp;= \frac{d}{s_1} - \frac{d}{s_2} \\
+&amp;= d\left(\frac{1}{s_1} - \frac{1}{s_2}\right)
+\end{align*}\]</span></p>
 </section>
-<section id="mathematics" class="level2">
-<h2 class="anchored" data-anchor-id="mathematics">Mathematics</h2>
+<section id="examples-and-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="examples-and-analysis">Examples and Analysis</h2>
+<p>To illustrate the mathematical relationship between speed and time, let <span class="math inline">\(d = 40\text{ miles}\)</span> (roughly the distance between Manchester and Leeds in the UK). By observing different speed increments, we can see a clear law of diminishing returns: as initial speed increases, equal increments of additional speed yield smaller and smaller time savings.</p>
+<section id="case-1-driving-speeds" class="level3">
+<h3 class="anchored" data-anchor-id="case-1-driving-speeds">Case 1: Driving Speeds</h3>
+<p>First, consider a low-speed environment. Increasing a constant speed from <span class="math inline">\(40\text{ mph}\)</span> to <span class="math inline">\(50\text{ mph}\)</span> results in a substantial gain:</p>
+<p><span class="math display">\[T = 40\left( \frac{1}{40} - \frac{1}{50} \right) = 0.2\text{ hours} = 12\text{ minutes}\]</span></p>
+<p>However, as the baseline speed increases, the time savings begin to compress. Using the same distance of <span class="math inline">\(40\text{ miles}\)</span>:</p>
 <ul>
-<li><a href="./essays_files/measuring_infinity.html">Measuring Infinity</a> — <em>14 June 2026</em></li>
-<li><a href="./essays_files/chasing_zero.html">Chasing Zero</a> — <em>16 June 2026</em></li>
+<li>Increasing from <span class="math inline">\(50\text{ mph}\)</span> to <span class="math inline">\(60\text{ mph}\)</span> saves approximately <strong>8 minutes</strong>.</li>
+<li>Increasing from <span class="math inline">\(60\text{ mph}\)</span> to <span class="math inline">\(70\text{ mph}\)</span> saves approximately <strong>5.71 minutes</strong>.</li>
+<li>Increasing from <span class="math inline">\(70\text{ mph}\)</span> to <span class="math inline">\(80\text{ mph}\)</span> saves approximately <strong>4.29 minutes</strong>.</li>
+</ul>
+<p>Notice that pushing from <span class="math inline">\(70\)</span> to <span class="math inline">\(80\text{ mph}\)</span> saves less than half the time that was saved by pushing from <span class="math inline">\(40\)</span> to <span class="math inline">\(50\text{ mph}\)</span>, despite it being the exact same <span class="math inline">\(10\text{ mph}\)</span> increment.</p>
+<p>Interestingly, to achieve another significant chunk of time savings at higher speeds, the velocity jump must be much larger. For example, pushing from <span class="math inline">\(80\text{ mph}\)</span> to an extreme <span class="math inline">\(100\text{ mph}\)</span> (a <span class="math inline">\(20\text{ mph}\)</span> jump) saves exactly <strong>6 minutes</strong>.</p>
+</section>
+<section id="case-2-jet-travel" class="level3">
+<h3 class="anchored" data-anchor-id="case-2-jet-travel">Case 2: Jet Travel</h3>
+<p>This phenomenon becomes extreme when dealing with aviation speeds. Suppose we travel this same <span class="math inline">\(40\text{ miles}\)</span> by air. One jet cruises at <span class="math inline">\(500\text{ mph}\)</span> and a much faster jet flies at <span class="math inline">\(1000\text{ mph}\)</span>.</p>
+<p>Even though the second jet has doubled its speed—adding an astronomical <span class="math inline">\(500\text{ mph}\)</span>—the baseline speed is already so high that the journey is completed almost instantly by both. Thus, the actual time saved is nominal:</p>
+<ul>
+<li>Increasing from <span class="math inline">\(500\text{ mph}\)</span> to <span class="math inline">\(1000\text{ mph}\)</span> saves exactly <strong>2.4 minutes</strong>.</li>
 </ul>
 </section>
-<section id="economics" class="level2">
-<h2 class="anchored" data-anchor-id="economics">Economics</h2>
+<section id="case-3-jet-travel-vs-speed-of-light" class="level3">
+<h3 class="anchored" data-anchor-id="case-3-jet-travel-vs-speed-of-light">Case 3: Jet Travel vs Speed of Light</h3>
+<p>To push this concept to its absolute logical extreme, imagine comparing a commercial jet flying at <span class="math inline">\(500\text{ mph}\)</span> to a hypothetical vehicle travelling at the speed of light (<span class="math inline">\(c \approx 670,616,629\text{ mph}\)</span>).</p>
+<p>At <span class="math inline">\(500\text{ mph}\)</span>, a 40-mile trip takes a mere <span class="math inline">\(4.8\text{ minutes}\)</span> (<span class="math inline">\(288\text{ seconds}\)</span>). At the speed of light, the trip is instantaneous, taking roughly <span class="math inline">\(0.000215\text{ seconds}\)</span>. Despite an unimaginable increase in speed of over 670 million miles per hour, the absolute maximum amount of time you can possibly save over this distance is capped by the jet’s already brief flight time:</p>
+<ul>
+<li>Increasing from <span class="math inline">\(500\text{ mph}\)</span> to the speed of light saves approximately <strong>4.8 minutes</strong>.</li>
+</ul>
+<p>This demonstrates that once travel time approaches zero, further speed increases become practically irrelevant for local commuting. Mathematically, this behavior occurs because the fast time component approaches a limit of zero:</p>
+<p><span class="math display">\[T \approx \frac{d}{s_1} \quad \text{as} \quad \frac{d}{s_2} \to 0\]</span></p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Because time is inversely proportional to speed, the relationship is non-linear. Travel time drops sharply at low speeds, but flattens out at high speeds. Therefore, over short distances, massive increases in high speeds produce negligible practical benefits.</p>
 
 
 </section>

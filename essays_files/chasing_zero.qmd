@@ -1,0 +1,67 @@
+---
+title: "Chasing Zero: Why Faster Speeds Don't Always Save (Much) Time"
+date: 2026-06-16
+date-format: "D MMMM YYYY"
+format: html
+---
+
+## Setup
+
+The formula for average speed is given by:
+
+$$s = \frac{d}{t}$$
+
+We can rearrange this formula to find the time ($t$) taken to travel a distance ($d$) at a constant speed ($s$):
+
+$$t = \frac{d}{s}$$
+
+Suppose we want to find the time saved when travelling the same distance $d$ at two different average speeds, $s_1$ and $s_2$. Assuming $s_2$ is the faster speed ($s_2 > s_1$), the time difference ($T$) is expressed as:
+
+\begin{align*}
+T = t_1 - t_2 &= \frac{d}{s_1} - \frac{d}{s_2} \\ 
+&= d\left(\frac{1}{s_1} - \frac{1}{s_2}\right) 
+\end{align*}
+
+## Examples and Analysis
+
+To illustrate the mathematical relationship between speed and time, let $d = 40\text{ miles}$ (roughly the distance between Manchester and Leeds in the UK). By observing different speed increments, we can see a clear law of diminishing returns: as initial speed increases, equal increments of additional speed yield smaller and smaller time savings.
+
+### Case 1: Driving Speeds
+
+First, consider a low-speed environment. Increasing a constant speed from $40\text{ mph}$ to $50\text{ mph}$ results in a substantial gain:
+
+$$T = 40\left( \frac{1}{40} - \frac{1}{50} \right) = 0.2\text{ hours} = 12\text{ minutes}$$
+
+However, as the baseline speed increases, the time savings begin to compress. Using the same distance of $40\text{ miles}$:
+
+* Increasing from $50\text{ mph}$ to $60\text{ mph}$ saves approximately **8 minutes**.
+* Increasing from $60\text{ mph}$ to $70\text{ mph}$ saves approximately **5.71 minutes**.
+* Increasing from $70\text{ mph}$ to $80\text{ mph}$ saves approximately **4.29 minutes**.
+
+Notice that pushing from $70$ to $80\text{ mph}$ saves less than half the time that was saved by pushing from $40$ to $50\text{ mph}$, despite it being the exact same $10\text{ mph}$ increment. 
+
+Interestingly, to achieve another significant chunk of time savings at higher speeds, the velocity jump must be much larger. For example, pushing from $80\text{ mph}$ to an extreme $100\text{ mph}$ (a $20\text{ mph}$ jump) saves exactly **6 minutes**.
+
+### Case 2: Jet Travel
+
+This phenomenon becomes extreme when dealing with aviation speeds. Suppose we travel this same $40\text{ miles}$ by air. One jet cruises at $500\text{ mph}$ and a much faster jet flies at $1000\text{ mph}$. 
+
+Even though the second jet has doubled its speed—adding an astronomical $500\text{ mph}$—the baseline speed is already so high that the journey is completed almost instantly by both. Thus, the actual time saved is nominal:
+
+* Increasing from $500\text{ mph}$ to $1000\text{ mph}$ saves exactly **2.4 minutes**.
+
+### Case 3: Jet Travel vs Speed of Light
+
+To push this concept to its absolute logical extreme, imagine comparing a commercial jet flying at $500\text{ mph}$ to a hypothetical vehicle travelling at the speed of light ($c \approx 670,616,629\text{ mph}$). 
+
+At $500\text{ mph}$, a 40-mile trip takes a mere $4.8\text{ minutes}$ ($288\text{ seconds}$). At the speed of light, the trip is instantaneous, taking roughly $0.000215\text{ seconds}$. Despite an unimaginable increase in speed of over 670 million miles per hour, the absolute maximum amount of time you can possibly save over this distance is capped by the jet's already brief flight time:
+
+* Increasing from $500\text{ mph}$ to the speed of light saves approximately **4.8 minutes**.
+
+This demonstrates that once travel time approaches zero, further speed increases become practically irrelevant for local commuting. Mathematically, this behavior occurs because the fast time component approaches a limit of zero:
+
+$$T \approx \frac{d}{s_1} \quad \text{as} \quad \frac{d}{s_2} \to 0$$
+
+## Conclusion
+
+Because time is inversely proportional to speed, the relationship is non-linear. Travel time drops sharply at low speeds, but flattens out at high speeds. Therefore, over short distances, massive increases in high speeds produce negligible practical benefits.
