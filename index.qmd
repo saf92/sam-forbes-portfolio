@@ -1,5 +1,11 @@
 ---
 title: "Welcome"
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      text: Contact Me
+      href: mailto:forbessam2@gmail.com
 ---
 
 <p>

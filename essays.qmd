@@ -9,7 +9,8 @@
 
 ## Mathematics
 
-* [Measuring Infinity](essays_files/measuring_infinity.qmd) — *14 June 2026* 
 * [Chasing Zero](essays_files/chasing_zero.qmd) — *16 June 2026* 
+* [Measuring Infinity](essays_files/measuring_infinity.qmd) — *14 June 2026* 
+
 
 ## Economics
