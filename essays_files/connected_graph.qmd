@@ -1,13 +1,3 @@
-<!-- ---
-title: "Nodes and Connections in a Complete Graph"
-format:
-  html:
-    toc: true
-    number-sections: true
-    theme: cosmo
-html-math-method: mathjax
---- -->
-
 ---
 title: "Nodes and Connections in a Complete Graph"
 date: 2026-07-01
