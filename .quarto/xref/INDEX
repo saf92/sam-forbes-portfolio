@@ -27,5 +27,8 @@
   "essays_files/connected_graph.qmd": {
     "connected_graph.tex": "f8dc0197",
     "connected_graph.html": "3ec5abfb"
+  },
+  "essays_files/complete_graph.qmd": {
+    "complete_graph.html": "e43cbbc2"
   }
 }

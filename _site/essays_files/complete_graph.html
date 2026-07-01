@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Nodes and Connections in a Complete Graph – Sam Forbes</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Sam Forbes</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../essays.html"> 
+<span class="menu-text">Essays</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Nodes and Connections in a Complete Graph</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1 July 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+.graph-wrap {
+  text-align: center;
+  margin: 1.5rem 0 0.75rem 0;
+}
+.graph-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px 30px;
+  justify-items: center;
+  align-items: start;
+  margin-top: 1rem;
+}
+.graph-card {
+  text-align: center;
+}
+.graph-title {
+  font-family: serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+svg.complete-graph {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  .graph-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .graph-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<section id="definition" class="level2">
+<h2 class="anchored" data-anchor-id="definition">Definition</h2>
+<p>A <strong>complete graph</strong> is a graph in which each vertex is connected to every other vertex by exactly one edge. Throughout this essay, the terms “node” and “vertex”, as well as “connection” and “edge”, are used interchangeably.</p>
+</section>
+<section id="n-nodes-how-many-connections-k" class="level2">
+<h2 class="anchored" data-anchor-id="n-nodes-how-many-connections-k"><span class="math inline">\(n\)</span> Nodes: How Many Connections <span class="math inline">\(k\)</span>?</h2>
+<div id="fig-colored-graph" class="graph-wrap">
+  <svg id="colored-graph-svg" class="complete-graph" width="420" height="420" viewbox="-160 -160 320 320" aria-label="Colored complete graph on 5 vertices"></svg>
+</div>
+<p><em>Figure 1: Visualising network accumulation: <span style="color:red;">1</span> + <span style="color:orange;">2</span> + <span style="color:teal;">3</span> + <span style="color:cyan;">4</span> = 10 total connections.</em></p>
+<!-- For any graph, one can calculate the number of connections or edges for $n$ nodes or vertices using the degree-edge formula. For the complete graph specifically, one can use this formula or a combinatoric argument to find that there are ${n \choose 2} = \frac{1}{2}n(n-1)$ connections. One notices that this formula represents the sum of the first $n-1$ natural numbers; we will discuss why this is the case using a network accumulation argument.
+
+Imagine we have a complete graph with a finite number of $r-1$ nodes. If we add a new node, then to create a complete graph of $r$ nodes, we need to add $r-1$ new connections. Consider first the complete graph with $r=1$ node: this has $k = r-1 = 0$ connections. Moving to $r=2$ nodes, we must add $r-1=1$ connection. For $r=3$ nodes, we have to add $r-1=2$ connections to the previous $1$ connection, yielding $k=1+2=3$ connections. Continuing in this manner (which can be formalized using mathematical induction), we find that the number of connections for a complete graph with $n \in \mathbb{N}$ nodes is:
+
+
+$$
+k = \sum_{r=1}^{n}(r-1)=1+2+\dots+n-1 = \frac{1}{2}n(n-1)
+$$ -->
+<p>For a graph with <span class="math inline">\(n\)</span> vertices, the number of edges can often be analysed using the degree-edge formula. In the special case of a complete graph, however, the count is especially simple: since every pair of distinct vertices is joined by an edge, the total number of connections is <span class="math display">\[\begin{equation*}
+\binom{n}{2} = \frac{1}{2}n(n-1).
+\end{equation*}\]</span></p>
+<p>This is also the sum of the first <span class="math inline">\(n-1\)</span> natural numbers. A simple way to see this is through an accumulation argument.</p>
+<p>Suppose we begin with a complete graph on <span class="math inline">\(r-1\)</span> vertices and then add one new vertex. To preserve completeness, the new vertex must be connected to each of the existing <span class="math inline">\(r-1\)</span> vertices, so exactly <span class="math inline">\(r-1\)</span> new edges are added.</p>
+<p>Starting from the smallest cases:</p>
+<ul>
+<li>when <span class="math inline">\(r=1\)</span>, there are <span class="math inline">\(0\)</span> edges;</li>
+<li>when <span class="math inline">\(r=2\)</span>, <span class="math inline">\(1\)</span> new edge is added;</li>
+<li>when <span class="math inline">\(r=3\)</span>, a further <span class="math inline">\(2\)</span> edges are added, giving <span class="math inline">\(3\)</span> in total.</li>
+</ul>
+<p>Continuing in this way, and formalising the pattern by induction if desired, we obtain the number of edges in a complete graph with <span class="math inline">\(n \in \mathbb{N}\)</span> vertices: <span class="math display">\[\begin{equation*}
+k = \sum_{r=1}^{n}(r-1) = 1+2+\cdots+(n-1) = \frac{1}{2}n(n-1).
+\end{equation*}\]</span></p>
+<p>To illustrate this visually, we look at the case of 5 nodes in Figure 1:</p>
+<ul>
+<li>Start with node <span class="math inline">\(v_1\)</span>. When adding <span class="math inline">\(v_2\)</span>, 1 connection is established between them (<span style="color:red;">red</span>).</li>
+<li>Add <span class="math inline">\(v_3\)</span>, creating an additional 2 connections from <span class="math inline">\(v_1\)</span> and <span class="math inline">\(v_2\)</span> to <span class="math inline">\(v_3\)</span> (<span style="color:orange;">orange</span>).</li>
+<li>Add <span class="math inline">\(v_4\)</span>, establishing a further 3 connections from <span class="math inline">\(v_1\)</span>, <span class="math inline">\(v_2\)</span>, and <span class="math inline">\(v_3\)</span> to <span class="math inline">\(v_4\)</span> (<span style="color:teal;">teal</span>).</li>
+<li>Finally, add <span class="math inline">\(v_5\)</span> for the final 4 connections from <span class="math inline">\(v_1\)</span>, <span class="math inline">\(v_2\)</span>, <span class="math inline">\(v_3\)</span>, and <span class="math inline">\(v_4\)</span> to <span class="math inline">\(v_5\)</span> (<span style="color:cyan;">cyan</span>).</li>
+</ul>
+</section>
+<section id="k-connections-how-many-nodes-n" class="level2">
+<h2 class="anchored" data-anchor-id="k-connections-how-many-nodes-n"><span class="math inline">\(k\)</span> Connections: How Many Nodes <span class="math inline">\(n\)</span>?</h2>
+<p>If the number of connections <span class="math inline">\(k\)</span> is known, we must solve the formula derived above for <span class="math inline">\(n\)</span>:</p>
+<p><span class="math display">\[
+\frac{1}{2}n(n-1) = k
+\]</span></p>
+<p>Using the quadratic formula, the solution for the number of nodes with <span class="math inline">\(k\)</span> connections in a complete graph is:</p>
+<p><span class="math display">\[
+n = \frac{1+\sqrt{1+8k}}{2}
+\]</span></p>
+<p>As a graph cannot contain a fractional number of nodes, to guarantee at least <span class="math inline">\(k\)</span> connections we use the ceiling function <span class="math inline">\(\lceil \cdot \rceil\)</span> to round up to the nearest integer:</p>
+<p><span class="math display">\[
+n = \left\lceil \frac{1+\sqrt{1+8k}}{2}\right\rceil
+\]</span></p>
+<p>For example, if we require at least one hundred connections (<span class="math inline">\(k=100\)</span>), then</p>
+<p><span class="math display">\[
+n = \left\lceil \frac{1+\sqrt{1+800}}{2}\right\rceil = 15
+\]</span></p>
+<p>In fact, <span class="math inline">\(n=15\)</span> corresponds exactly to:</p>
+<p><span class="math display">\[
+k = \frac{1}{2}\cdot 15\cdot14 = 105
+\]</span></p>
+<p>connections.</p>
+</section>
+<section id="asymptotics-and-geometry-of-connections" class="level2">
+<h2 class="anchored" data-anchor-id="asymptotics-and-geometry-of-connections">Asymptotics and Geometry of Connections</h2>
+<p>The number of connections <span class="math inline">\(k\)</span> in a complete graph grows asymptotically as <span class="math display">\[\begin{equation*}
+k = \frac{1}{2}n(n-1) \sim \frac{1}{2}n^2.
+\end{equation*}\]</span></p>
+<p>Thus, the number of edges increases quadratically with the number of vertices, so <span class="math inline">\(k = \mathcal{O}(n^2)\)</span>. The leading term <span class="math inline">\(\frac{1}{2}n^2\)</span> captures the dominant growth, although the absolute error remains linear in <span class="math inline">\(n\)</span>: <span class="math display">\[\begin{equation*}
+\left| \frac{1}{2}n(n-1) - \frac{1}{2}n^2 \right| = \frac{1}{2}n.
+\end{equation*}\]</span></p>
+<p>Accordingly, the absolute error diverges as <span class="math inline">\(n \to \infty\)</span>, but the relative error tends to zero. In this asymptotic sense, <span class="math inline">\(\frac{1}{2}n^2\)</span> becomes an increasingly accurate approximation.</p>
+<p>Let <span class="math inline">\(K_n\)</span> denote the complete graph on <span class="math inline">\(n\)</span> vertices. When the vertices of <span class="math inline">\(K_n\)</span> are arranged symmetrically on a circle and all edges are drawn as straight chords, an interesting geometric distinction emerges between the cases where <span class="math inline">\(n\)</span> is even and where <span class="math inline">\(n\)</span> is odd:</p>
+<ul>
+<li><p><strong>For even <span class="math inline">\(n\)</span>:</strong> some edges are true diameters of the circle, and these intersect at the exact centre. This produces a sharp central intersection point, with additional layers of overlapping chords arranged around it.</p></li>
+<li><p><strong>For odd <span class="math inline">\(n\)</span>:</strong> no pair of vertices is diametrically opposite, so no edge passes exactly through the centre. As a result, a small circular void remains at the centre. Although this empty region decreases in size as <span class="math inline">\(n\)</span> increases, it remains visually distinct from the even case.</p></li>
+<li><p><strong>As <span class="math inline">\(n \to \infty\)</span>:</strong> the vertices become dense on the circle, and the increasing number of chords produces an ever finer mesh.</p></li>
+</ul>
+<div id="fig-large-complete-graphs" class="graph-wrap">
+  <div id="large-graphs-grid" class="graph-grid"></div>
+</div>
+<p><em>Figure 2: Close-up view of large complete graphs <span class="math inline">\(K_{10}\)</span> through <span class="math inline">\(K_{15}\)</span>. Notice the visual contrast at the absolute center between the even graphs <span class="math inline">\(K_{10}, K_{12}, K_{14}\)</span>, which possess a sharp central intersection point, and the odd graphs <span class="math inline">\(K_{11}, K_{13}, K_{15}\)</span>, which maintain a completely clear, circular void in the middle.</em></p>
+<p>At a sufficiently abstract level, one may view the universe through the lens of a complete graph. If vertices represent atoms or particles, and an edge is interpreted broadly as some form of physical relation between two entities, then every pair may be regarded as connected.</p>
+<script>
+(function () {
+  const SVG_NS = "http://www.w3.org/2000/svg";
+
+  function el(name, attrs) {
+    const node = document.createElementNS(SVG_NS, name);
+    if (attrs) {
+      for (const [k, v] of Object.entries(attrs)) {
+        node.setAttribute(k, v);
+      }
+    }
+    return node;
+  }
+
+  function pointOnCircle(i, n, radius, angleOffsetDeg) {
+    const offset = (angleOffsetDeg || -90) * Math.PI / 180;
+    const angle = (2 * Math.PI * i) / n + offset;
+    return {
+      x: radius * Math.cos(angle),
+      y: radius * Math.sin(angle)
+    };
+  }
+
+  function drawCompleteGraph(svg, n, options) {
+    options = options || {};
+    const radius = options.radius || 95;
+    const nodeRadius = options.nodeRadius || 4;
+    const edgeStroke = options.edgeStroke || "rgba(0,0,0,0.18)";
+    const edgeWidth = options.edgeWidth || 1;
+    const nodeFill = options.nodeFill || "#0b4ea2";
+    const nodeStroke = options.nodeStroke || "white";
+    const nodeStrokeWidth = options.nodeStrokeWidth || 1.2;
+    const showLabels = options.showLabels || false;
+    const labelSize = options.labelSize || 16;
+    const labelColor = options.labelColor || "#111";
+
+    const points = [];
+    for (let i = 0; i < n; i++) {
+      points.push(pointOnCircle(i, n, radius, -90));
+    }
+
+    const edgeGroup = el("g");
+    const nodeGroup = el("g");
+    const labelGroup = el("g");
+
+    for (let i = 0; i < n; i++) {
+      for (let j = i + 1; j < n; j++) {
+        edgeGroup.appendChild(el("line", {
+          x1: points[i].x,
+          y1: points[i].y,
+          x2: points[j].x,
+          y2: points[j].y,
+          stroke: edgeStroke,
+          "stroke-width": edgeWidth
+        }));
+      }
+    }
+
+    for (let i = 0; i < n; i++) {
+      nodeGroup.appendChild(el("circle", {
+        cx: points[i].x,
+        cy: points[i].y,
+        r: nodeRadius,
+        fill: nodeFill,
+        stroke: nodeStroke,
+        "stroke-width": nodeStrokeWidth
+      }));
+
+      if (showLabels) {
+        const t = el("text", {
+          x: points[i].x,
+          y: points[i].y + 1,
+          "text-anchor": "middle",
+          "dominant-baseline": "middle",
+          "font-size": labelSize,
+          "font-family": "serif",
+          fill: labelColor
+        });
+        t.textContent = "v" + (i + 1);
+        labelGroup.appendChild(t);
+      }
+    }
+
+    svg.appendChild(edgeGroup);
+    svg.appendChild(nodeGroup);
+    if (showLabels) {
+      svg.appendChild(labelGroup);
+    }
+  }
+
+  function drawColoredAccumulationFigure() {
+    const svg = document.getElementById("colored-graph-svg");
+    if (!svg) return;
+
+    const pts = [];
+    const radius = 110;
+    for (let i = 0; i < 5; i++) {
+      pts.push(pointOnCircle(i, 5, radius, -90));
+    }
+
+    const edges = [
+      [1, 0, "red"],
+      [2, 0, "orange"], [2, 1, "orange"],
+      [3, 0, "teal"], [3, 1, "teal"], [3, 2, "teal"],
+      [4, 0, "cyan"], [4, 1, "cyan"], [4, 2, "cyan"], [4, 3, "cyan"]
+    ];
+
+    for (let i = 0; i < edges.length; i++) {
+      const a = edges[i][0];
+      const b = edges[i][1];
+      const color = edges[i][2];
+      svg.appendChild(el("line", {
+        x1: pts[a].x,
+        y1: pts[a].y,
+        x2: pts[b].x,
+        y2: pts[b].y,
+        stroke: color,
+        "stroke-width": 3
+      }));
+    }
+
+    for (let i = 0; i < 5; i++) {
+      svg.appendChild(el("circle", {
+        cx: pts[i].x,
+        cy: pts[i].y,
+        r: 22,
+        fill: "#dbeafe",
+        stroke: "#333",
+        "stroke-width": 2
+      }));
+
+      const label = el("text", {
+        x: pts[i].x,
+        y: pts[i].y + 1,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle",
+        "font-size": 18,
+        "font-family": "serif",
+        fill: "#111"
+      });
+      <!-- label.textContent = "v" + (i + 1); -->
+      label.innerHTML = "v<tspan baseline-shift='sub' font-size='12'>" + (i + 1) + "</tspan>";
+      svg.appendChild(label);
+    }
+  }
+
+  function drawLargeGraphs() {
+    const container = document.getElementById("large-graphs-grid");
+    if (!container) return;
+
+    for (let n = 10; n <= 15; n++) {
+      const card = document.createElement("div");
+      card.className = "graph-card";
+
+       const title = document.createElement("div");
+      title.className = "graph-title";
+      title.innerHTML = "<em>K</em><sub>" + n + "</sub>";
+
+      const svg = document.createElementNS(SVG_NS, "svg");
+      svg.setAttribute("class", "complete-graph");
+      svg.setAttribute("width", "260");
+      svg.setAttribute("height", "260");
+      svg.setAttribute("viewBox", "-130 -130 260 260");
+      svg.setAttribute("aria-label", "Complete graph K" + n);
+
+      drawCompleteGraph(svg, n, {
+        radius: 100,
+        nodeRadius: 3.8,
+        edgeStroke: "rgba(0,0,0,0.15)",
+        edgeWidth: 1,
+        nodeFill: "#0b4ea2",
+        nodeStroke: "white",
+        nodeStrokeWidth: 1.1,
+        showLabels: false
+      });
+
+      card.appendChild(title);
+      card.appendChild(svg);
+      container.appendChild(card);
+    }
+  }
+
+  drawColoredAccumulationFigure();
+  drawLargeGraphs();
+})();
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

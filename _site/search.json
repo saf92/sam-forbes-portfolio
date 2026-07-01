@@ -35,6 +35,55 @@
     "text": "Conclusion\nBecause time is inversely proportional to speed, the relationship is non-linear. Travel time drops sharply at low speeds, but flattens out at high speeds. Therefore, over short distances, massive increases in high speeds produce negligible practical benefits."
   },
   {
+    "objectID": "essays_files/connected_graph.html",
+    "href": "essays_files/connected_graph.html",
+    "title": "Nodes and Connections in a Complete Graph",
+    "section": "",
+    "text": "A complete graph is a graph in which each vertex is connected to every other vertex by exactly one edge. Throughout this essay, the terms “node” and “vertex”, as well as “connection” and “edge”, are used interchangeably."
+  },
+  {
+    "objectID": "essays_files/connected_graph.html#definition",
+    "href": "essays_files/connected_graph.html#definition",
+    "title": "Nodes and Connections in a Complete Graph",
+    "section": "",
+    "text": "A complete graph is a graph in which each vertex is connected to every other vertex by exactly one edge. Throughout this essay, the terms “node” and “vertex”, as well as “connection” and “edge”, are used interchangeably."
+  },
+  {
+    "objectID": "essays_files/connected_graph.html#n-nodes-how-many-connections-k",
+    "href": "essays_files/connected_graph.html#n-nodes-how-many-connections-k",
+    "title": "Nodes and Connections in a Complete Graph",
+    "section": "\\(n\\) Nodes: How Many Connections \\(k\\)?",
+    "text": "\\(n\\) Nodes: How Many Connections \\(k\\)?\n\n  \n\nFigure 1: Visualising network accumulation: 1 + 2 + 3 + 4 = 10 total connections.\n\nFor a graph with \\(n\\) vertices, the number of edges can often be analysed using the degree-edge formula. In the special case of a complete graph, however, the count is especially simple: since every pair of distinct vertices is joined by an edge, the total number of connections is \\[\\begin{equation*}\n\\binom{n}{2} = \\frac{1}{2}n(n-1).\n\\end{equation*}\\]\nThis is also the sum of the first \\(n-1\\) natural numbers. A simple way to see this is through an accumulation argument.\nSuppose we begin with a complete graph on \\(r-1\\) vertices and then add one new vertex. To preserve completeness, the new vertex must be connected to each of the existing \\(r-1\\) vertices, so exactly \\(r-1\\) new edges are added.\nStarting from the smallest cases:\n\nwhen \\(r=1\\), there are \\(0\\) edges;\nwhen \\(r=2\\), \\(1\\) new edge is added;\nwhen \\(r=3\\), a further \\(2\\) edges are added, giving \\(3\\) in total.\n\nContinuing in this way, and formalising the pattern by induction if desired, we obtain the number of edges in a complete graph with \\(n \\in \\mathbb{N}\\) vertices: \\[\\begin{equation*}\nk = \\sum_{r=1}^{n}(r-1) = 1+2+\\cdots+(n-1) = \\frac{1}{2}n(n-1).\n\\end{equation*}\\]\nTo illustrate this visually, we look at the case of 5 nodes in Figure 1:\n\nStart with node \\(v_1\\). When adding \\(v_2\\), 1 connection is established between them (red).\nAdd \\(v_3\\), creating an additional 2 connections from \\(v_1\\) and \\(v_2\\) to \\(v_3\\) (orange).\nAdd \\(v_4\\), establishing a further 3 connections from \\(v_1\\), \\(v_2\\), and \\(v_3\\) to \\(v_4\\) (teal).\nFinally, add \\(v_5\\) for the final 4 connections from \\(v_1\\), \\(v_2\\), \\(v_3\\), and \\(v_4\\) to \\(v_5\\) (cyan)."
+  },
+  {
+    "objectID": "essays_files/connected_graph.html#k-connections-how-many-nodes-n",
+    "href": "essays_files/connected_graph.html#k-connections-how-many-nodes-n",
+    "title": "Nodes and Connections in a Complete Graph",
+    "section": "\\(k\\) Connections: How Many Nodes \\(n\\)?",
+    "text": "\\(k\\) Connections: How Many Nodes \\(n\\)?\nIf the number of connections \\(k\\) is known, we must solve the formula derived above for \\(n\\):\n\\[\n\\frac{1}{2}n(n-1) = k\n\\]\nUsing the quadratic formula, the solution for the number of nodes with \\(k\\) connections in a complete graph is:\n\\[\nn = \\frac{1+\\sqrt{1+8k}}{2}\n\\]\nAs a graph cannot contain a fractional number of nodes, to guarantee at least \\(k\\) connections we use the ceiling function \\(\\lceil \\cdot \\rceil\\) to round up to the nearest integer:\n\\[\nn = \\left\\lceil \\frac{1+\\sqrt{1+8k}}{2}\\right\\rceil\n\\]\nFor example, if we require at least one hundred connections (\\(k=100\\)), then\n\\[\nn = \\left\\lceil \\frac{1+\\sqrt{1+800}}{2}\\right\\rceil = 15\n\\]\nIn fact, \\(n=15\\) corresponds exactly to:\n\\[\nk = \\frac{1}{2}\\cdot 15\\cdot14 = 105\n\\]\nconnections."
+  },
+  {
+    "objectID": "essays_files/connected_graph.html#asymptotics-and-geometry-of-connections",
+    "href": "essays_files/connected_graph.html#asymptotics-and-geometry-of-connections",
+    "title": "Nodes and Connections in a Complete Graph",
+    "section": "Asymptotics and Geometry of Connections",
+    "text": "Asymptotics and Geometry of Connections\nThe number of connections \\(k\\) in a complete graph grows asymptotically as \\[\\begin{equation*}\nk = \\frac{1}{2}n(n-1) \\sim \\frac{1}{2}n^2.\n\\end{equation*}\\]\nThus, the number of edges increases quadratically with the number of vertices, so \\(k = \\mathcal{O}(n^2)\\). The leading term \\(\\frac{1}{2}n^2\\) captures the dominant growth, although the absolute error remains linear in \\(n\\): \\[\\begin{equation*}\n\\left| \\frac{1}{2}n(n-1) - \\frac{1}{2}n^2 \\right| = \\frac{1}{2}n.\n\\end{equation*}\\]\nAccordingly, the absolute error diverges as \\(n \\to \\infty\\), but the relative error tends to zero. In this asymptotic sense, \\(\\frac{1}{2}n^2\\) becomes an increasingly accurate approximation.\nLet \\(K_n\\) denote the complete graph on \\(n\\) vertices. When the vertices of \\(K_n\\) are arranged symmetrically on a circle and all edges are drawn as straight chords, an interesting geometric distinction emerges between the cases where \\(n\\) is even and where \\(n\\) is odd:\n\nFor even \\(n\\): some edges are true diameters of the circle, and these intersect at the exact centre. This produces a sharp central intersection point, with additional layers of overlapping chords arranged around it.\nFor odd \\(n\\): no pair of vertices is diametrically opposite, so no edge passes exactly through the centre. As a result, a small circular void remains at the centre. Although this empty region decreases in size as \\(n\\) increases, it remains visually distinct from the even case.\nAs \\(n \\to \\infty\\): the vertices become dense on the circle, and the increasing number of chords produces an ever finer mesh.\n\n\n  \n\nFigure 2: Close-up view of large complete graphs \\(K_{10}\\) through \\(K_{15}\\). Notice the visual contrast at the absolute center between the even graphs \\(K_{10}, K_{12}, K_{14}\\), which possess a sharp central intersection point, and the odd graphs \\(K_{11}, K_{13}, K_{15}\\), which maintain a completely clear, circular void in the middle.\nAt a sufficiently abstract level, one may view the universe through the lens of a complete graph. If vertices represent atoms or particles, and an edge is interpreted broadly as some form of physical relation between two entities, then every pair may be regarded as connected."
+  },
+  {
+    "objectID": "essays.html",
+    "href": "essays.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "All essays were conceived and directed by me. AI was used solely as a supporting tool for technical validation (including proofreading and mathematical verification), prose refinement, and code optimisation.\n\nComplete Graphs — 1 July 2026\nChasing Zero — 16 June 2026\nMeasuring Infinity — 14 June 2026"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
+  },
+  {
     "objectID": "essays_files/measuring_infinity.html",
     "href": "essays_files/measuring_infinity.html",
     "title": "Measuring Infinity",
@@ -77,60 +126,39 @@
     "text": "Closing thought\nInfinity is where familiar finite intuitions begin to separate. In the finite world, counting, one-to-one correspondence, and the idea that the whole is greater than the part all agree. At infinity, they do not, and one must decide which idea of size to preserve. Indeed, the fact that certain properties coincide in the finite case but come apart in the infinite case may reflect a more general phenomenon, extending beyond mathematics to physics at the quantum and cosmological scales."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Sam Forbes",
-    "section": "",
-    "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
-  },
-  {
-    "objectID": "essays.html",
-    "href": "essays.html",
-    "title": "Sam Forbes",
-    "section": "",
-    "text": "All essays conceived and directed by me. AI was utilised as a tool for technical validation (proof-checking and mathematics verification), prose refinement, and code optimisation.\n\nConnected Graphs — 1 July 2026\nChasing Zero — 16 June 2026\nMeasuring Infinity — 14 June 2026"
-  },
-  {
-    "objectID": "essays_files/connected_graph.html",
-    "href": "essays_files/connected_graph.html",
+    "objectID": "essays_files/complete_graph.html",
+    "href": "essays_files/complete_graph.html",
     "title": "Nodes and Connections in a Complete Graph",
     "section": "",
     "text": "A complete graph is a graph in which each vertex is connected to every other vertex by exactly one edge. Throughout this essay, the terms “node” and “vertex”, as well as “connection” and “edge”, are used interchangeably."
   },
   {
-    "objectID": "essays_files/connected_graph.html#definition",
-    "href": "essays_files/connected_graph.html#definition",
+    "objectID": "essays_files/complete_graph.html#definition",
+    "href": "essays_files/complete_graph.html#definition",
     "title": "Nodes and Connections in a Complete Graph",
     "section": "",
     "text": "A complete graph is a graph in which each vertex is connected to every other vertex by exactly one edge. Throughout this essay, the terms “node” and “vertex”, as well as “connection” and “edge”, are used interchangeably."
   },
   {
-    "objectID": "essays_files/connected_graph.html#n-nodes-how-many-connections-k",
-    "href": "essays_files/connected_graph.html#n-nodes-how-many-connections-k",
+    "objectID": "essays_files/complete_graph.html#n-nodes-how-many-connections-k",
+    "href": "essays_files/complete_graph.html#n-nodes-how-many-connections-k",
     "title": "Nodes and Connections in a Complete Graph",
     "section": "\\(n\\) Nodes: How Many Connections \\(k\\)?",
     "text": "\\(n\\) Nodes: How Many Connections \\(k\\)?\n\n  \n\nFigure 1: Visualising network accumulation: 1 + 2 + 3 + 4 = 10 total connections.\n\nFor a graph with \\(n\\) vertices, the number of edges can often be analysed using the degree-edge formula. In the special case of a complete graph, however, the count is especially simple: since every pair of distinct vertices is joined by an edge, the total number of connections is \\[\\begin{equation*}\n\\binom{n}{2} = \\frac{1}{2}n(n-1).\n\\end{equation*}\\]\nThis is also the sum of the first \\(n-1\\) natural numbers. A simple way to see this is through an accumulation argument.\nSuppose we begin with a complete graph on \\(r-1\\) vertices and then add one new vertex. To preserve completeness, the new vertex must be connected to each of the existing \\(r-1\\) vertices, so exactly \\(r-1\\) new edges are added.\nStarting from the smallest cases:\n\nwhen \\(r=1\\), there are \\(0\\) edges;\nwhen \\(r=2\\), \\(1\\) new edge is added;\nwhen \\(r=3\\), a further \\(2\\) edges are added, giving \\(3\\) in total.\n\nContinuing in this way, and formalising the pattern by induction if desired, we obtain the number of edges in a complete graph with \\(n \\in \\mathbb{N}\\) vertices: \\[\\begin{equation*}\nk = \\sum_{r=1}^{n}(r-1) = 1+2+\\cdots+(n-1) = \\frac{1}{2}n(n-1).\n\\end{equation*}\\]\nTo illustrate this visually, we look at the case of 5 nodes in Figure 1:\n\nStart with node \\(v_1\\). When adding \\(v_2\\), 1 connection is established between them (red).\nAdd \\(v_3\\), creating an additional 2 connections from \\(v_1\\) and \\(v_2\\) to \\(v_3\\) (orange).\nAdd \\(v_4\\), establishing a further 3 connections from \\(v_1\\), \\(v_2\\), and \\(v_3\\) to \\(v_4\\) (teal).\nFinally, add \\(v_5\\) for the final 4 connections from \\(v_1\\), \\(v_2\\), \\(v_3\\), and \\(v_4\\) to \\(v_5\\) (cyan)."
   },
   {
-    "objectID": "essays_files/connected_graph.html#k-connections-how-many-nodes-n",
-    "href": "essays_files/connected_graph.html#k-connections-how-many-nodes-n",
+    "objectID": "essays_files/complete_graph.html#k-connections-how-many-nodes-n",
+    "href": "essays_files/complete_graph.html#k-connections-how-many-nodes-n",
     "title": "Nodes and Connections in a Complete Graph",
     "section": "\\(k\\) Connections: How Many Nodes \\(n\\)?",
     "text": "\\(k\\) Connections: How Many Nodes \\(n\\)?\nIf the number of connections \\(k\\) is known, we must solve the formula derived above for \\(n\\):\n\\[\n\\frac{1}{2}n(n-1) = k\n\\]\nUsing the quadratic formula, the solution for the number of nodes with \\(k\\) connections in a complete graph is:\n\\[\nn = \\frac{1+\\sqrt{1+8k}}{2}\n\\]\nAs a graph cannot contain a fractional number of nodes, to guarantee at least \\(k\\) connections we use the ceiling function \\(\\lceil \\cdot \\rceil\\) to round up to the nearest integer:\n\\[\nn = \\left\\lceil \\frac{1+\\sqrt{1+8k}}{2}\\right\\rceil\n\\]\nFor example, if we require at least one hundred connections (\\(k=100\\)), then\n\\[\nn = \\left\\lceil \\frac{1+\\sqrt{1+800}}{2}\\right\\rceil = 15\n\\]\nIn fact, \\(n=15\\) corresponds exactly to:\n\\[\nk = \\frac{1}{2}\\cdot 15\\cdot14 = 105\n\\]\nconnections."
   },
   {
-    "objectID": "essays_files/connected_graph.html#asymptotics-and-geometry-of-connections",
-    "href": "essays_files/connected_graph.html#asymptotics-and-geometry-of-connections",
+    "objectID": "essays_files/complete_graph.html#asymptotics-and-geometry-of-connections",
+    "href": "essays_files/complete_graph.html#asymptotics-and-geometry-of-connections",
     "title": "Nodes and Connections in a Complete Graph",
     "section": "Asymptotics and Geometry of Connections",
     "text": "Asymptotics and Geometry of Connections\nThe number of connections \\(k\\) in a complete graph grows asymptotically as \\[\\begin{equation*}\nk = \\frac{1}{2}n(n-1) \\sim \\frac{1}{2}n^2.\n\\end{equation*}\\]\nThus, the number of edges increases quadratically with the number of vertices, so \\(k = \\mathcal{O}(n^2)\\). The leading term \\(\\frac{1}{2}n^2\\) captures the dominant growth, although the absolute error remains linear in \\(n\\): \\[\\begin{equation*}\n\\left| \\frac{1}{2}n(n-1) - \\frac{1}{2}n^2 \\right| = \\frac{1}{2}n.\n\\end{equation*}\\]\nAccordingly, the absolute error diverges as \\(n \\to \\infty\\), but the relative error tends to zero. In this asymptotic sense, \\(\\frac{1}{2}n^2\\) becomes an increasingly accurate approximation.\nLet \\(K_n\\) denote the complete graph on \\(n\\) vertices. When the vertices of \\(K_n\\) are arranged symmetrically on a circle and all edges are drawn as straight chords, an interesting geometric distinction emerges between the cases where \\(n\\) is even and where \\(n\\) is odd:\n\nFor even \\(n\\): some edges are true diameters of the circle, and these intersect at the exact centre. This produces a sharp central intersection point, with additional layers of overlapping chords arranged around it.\nFor odd \\(n\\): no pair of vertices is diametrically opposite, so no edge passes exactly through the centre. As a result, a small circular void remains at the centre. Although this empty region decreases in size as \\(n\\) increases, it remains visually distinct from the even case.\nAs \\(n \\to \\infty\\): the vertices become dense on the circle, and the increasing number of chords produces an ever finer mesh.\n\n\n  \n\nFigure 2: Close-up view of large complete graphs \\(K_{10}\\) through \\(K_{15}\\). Notice the visual contrast at the absolute center between the even graphs \\(K_{10}, K_{12}, K_{14}\\), which possess a sharp central intersection point, and the odd graphs \\(K_{11}, K_{13}, K_{15}\\), which maintain a completely clear, circular void in the middle.\nAt a sufficiently abstract level, one may view the universe through the lens of a complete graph. If vertices represent atoms or particles, and an edge is interpreted broadly as some form of physical relation between two entities, then every pair may be regarded as connected."
-  },
-  {
-    "objectID": "essays_files/connected_graph.html#an-interesting-example-of-a-complete-graph-the-universe",
-    "href": "essays_files/connected_graph.html#an-interesting-example-of-a-complete-graph-the-universe",
-    "title": "Nodes and Connections in a Complete Graph",
-    "section": "An Interesting Example of a Complete Graph: the Universe!",
-    "text": "An Interesting Example of a Complete Graph: the Universe!\nAt a sufficiently abstract level, one may view every atom as standing in a gravitational relation to every other. In that limited sense, the complete graph offers a useful idealisation of universal interconnectedness, even though the underlying physical reality is governed not by simple edges but by fields, geometry, and varying magnitudes of interaction."
   },
   {
     "objectID": "essays_files/economic_law.html",
@@ -145,19 +173,5 @@
     "title": "Welcome",
     "section": "",
     "text": "The research page includes my mathematical research.\n\n\nSome of my research interests:\n\n\n\nphenomena exhibiting a power law in the distribution\n\n\nlimits to growth - the relationship of finite resources to population\n\n\nhow the economy ‘really works’ from a macro perspective\n\n\n\nThe essay page contains mainly mathematical essays on various topics."
-  },
-  {
-    "objectID": "essays_files/connected_graph.html#a-suggestive-physical-analogy",
-    "href": "essays_files/connected_graph.html#a-suggestive-physical-analogy",
-    "title": "Nodes and Connections in a Complete Graph",
-    "section": "A Suggestive Physical Analogy",
-    "text": "A Suggestive Physical Analogy\nAt a sufficiently abstract level, one may view every atom as standing in a gravitational relation to every other. In that limited sense, the complete graph offers a useful idealisation of universal interconnectedness, even though the underlying physical reality is governed not by simple edges but by fields, geometry, and varying magnitudes of interaction."
-  },
-  {
-    "objectID": "essays_files/connected_graph.html#the-universe-as-a-complete-graph",
-    "href": "essays_files/connected_graph.html#the-universe-as-a-complete-graph",
-    "title": "Nodes and Connections in a Complete Graph",
-    "section": "The Universe as a Complete Graph?",
-    "text": "The Universe as a Complete Graph?\nAt a sufficiently abstract level, one may view the universe through the lens of a complete graph. If vertices represent atoms or particles, and an edge is interpreted broadly as some form of physical relation between two entities, then every pair may be regarded as connected."
   }
 ]
