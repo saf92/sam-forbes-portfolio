@@ -23,5 +23,9 @@
   "essays_files/chasing_zero.qmd": {
     "chasing_zero.html": "6d496c7d",
     "chasing_zero.tex": "8514d320"
+  },
+  "essays_files/connected_graph.qmd": {
+    "connected_graph.tex": "f8dc0197",
+    "connected_graph.html": "3ec5abfb"
   }
 }

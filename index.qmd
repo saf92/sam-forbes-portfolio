@@ -8,6 +8,8 @@ about:
       href: mailto:forbessam2@gmail.com
 ---
 
+<div style="text-align: left;">
+
 <p>
   The research page includes my mathematical research.  
 </p>
@@ -22,7 +24,7 @@ about:
 </ul>
 
 <p>
-  The essay page will contain a series of essays on varied topics. 
+  The essay page contains mainly mathematical essays on various topics. 
 </p>
 
 
