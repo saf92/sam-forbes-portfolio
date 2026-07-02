@@ -1,6 +1,7 @@
 ---
 title: "An Economic Law"
 date: "May 26, 2026"
+search: false
 ---
 
 <p>

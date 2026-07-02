@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "essays_files/davinci.html",
-    "href": "essays_files/davinci.html",
-    "title": "Whither Thee, Da Vinci?",
-    "section": "",
-    "text": "This is a lament for the scholar, artist, genius, mad man or whatever you want to call Da Vinci. I look around and I don’t see many, if any, drawing skulls and painting stoats (well), thinking above AND beyond, wearing cloaks with large beards in Italian heat or writing back to front and upside down.\n\n\nWhat would Da Vinci do today? Where would he be? As Trump says: I will tell you: he would be shunted out of society. Left to dwindle on the side-lines as he is ‘too interesting’.\n\n\nBut Da Vinci was a product of his time?! Well we live in boring times.\n\n\nNow don’t get me started on Diogenes.\n\n\n\n— Fin —"
-  },
-  {
     "objectID": "essays_files/chasing_zero.html",
     "href": "essays_files/chasing_zero.html",
     "title": "Chasing Zero: Why Faster Speeds Don’t Always Save (Much) Time",
@@ -159,13 +152,6 @@
     "title": "Nodes and Connections in a Complete Graph",
     "section": "Asymptotics and Geometry of Connections",
     "text": "Asymptotics and Geometry of Connections\nThe number of connections \\(k\\) in a complete graph grows asymptotically as \\[\\begin{equation*}\nk = \\frac{1}{2}n(n-1) \\sim \\frac{1}{2}n^2.\n\\end{equation*}\\]\nThus, the number of edges increases quadratically with the number of vertices, so \\(k = \\mathcal{O}(n^2)\\). The leading term \\(\\frac{1}{2}n^2\\) captures the dominant growth, although the absolute error remains linear in \\(n\\): \\[\\begin{equation*}\n\\left| \\frac{1}{2}n(n-1) - \\frac{1}{2}n^2 \\right| = \\frac{1}{2}n.\n\\end{equation*}\\]\nAccordingly, the absolute error diverges as \\(n \\to \\infty\\), but the relative error tends to zero. In this asymptotic sense, \\(\\frac{1}{2}n^2\\) becomes an increasingly accurate approximation.\nLet \\(K_n\\) denote the complete graph on \\(n\\) vertices. When the vertices of \\(K_n\\) are arranged symmetrically on a circle and all edges are drawn as straight chords, an interesting geometric distinction emerges between the cases where \\(n\\) is even and where \\(n\\) is odd:\n\nFor even \\(n\\): some edges are true diameters of the circle, and these intersect at the exact centre. This produces a sharp central intersection point, with additional layers of overlapping chords arranged around it.\nFor odd \\(n\\): no pair of vertices is diametrically opposite, so no edge passes exactly through the centre. As a result, a small circular void remains at the centre. Although this empty region decreases in size as \\(n\\) increases, it remains visually distinct from the even case.\nAs \\(n \\to \\infty\\): the vertices become dense on the circle, and the increasing number of chords produces an ever finer mesh.\n\n\n  \n\nFigure 2: Close-up view of large complete graphs \\(K_{10}\\) through \\(K_{15}\\). Notice the visual contrast at the absolute center between the even graphs \\(K_{10}, K_{12}, K_{14}\\), which possess a sharp central intersection point, and the odd graphs \\(K_{11}, K_{13}, K_{15}\\), which maintain a completely clear, circular void in the middle.\nAt a sufficiently abstract level, one may view the universe through the lens of a complete graph. If vertices represent atoms or particles, and an edge is interpreted broadly as some form of physical relation between two entities, then every pair may be regarded as connected."
-  },
-  {
-    "objectID": "essays_files/economic_law.html",
-    "href": "essays_files/economic_law.html",
-    "title": "An Economic Law",
-    "section": "",
-    "text": "If you study economics you get frustrated by the lack of any established laws. Does demand increase supply, do interest rates reduce inflation, does unemployment increase desperation, is anything in equilibrium, do people act in their dog’s self-interest, etc? Mathematics is the economists favourite tool to get no-where with these questions. Anyway I present to you, in this incredible micro-essay, one irrefutable economic law known definitely since the dawn of economics.\n\n\n“There are a few rich who depend on many more poor.”\n\n\nOk this may seem basic but is it not true? And if it is obviously true should not economics be based on this law?\n\n\nMull it over and then you will agree with me.\n\n\n— Fin —"
   },
   {
     "objectID": "index.html",

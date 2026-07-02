@@ -1,6 +1,7 @@
 ---
 title: "Whither Thee, Da Vinci?"
 date: 2026-05-25
+search: false
 ---
 
 <p>This is a lament for the scholar, artist, genius, mad man or whatever you want to call Da Vinci. I look around and I don't see many, if any, drawing skulls and painting stoats (well), thinking above <strong>AND</strong> beyond, wearing cloaks with large beards in Italian heat or writing back to front and upside down.</p>
