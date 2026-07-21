@@ -8,10 +8,18 @@ website:
     left:
       # - text: About
       #   href: about.qmd
-      - text: Research
-        href: research.qmd
-      - text: Essays
-        href: essays.qmd
+      - text: Research and Essays
+        menu:
+          - text: Research
+            href: research.qmd
+          - text: Essays
+            href: essays.qmd
+      - text: Tutoring
+        menu:
+          - text: Overview
+            href: tutoring.qmd
+          - text: GCSE Maths
+            href: gcse-maths.qmd
 
 format:
   html:

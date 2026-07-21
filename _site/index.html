@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -91,14 +120,36 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research-and-essays" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research and Essays</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research-and-essays">    
+        <li>
+    <a class="dropdown-item" href="./research.html">
+ <span class="dropdown-text">Research</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./essays.html"> 
-<span class="menu-text">Essays</span></a>
+        <li>
+    <a class="dropdown-item" href="./essays.html">
+ <span class="dropdown-text">Essays</span></a>
   </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutoring" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tutoring</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tutoring">    
+        <li>
+    <a class="dropdown-item" href="./tutoring.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./gcse-maths.html">
+ <span class="dropdown-text">GCSE Maths</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -120,28 +171,56 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
   </div>
 </header><main class="content" id="quarto-document-content">
-<div style="text-align: left;">
-<p>
-The research page includes my mathematical research.
+<h3 style="text-align: center;">
+What is this website for?
+</h3>
+<p style="text-align: left;">
+Mathematics is a hard but useful subject for the modern world especially. This website is to continue my mathematics education and to offer mathematical service. I gained a PhD from the University of Warwick and I do not want to lose all my abilities (that I may or may not have developed)!
 </p>
-<p>
-Some of my research interests:
+<h3 style="text-align: center;">
+Services
+</h3>
+<p style="text-align: left;">
+I offer the following services
 </p>
-<ul>
+<ul style="text-align: left;">
 <li>
-phenomena exhibiting a power law in the distribution
+mathematics tutoring and resources up to university and advice and support on studying mathematics
 </li>
 <li>
-limits to growth - the relationship of finite resources to population
-</li>
-<li>
-how the economy ‘really works’ from a macro perspective
+consulting on statistics, data analysis and coding
 </li>
 </ul>
-<p>
-The essay page contains mainly mathematical essays on various topics.
+<p style="text-align: left;">
+If you might be interested in this please contact and we can see if I am a good fit for you.
 </p>
-</div>
+<h3 style="text-align: center;">
+Research and Essays
+</h3>
+<p style="text-align: left;">
+In terms of my research I have a PhD thesis titled ‘Data Driven Analysis and Modelling of the Wealth Distribution’. Here I analysed several mathematical models that generates key features of the wealth distribution. I also analysed empirically the wealth distribution using real world data. I have one published paper on this. Following my PhD I have continued researching on similar topics particularly relating to heavy-tailed distributions. I also have interest in macroeconomics in general and on limits to growth. On these interests I have produced several pre-prints. I aim to continue research as you never know what you could produce?!
+</p>
+<p style="text-align: left;">
+I also have attempted writing some popular maths essays. Of course in this I am not saying anything new in general but just sharing some things I find interesting.
+</p>
+<h3 style="text-align: center;">
+Tutoring
+</h3>
+<p style="text-align: left;">
+For tutoring I aim to share lots of resources that I have created or will create with the help of AI and LaTex. I will start at school level (GCSE or below in the UK) as I see a gap in the market for ‘clean’ looking worksheets with solutions!
+</p>
+<h3 style="text-align: center;">
+AI
+</h3>
+<p style="text-align: left;">
+I want to discuss briefly AI. There are purists who will say do not use it at all. In some sense I agree however it can be useful to speed things up, find mistakes and most importantly cut down the time to produce things. How I use it will develop over time as it is a new and developing technology. Full disclosure: I have used AI (mainly google gemini) to help create this website, write the essays and in some recent research. Did I say for example: produce an essay on <span class="math inline">\(x\)</span>? NO!! I did more work than that! However, how I use it will change over time as for example I wish to not sound too much like a corporate American (nothing against them) and keep my own imperfect voice.
+</p>
+<h3 style="text-align: center;">
+Support and Contact
+</h3>
+<p style="text-align: left;">
+If you found anything useful here and would like to support the ongoing development of this website you can <a href="https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00" target="_blank" style="color: #0066cc;">leave a contribution via Stripe</a>.
+</p>
 
 
 </main> 

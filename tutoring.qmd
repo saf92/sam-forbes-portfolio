@@ -1,0 +1,21 @@
+---
+title: "Mathematics Tutoring"
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      text: Contact Me
+      href: mailto:forbessam2@gmail.com
+---
+
+<p style="text-align: left;">
+This is my tutoring section for mathematics. I aim to add worksheets and summaries and more for all levels of maths. I utilise AI (for now google gemini) to help generate the questions and solutions but my human eye has looked at them for any obvious mistakes. The worksheets are made with latex the primary tool for producing clean mathematics.  Any mistakes are mine and if you find any or have any other questions please contact me!
+</p>
+
+<p style="text-align: left;">
+If you'd like to support the ongoing development of these tutoring resources (and website in general) you can <a href="https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00" target="_blank" style="color: #0066cc;">leave a contribution via Stripe</a>.
+</p>
+
+<p style="text-align: left;">
+If you would be interested in one to one mathematics tutoring please contact me!
+</p>

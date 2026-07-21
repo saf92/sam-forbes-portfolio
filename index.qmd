@@ -8,24 +8,44 @@ about:
       href: mailto:forbessam2@gmail.com
 ---
 
-<div style="text-align: left;">
-
-<p>
-  The research page includes my mathematical research.  
+<h3 style="text-align: center;">What is this website for?</h3>
+<p style="text-align: left;">
+Mathematics is a hard but useful subject for the modern world especially. This website is to continue my mathematics education and to offer mathematical service. I gained a PhD from the University of Warwick and I do not want to lose all my abilities (that I may or may not have developed)!
 </p>
 
-<p>
-  Some of my research interests:
+<h3 style="text-align: center;">Services</h3>
+<p style="text-align: left;">
+I offer the following services 
 </p>
-<ul>
-  <li>phenomena exhibiting a power law in the distribution</li>
-  <li>limits to growth - the relationship of finite resources to population</li>
-  <li>how the economy 'really works' from a macro perspective</li>
+<ul style="text-align: left;">
+  <li>mathematics tutoring and resources up to university and advice and support on studying mathematics</li>
+  <li>consulting on statistics, data analysis and coding</li>
 </ul>
+<p style="text-align: left;">
+If you might be interested in this please contact and we can see if I am a good fit for you.
+</p>
 
-<p>
-  The essay page contains mainly mathematical essays on various topics. 
+<h3 style="text-align: center;">Research and Essays</h3>
+<p style="text-align: left;">
+In terms of my research I have a PhD thesis titled 'Data Driven Analysis and Modelling of the Wealth Distribution'. Here I analysed several mathematical models that generates key features of the wealth distribution. I also analysed empirically the wealth distribution using real world data. I have one published paper on this. Following my PhD I have continued researching on similar topics particularly relating to heavy-tailed distributions. I also have interest in macroeconomics in general and on limits to growth.  On these interests I have produced several pre-prints. I aim to continue research as you never know what you could produce?! 
+</p>
+
+<p style="text-align: left;">
+I also have attempted writing some popular maths essays. Of course in this I am not saying anything new in general but just sharing some things I find interesting.
+</p>
+
+<h3 style="text-align: center;">Tutoring</h3>
+<p style="text-align: left;">
+For tutoring I aim to share lots of resources that I have created or will create with the help of AI and LaTex. I will start at school level (GCSE or below in the UK) as I see a gap in the market for 'clean' looking worksheets with solutions!
 </p>
 
 
-</div>
+<h3 style="text-align: center;">AI</h3>
+<p style="text-align: left;">
+I want to discuss briefly AI. There are purists who will say do not use it at all. In some sense I agree however it can be useful to speed things up, find mistakes and most importantly cut down the time to produce things. How I use it will develop over time as it is a new and developing technology. Full disclosure: I have used AI (mainly google gemini) to help create this website, write the essays and in some recent research. Did I say for example: produce an essay on $x$? NO!! I did more work than that! However, how I use it will change over time as for example I wish to not sound too much like a corporate American (nothing against them) and keep my own imperfect voice.
+</p>
+
+<h3 style="text-align: center;">Support and Contact</h3>
+<p style="text-align: left;">
+If you found anything useful here and would like to support the ongoing development of this website you can <a href="https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00" target="_blank" style="color: #0066cc;">leave a contribution via Stripe</a>.
+</p>

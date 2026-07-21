@@ -63,11 +63,25 @@
     "text": "Asymptotics and Geometry of Connections\nThe number of connections \\(k\\) in a complete graph grows asymptotically as \\[\\begin{equation*}\nk = \\frac{1}{2}n(n-1) \\sim \\frac{1}{2}n^2.\n\\end{equation*}\\]\nThus, the number of edges increases quadratically with the number of vertices, so \\(k = \\mathcal{O}(n^2)\\). The leading term \\(\\frac{1}{2}n^2\\) captures the dominant growth, although the absolute error remains linear in \\(n\\): \\[\\begin{equation*}\n\\left| \\frac{1}{2}n(n-1) - \\frac{1}{2}n^2 \\right| = \\frac{1}{2}n.\n\\end{equation*}\\]\nAccordingly, the absolute error diverges as \\(n \\to \\infty\\), but the relative error tends to zero. In this asymptotic sense, \\(\\frac{1}{2}n^2\\) becomes an increasingly accurate approximation.\nLet \\(K_n\\) denote the complete graph on \\(n\\) vertices. When the vertices of \\(K_n\\) are arranged symmetrically on a circle and all edges are drawn as straight chords, an interesting geometric distinction emerges between the cases where \\(n\\) is even and where \\(n\\) is odd:\n\nFor even \\(n\\): some edges are true diameters of the circle, and these intersect at the exact centre. This produces a sharp central intersection point, with additional layers of overlapping chords arranged around it.\nFor odd \\(n\\): no pair of vertices is diametrically opposite, so no edge passes exactly through the centre. As a result, a small circular void remains at the centre. Although this empty region decreases in size as \\(n\\) increases, it remains visually distinct from the even case.\nAs \\(n \\to \\infty\\): the vertices become dense on the circle, and the increasing number of chords produces an ever finer mesh.\n\n\n  \n\nFigure 2: Close-up view of large complete graphs \\(K_{10}\\) through \\(K_{15}\\). Notice the visual contrast at the absolute center between the even graphs \\(K_{10}, K_{12}, K_{14}\\), which possess a sharp central intersection point, and the odd graphs \\(K_{11}, K_{13}, K_{15}\\), which maintain a completely clear, circular void in the middle.\nAt a sufficiently abstract level, one may view the universe through the lens of a complete graph. If vertices represent atoms or particles, and an edge is interpreted broadly as some form of physical relation between two entities, then every pair may be regarded as connected."
   },
   {
-    "objectID": "essays.html",
-    "href": "essays.html",
+    "objectID": "gcse-maths.html",
+    "href": "gcse-maths.html",
     "title": "Sam Forbes",
     "section": "",
-    "text": "All essays were conceived and directed by me. AI was used solely as a supporting tool for technical validation (including proofreading and mathematical verification), prose refinement, and code optimisation.\n\nComplete Graphs — 1 July 2026\nChasing Zero — 16 June 2026\nMeasuring Infinity — 14 June 2026"
+    "text": "Welcome to the GCSE mathematics revision resources page. Here you will find downloadable practice worksheets complete with worked solutions."
+  },
+  {
+    "objectID": "gcse-maths.html#number-topics",
+    "href": "gcse-maths.html#number-topics",
+    "title": "Sam Forbes",
+    "section": "Number Topics",
+    "text": "Number Topics\n\nGeneral Negative Numbers\n\nDownload Questions & Solutions (PDF)\n\nGeneral Whole Number Arithmetic\n\nDownload Questions & Solutions (PDF)\n\nGeneral Decimal Arithmetic\n\nDownload Questions & Solutions (PDF)"
+  },
+  {
+    "objectID": "tutoring.html",
+    "href": "tutoring.html",
+    "title": "Mathematics Tutoring",
+    "section": "",
+    "text": "This is my tutoring section for mathematics. I aim to add worksheets and summaries and more for all levels of maths. I utilise AI (for now google gemini) to help generate the questions and solutions but my human eye has looked at them for any obvious mistakes. The worksheets are made with latex the primary tool for producing clean mathematics. Any mistakes are mine and if you find any or have any other questions please contact me!\n\n\nIf you’d like to support the ongoing development of these tutoring resources (and website in general) you can leave a contribution via Stripe.\n\n\nIf you would be interested in one to one mathematics tutoring please contact me!"
   },
   {
     "objectID": "research.html",
@@ -75,6 +89,13 @@
     "title": "Sam Forbes",
     "section": "",
     "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
+  },
+  {
+    "objectID": "essays.html",
+    "href": "essays.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "All essays were conceived and directed by me. AI was used solely as a supporting tool for technical validation (including proofreading and mathematical verification), prose refinement, and code optimisation.\n\nComplete Graphs — 1 July 2026\nChasing Zero — 16 June 2026\nMeasuring Infinity — 14 June 2026"
   },
   {
     "objectID": "essays_files/measuring_infinity.html",
@@ -158,6 +179,6 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "The research page includes my mathematical research.\n\n\nSome of my research interests:\n\n\n\nphenomena exhibiting a power law in the distribution\n\n\nlimits to growth - the relationship of finite resources to population\n\n\nhow the economy ‘really works’ from a macro perspective\n\n\n\nThe essay page contains mainly mathematical essays on various topics."
+    "text": "What is this website for?\n\n\nMathematics is a hard but useful subject for the modern world especially. This website is to continue my mathematics education and to offer mathematical service. I gained a PhD from the University of Warwick and I do not want to lose all my abilities (that I may or may not have developed)!\n\n\nServices\n\n\nI offer the following services\n\n\n\nmathematics tutoring and resources up to university and advice and support on studying mathematics\n\n\nconsulting on statistics, data analysis and coding\n\n\n\nIf you might be interested in this please contact and we can see if I am a good fit for you.\n\n\nResearch and Essays\n\n\nIn terms of my research I have a PhD thesis titled ‘Data Driven Analysis and Modelling of the Wealth Distribution’. Here I analysed several mathematical models that generates key features of the wealth distribution. I also analysed empirically the wealth distribution using real world data. I have one published paper on this. Following my PhD I have continued researching on similar topics particularly relating to heavy-tailed distributions. I also have interest in macroeconomics in general and on limits to growth. On these interests I have produced several pre-prints. I aim to continue research as you never know what you could produce?!\n\n\nI also have attempted writing some popular maths essays. Of course in this I am not saying anything new in general but just sharing some things I find interesting.\n\n\nTutoring\n\n\nFor tutoring I aim to share lots of resources that I have created or will create with the help of AI and LaTex. I will start at school level (GCSE or below in the UK) as I see a gap in the market for ‘clean’ looking worksheets with solutions!\n\n\nAI\n\n\nI want to discuss briefly AI. There are purists who will say do not use it at all. In some sense I agree however it can be useful to speed things up, find mistakes and most importantly cut down the time to produce things. How I use it will develop over time as it is a new and developing technology. Full disclosure: I have used AI (mainly google gemini) to help create this website, write the essays and in some recent research. Did I say for example: produce an essay on \\(x\\)? NO!! I did more work than that! However, how I use it will change over time as for example I wish to not sound too much like a corporate American (nothing against them) and keep my own imperfect voice.\n\n\nSupport and Contact\n\n\nIf you found anything useful here and would like to support the ongoing development of this website you can leave a contribution via Stripe."
   }
 ]
