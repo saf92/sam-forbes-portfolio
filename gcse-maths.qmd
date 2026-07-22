@@ -11,3 +11,9 @@ Welcome to the GCSE mathematics revision resources page. Here you will find down
 
 * **General Decimal Arithmetic**
   * [Download Questions & Solutions (PDF)](gcse_maths_files/Decimals.pdf)
+
+* **General Order of Operations**
+  * [Download Questions & Solutions (PDF)](gcse_maths_files/order_operations.pdf)
+
+* **Non-Calculator Arithmetic Mix**
+  * [Download Questions & Solutions (PDF)](gcse_maths_files/non_calc_arith_mix.pdf)
