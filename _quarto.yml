@@ -4,10 +4,9 @@ project:
 
 website:
   title: "Sam Forbes"
+  google-analytics: "G-NMRLY17Y6E"
   navbar:
     left:
-      # - text: About
-      #   href: about.qmd
       - text: Research and Essays
         menu:
           - text: Research
