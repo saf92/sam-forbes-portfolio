@@ -13,7 +13,7 @@ website:
             href: research.qmd
           - text: Essays
             href: essays.qmd
-      - text: Tutoring & Reources
+      - text: Tutoring & Resources
         menu:
           - text: Overview
             href: tutoring.qmd

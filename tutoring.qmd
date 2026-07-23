@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Mathematics Tutoring"
 about:
   template: jolla
@@ -6,10 +6,14 @@ about:
     - icon: envelope
       text: Contact Me
       href: mailto:forbessam2@gmail.com
----
+--- -->
 
-<p style="text-align: left;">
-This is my tutoring section for mathematics. I aim to add worksheets and summaries and more for all levels of maths. I utilise AI (for now google gemini) to help generate the questions and solutions but my human eye has looked at them for any obvious mistakes. The worksheets are made with latex the primary tool for producing clean mathematics.  Any mistakes are mine and if you find any or have any other questions please contact me!
+<!-- <p style="text-align: left;">
+I aim to provide high-quality worksheets, summaries, and learning resources covering all levels of mathematics. 
+
+To streamline resource creation, I utilise AI (primarily Google Gemini) to assist in drafting questions and solutions. However, every single worksheet undergoes human review to catch and correct errors. These materials are typeset using LaTeX, ensuring clean, professional mathematical formatting. 
+
+While I strive for absolute accuracy, human error can happen—any mistakes are ultimately my own! If you spot an error, have a question, or need tailored resources, please [get in touch](mailto:forbessam2@gmail.com).
 </p>
 
 <p style="text-align: left;">
@@ -18,4 +22,18 @@ If you'd like to support the ongoing development of these tutoring resources (an
 
 <p style="text-align: left;">
 **If you would be interested in one to one mathematics tutoring or tailored resources please contact me!**
+</p> -->
+
+<h2>Mathematics Tutoring & Resources</h2>
+<p style="text-align: left;">
+I aim to provide high-quality worksheets, summaries, and learning resources covering all levels of mathematics. 
+</p>
+
+<h3 style="text-align: left;">My Workflow & Quality Control</h3>
+<p style="text-align: left;">
+To streamline resource creation, I utilise AI (primarily Google Gemini) to assist in drafting questions and solutions. However, every single worksheet undergoes human review to catch and correct errors. These materials are typeset using LaTeX, ensuring clean, professional mathematical formatting. 
+</p>
+
+<p style="text-align: left;">
+While I strive for absolute accuracy, human error can happen—any mistakes are ultimately my own! If you spot an error, have a question, or need tailored resources, please <a href="mailto:forbessam2@gmail.com" style="color: #0066cc;">get in touch</a>!
 </p>
