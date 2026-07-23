@@ -35,10 +35,10 @@ Welcome to the GCSE mathematics revision resources page. Here you will find down
 
 | Topic Category | Worksheet Title | Download |
 | :--- | :--- | :--- |
-| **Non-Calculator Arithmetic** | General Negative Numbers | [PDF (Questions & Solutions)](files/worksheets/negative_numbers.pdf) |
-| | General Whole Number Arithmetic | [PDF (Questions & Solutions)](files/worksheets/whole_numbers.pdf) |
-| | General Decimal Arithmetic | [PDF (Questions & Solutions)](files/worksheets/decimals.pdf) |
-| | General Order of Operations | [PDF (Questions & Solutions)](files/worksheets/order_of_operations.pdf) |
-| | Non-Calculator Arithmetic Mix | [PDF (Questions & Solutions)](files/worksheets/arithmetic_mix.pdf) |
-| **Approximations** | Rounding to Decimal Places | [PDF (Questions & Solutions)](files/worksheets/rounding_dp.pdf) |
-| | Rounding to Significant Figures | [PDF (Questions & Solutions)](files/worksheets/rounding_sf.pdf) |
+| **Non-Calculator Arithmetic** | General Negative Numbers | [PDF (Questions & Solutions)](gcse_maths_files/negative_numbers.pdf) |
+| | General Whole Number Arithmetic | [PDF (Questions & Solutions)](gcse_maths_files/whole_number_arithmetic.pdf) |
+| | General Decimal Arithmetic | [PDF (Questions & Solutions)](gcse_maths_files/decimals.pdf) |
+| | General Order of Operations | [PDF (Questions & Solutions)](gcse_maths_files/order_operations.pdf) |
+| | Non-Calculator Arithmetic Mix | [PDF (Questions & Solutions)](gcse_maths_files/non_calc_arith_mix.pdf) |
+| **Approximations** | Rounding to Decimal Places | [PDF (Questions & Solutions)](gcse_maths_files/rounding_decimal_places.pdf) |
+| | Rounding to Significant Figures | [PDF (Questions & Solutions)](gcse_maths_files/significant_figures.pdf) |
