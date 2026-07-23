@@ -1,19 +1,32 @@
+Welcome to the GCSE mathematics revision resources page. Here you will find downloadable practice worksheets complete with worked solutions. 
 
-Welcome to the GCSE mathematics revision resources page. Here you will find downloadable practice worksheets complete with worked solutions.
+**Requests for tailored resources are welcome—just get in touch.**
+
+# Worksheets
 
 ## Number Topics
 
-* **General Negative Numbers** 
+### Non-calculator Arithmetic
+
+* **General Negative Numbers (Foundation)** 
   * [Download Questions & Solutions (PDF)](gcse_maths_files/negative_numbers.pdf)
  
-* **General Whole Number Arithmetic**
+* **General Whole Number Arithmetic (Foundation)**
   * [Download Questions & Solutions (PDF)](gcse_maths_files/whole_number_arithmetic.pdf)
 
-* **General Decimal Arithmetic**
+* **General Decimal Arithmetic (Foundation)**
   * [Download Questions & Solutions (PDF)](gcse_maths_files/Decimals.pdf)
 
-* **General Order of Operations**
+* **General Order of Operations (Foundation)**
   * [Download Questions & Solutions (PDF)](gcse_maths_files/order_operations.pdf)
 
-* **Non-Calculator Arithmetic Mix**
+* **Non-Calculator Arithmetic Mix (Foundation)**
   * [Download Questions & Solutions (PDF)](gcse_maths_files/non_calc_arith_mix.pdf)
+
+### Approximations
+
+* **Rounding to Decimal Places (Foundation)**
+  * [Download Questions & Solutions (PDF)](gcse_maths_files/rounding_decimal_places.pdf)
+
+* **Rounding to Significant Figures (Foundation)**
+  * [Download Questions & Solutions (PDF)](gcse_maths_files/significant_figures.pdf)

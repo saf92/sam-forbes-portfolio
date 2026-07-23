@@ -7,13 +7,13 @@ website:
   google-analytics: "G-NMRLY17Y6E"
   navbar:
     left:
-      - text: Research and Essays
+      - text: Research & Essays
         menu:
           - text: Research
             href: research.qmd
           - text: Essays
             href: essays.qmd
-      - text: Tutoring
+      - text: Tutoring & Reources
         menu:
           - text: Overview
             href: tutoring.qmd

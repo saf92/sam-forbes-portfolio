@@ -79,35 +79,6 @@ gtag('js', new Date());
 gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -130,10 +101,10 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research-and-essays" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research and Essays</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research--essays" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research &amp; Essays</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research-and-essays">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research--essays">    
         <li>
     <a class="dropdown-item" href="./research.html">
  <span class="dropdown-text">Research</span></a>
@@ -145,10 +116,10 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutoring" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Tutoring</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutoring--reources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tutoring &amp; Reources</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-tutoring">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tutoring--reources">    
         <li>
     <a class="dropdown-item" href="./tutoring.html">
  <span class="dropdown-text">Overview</span></a>
@@ -181,54 +152,57 @@ window.Quarto = {
   </div>
 </header><main class="content" id="quarto-document-content">
 <h3 style="text-align: center;">
-What is this website for?
+What is this Website For?
 </h3>
 <p style="text-align: left;">
-Mathematics is a hard but useful subject for the modern world especially. This website is to continue my mathematics education and to offer mathematical service. I gained a PhD from the University of Warwick and I do not want to lose all my abilities (that I may or may not have developed)!
+Mathematics is a challenging but rewarding subject. This website exists to share my ongoing research and popular maths essays, and to provide quality mathematical services.
 </p>
 <h3 style="text-align: center;">
 Services
 </h3>
 <p style="text-align: left;">
-I offer the following services
+I offer the following services:
 </p>
 <ul style="text-align: left;">
 <li>
-mathematics tutoring and resources up to university and advice and support on studying mathematics
+<strong>Mathematics Tutoring &amp; Resources:</strong> Tailored instruction and educational material creation from school up to university level.
 </li>
 <li>
-consulting on statistics, data analysis and coding
+<strong>Academic Mentoring:</strong> Dedicated support, guidance, and study strategies for mathematics students.
+</li>
+<li>
+<strong>Data Consulting &amp; Coding:</strong> Expert statistical analysis, data-driven modeling, and programming support (Python, LaTeX).
 </li>
 </ul>
 <p style="text-align: left;">
-If you might be interested in this please contact and we can see if I am a good fit for you.
+If you are interested, please get in touch so we can discuss whether I am a good fit for your needs.
 </p>
 <h3 style="text-align: center;">
 Research and Essays
 </h3>
 <p style="text-align: left;">
-In terms of my research I have a PhD thesis titled ‘Data Driven Analysis and Modelling of the Wealth Distribution’. Here I analysed several mathematical models that generates key features of the wealth distribution. I also analysed empirically the wealth distribution using real world data. I have one published paper on this. Following my PhD I have continued researching on similar topics particularly relating to heavy-tailed distributions. I also have interest in macroeconomics in general and on limits to growth. On these interests I have produced several pre-prints. I aim to continue research as you never know what you could produce?!
+My primary research interest is in heavy-tailed and power-law distributions, particularly regarding wealth distribution. I completed my PhD thesis on mathematical models and empirical analysis of wealth distribution, and I have a published paper as well as several pre-prints on macro topics including taxation, population dynamics, and stock returns.
 </p>
 <p style="text-align: left;">
-I also have attempted writing some popular maths essays. Of course in this I am not saying anything new in general but just sharing some things I find interesting.
-</p>
-<h3 style="text-align: center;">
-Tutoring
-</h3>
-<p style="text-align: left;">
-For tutoring I aim to share lots of resources that I have created or will create with the help of AI and LaTex. I will start at school level (GCSE or below in the UK) as I see a gap in the market for ‘clean’ looking worksheets with solutions!
+I also write popular maths essays to show how mathematics can be both interesting and useful. The difficulty and mathematical complexity of these essays will vary.
 </p>
 <h3 style="text-align: center;">
-AI
+Tutoring &amp; Resources
 </h3>
 <p style="text-align: left;">
-I want to discuss briefly AI. There are purists who will say do not use it at all. In some sense I agree however it can be useful to speed things up, find mistakes and most importantly cut down the time to produce things. How I use it will develop over time as it is a new and developing technology. Full disclosure: I have used AI (mainly google gemini) to help create this website, write the essays and in some recent research. Did I say for example: produce an essay on <span class="math inline">\(x\)</span>? NO!! I did more work than that! However, how I use it will change over time as for example I wish to not sound too much like a corporate American (nothing against them) and keep my own imperfect voice.
+I share free resources here, and my current project focuses on creating GCSE Foundation maths worksheets. <strong>Requests for tailored worksheets are welcome—just get in touch.</strong>
+</p>
+<h3 style="text-align: center;">
+AI Disclosure
+</h3>
+<p style="text-align: left;">
+Some purists argue against using AI entirely. While I understand that perspective, I find it a valuable tool to accelerate workflows, catch errors, and refine my writing. Today, I use AI to assist with aspects of most of my work.
 </p>
 <h3 style="text-align: center;">
 Support and Contact
 </h3>
 <p style="text-align: left;">
-If you found anything useful here and would like to support the ongoing development of this website you can <a href="https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00" target="_blank" style="color: #0066cc;">leave a contribution via Stripe</a>.
+If you found anything useful here and would like to support the ongoing development of this website, you can <a href="https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00" target="_blank" style="color: #0066cc;">leave a contribution via Stripe</a>.
 </p>
 
 
