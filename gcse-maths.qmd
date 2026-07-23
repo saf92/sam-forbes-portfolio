@@ -1,7 +1,7 @@
 Welcome to the GCSE mathematics revision resources page. Here you will find downloadable practice worksheets complete with worked solutions. 
 
 **Requests for tailored resources are welcome—just get in touch.**
-
+<!-- 
 # Worksheets
 
 ## Number Topics
@@ -29,4 +29,16 @@ Welcome to the GCSE mathematics revision resources page. Here you will find down
   * [Download Questions & Solutions (PDF)](gcse_maths_files/rounding_decimal_places.pdf)
 
 * **Rounding to Significant Figures (Foundation)**
-  * [Download Questions & Solutions (PDF)](gcse_maths_files/significant_figures.pdf)
+  * [Download Questions & Solutions (PDF)](gcse_maths_files/significant_figures.pdf) -->
+
+## GCSE Foundation Worksheets
+
+| Topic Category | Worksheet Title | Download |
+| :--- | :--- | :--- |
+| **Non-Calculator Arithmetic** | General Negative Numbers | [PDF (Questions & Solutions)](files/worksheets/negative_numbers.pdf) |
+| | General Whole Number Arithmetic | [PDF (Questions & Solutions)](files/worksheets/whole_numbers.pdf) |
+| | General Decimal Arithmetic | [PDF (Questions & Solutions)](files/worksheets/decimals.pdf) |
+| | General Order of Operations | [PDF (Questions & Solutions)](files/worksheets/order_of_operations.pdf) |
+| | Non-Calculator Arithmetic Mix | [PDF (Questions & Solutions)](files/worksheets/arithmetic_mix.pdf) |
+| **Approximations** | Rounding to Decimal Places | [PDF (Questions & Solutions)](files/worksheets/rounding_dp.pdf) |
+| | Rounding to Significant Figures | [PDF (Questions & Solutions)](files/worksheets/rounding_sf.pdf) |
