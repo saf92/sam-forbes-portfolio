@@ -2,10 +2,6 @@
 title: "Welcome"
 about:
   template: jolla
-  links:
-    - icon: envelope
-      text: Contact Me
-      href: mailto:forbessam2@gmail.com
 ---
 
 <h3 style="text-align: center;">What is this Website For?</h3>
@@ -25,7 +21,7 @@ I offer the following services:</p>
 If you are interested, please get in touch so we can discuss whether I am a good fit for your needs.
 </p>
 
-<h3 style="text-align: center;">Research and Essays</h3>
+<h3 style="text-align: center;">Research & Essays</h3>
 <p style="text-align: left;">
 My primary research interest is in heavy-tailed and power-law distributions, particularly regarding wealth distribution. I completed my PhD thesis on mathematical models and empirical analysis of wealth distribution, and I have a published paper as well as several pre-prints on macro topics including taxation, population dynamics, and stock returns.
 </p>
@@ -43,7 +39,8 @@ I share free resources here, and my current project focuses on creating GCSE Fou
 Some purists argue against using AI entirely. While I understand that perspective, I find it a valuable tool to accelerate workflows, catch errors, and refine my writing. Today, I use AI to assist with aspects of most of my work.
 </p>
 
-<h3 style="text-align: center;">Support and Contact</h3>
+<h3 style="text-align: center;">Support & Contact</h3>
 <p style="text-align: left;">
 If you found anything useful here and would like to support the ongoing development of this website, you can <a href="https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00" target="_blank" style="color: #0066cc;">leave a contribution via Stripe</a>.
 </p>
+Email: **forbessam2 [at] gmail [dot] com**

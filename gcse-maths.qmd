@@ -1,4 +1,4 @@
-Welcome to the GCSE mathematics revision resources page. Here you will find downloadable practice worksheets complete with worked solutions. 
+Welcome to the GCSE mathematics revision resources page. Find a growing archive of downloadable practice worksheets and step-by-step worked solutions, updated regularly. 
 
 **Requests for tailored resources are welcome—just get in touch.**
 <!-- 
@@ -33,12 +33,14 @@ Welcome to the GCSE mathematics revision resources page. Here you will find down
 
 ## GCSE Foundation Worksheets
 
-| Topic Category | Worksheet Title | Download |
+| Topic  | Subtopic | Download |
 | :--- | :--- | :--- |
-| **Non-Calculator Arithmetic** | General Negative Numbers | [PDF (Questions & Solutions)](gcse_maths_files/negative_numbers.pdf) |
-| | General Whole Number Arithmetic | [PDF (Questions & Solutions)](gcse_maths_files/whole_number_arithmetic.pdf) |
-| | General Decimal Arithmetic | [PDF (Questions & Solutions)](gcse_maths_files/decimals.pdf) |
-| | General Order of Operations | [PDF (Questions & Solutions)](gcse_maths_files/order_operations.pdf) |
+| **Non-Calculator Arithmetic** | Negative Numbers | [PDF (Questions & Solutions)](gcse_maths_files/negative_numbers.pdf) |
+| | Whole Number Arithmetic | [PDF (Questions & Solutions)](gcse_maths_files/whole_number_arithmetic.pdf) |
+| | Decimal Arithmetic | [PDF (Questions & Solutions)](gcse_maths_files/decimals.pdf) |
+| | Order of Operations | [PDF (Questions & Solutions)](gcse_maths_files/order_operations.pdf) |
 | | Non-Calculator Arithmetic Mix | [PDF (Questions & Solutions)](gcse_maths_files/non_calc_arith_mix.pdf) |
 | **Approximations** | Rounding to Decimal Places | [PDF (Questions & Solutions)](gcse_maths_files/rounding_decimal_places.pdf) |
 | | Rounding to Significant Figures | [PDF (Questions & Solutions)](gcse_maths_files/significant_figures.pdf) |
+| | Estimation | [PDF (Questions & Solutions)](gcse_maths_files/estimation.pdf) |
+| | Rounding Errors & Bounds | [PDF (Questions & Solutions)](gcse_maths_files/rounding_errors.pdf) |
