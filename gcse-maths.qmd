@@ -33,6 +33,8 @@ Welcome to the GCSE mathematics revision resources page. Find a growing archive 
 
 ## GCSE Foundation Worksheets
 
+### Number, Ratio & Algebra
+
 | Topic  | Subtopic | Download |
 | :--- | :--- | :--- |
 | **Non-Calculator Arithmetic** | Negative Numbers | [PDF (Questions & Solutions)](gcse_maths_files/negative_numbers.pdf) |
@@ -44,3 +46,28 @@ Welcome to the GCSE mathematics revision resources page. Find a growing archive 
 | | Rounding to Significant Figures | [PDF (Questions & Solutions)](gcse_maths_files/significant_figures.pdf) |
 | | Estimation | [PDF (Questions & Solutions)](gcse_maths_files/estimation.pdf) |
 | | Rounding Errors & Bounds | [PDF (Questions & Solutions)](gcse_maths_files/rounding_errors.pdf) |
+|**Powers & Roots** | Squares, Cubes & Roots | [PDF (Questions & Solutions)](gcse_maths_files/squares_cubes_roots.pdf) |
+| | Index Laws | [PDF (Questions & Solutions)](gcse_maths_files/indices.pdf) |
+| | Standard Form | [PDF (Questions & Solutions)](gcse_maths_files/standard_form.pdf) |
+|**Multiples & Factors** | Finding Multiples & Factors | [PDF (Questions & Solutions)](gcse_maths_files/finding_multiples_factors.pdf) |
+| | Prime Numbers | [PDF (Questions & Solutions)](gcse_maths_files/prime_numbers.pdf) |
+| | LCM & HCF| [PDF (Questions & Solutions)](gcse_maths_files/LCM_and_HCF.pdf) |
+|**Fractions** | Equivalent Fractions | [PDF (Questions & Solutions)](gcse_maths_files/equivalent_fractions.pdf) |
+| | Mixed Numbers | [PDF (Questions & Solutions)](gcse_maths_files/mixed_numbers.pdf) |
+| | Ordering Fractions | [PDF (Questions & Solutions)](gcse_maths_files/ordering_fractions.pdf) |
+| | Adding & Subtracting Fractions | [PDF (Questions & Solutions)](gcse_maths_files/adding_subtracting_fractions.pdf) |
+| | Multiplying & Dividing Fractions | [PDF (Questions & Solutions)](gcse_maths_files/multiplying_dividing_fractions.pdf) |
+| | Fractions & Decimals | [PDF (Questions & Solutions)](gcse_maths_files/fractions_and_decimals.pdf) |
+| | Fractions Problems | [PDF (Questions & Solutions)](gcse_maths_files/fractions_problems.pdf) |
+|**Ratios** | Ratios & Simplifying | [PDF (Questions & Solutions)](gcse_maths_files/ratios_and_simplifying.pdf) |
+| | Using Ratios | [PDF (Questions & Solutions)](gcse_maths_files/using_ratios.pdf) |
+| | Dividing in a Given Ratio | [PDF (Questions & Solutions)](gcse_maths_files/dividing_in_a_given_ratio.pdf) |
+| | Ratio Problems | [PDF (Questions & Solutions)](gcse_maths_files/ratio_problems.pdf) |
+|**Percentages** | Percentages | [PDF (Questions & Solutions)](gcse_maths_files/percentages.pdf) |
+| | Percentages, Fractions & Decimals| [PDF (Questions & Solutions)](gcse_maths_files/percentages_fractions_decimals.pdf) |
+| | Percentage Increase & Decrease| [PDF (Questions & Solutions)](gcse_maths_files/percentage_increase_decrease.pdf) |
+| | Compound Growth & Decay| [PDF (Questions & Solutions)](gcse_maths_files/compound_growth_decay.pdf) |
+| | Percentages Problems| [PDF (Questions & Solutions)](gcse_maths_files/percentages_problems.pdf) |
+|**Algebraic Expressions** | Collecting Like Terms | [PDF (Questions & Solutions)](gcse_maths_files/collecting_like_terms.pdf) |
+|| Expanding Brackets | [PDF (Questions & Solutions)](gcse_maths_files/expanding_brackets.pdf) |
+|| Factorising | [PDF (Questions & Solutions)](gcse_maths_files/factorising.pdf) |
