@@ -63,41 +63,6 @@
     "text": "Asymptotics and Geometry of Connections\nThe number of connections \\(k\\) in a complete graph grows asymptotically as \\[\\begin{equation*}\nk = \\frac{1}{2}n(n-1) \\sim \\frac{1}{2}n^2.\n\\end{equation*}\\]\nThus, the number of edges increases quadratically with the number of vertices, so \\(k = \\mathcal{O}(n^2)\\). The leading term \\(\\frac{1}{2}n^2\\) captures the dominant growth, although the absolute error remains linear in \\(n\\): \\[\\begin{equation*}\n\\left| \\frac{1}{2}n(n-1) - \\frac{1}{2}n^2 \\right| = \\frac{1}{2}n.\n\\end{equation*}\\]\nAccordingly, the absolute error diverges as \\(n \\to \\infty\\), but the relative error tends to zero. In this asymptotic sense, \\(\\frac{1}{2}n^2\\) becomes an increasingly accurate approximation.\nLet \\(K_n\\) denote the complete graph on \\(n\\) vertices. When the vertices of \\(K_n\\) are arranged symmetrically on a circle and all edges are drawn as straight chords, an interesting geometric distinction emerges between the cases where \\(n\\) is even and where \\(n\\) is odd:\n\nFor even \\(n\\): some edges are true diameters of the circle, and these intersect at the exact centre. This produces a sharp central intersection point, with additional layers of overlapping chords arranged around it.\nFor odd \\(n\\): no pair of vertices is diametrically opposite, so no edge passes exactly through the centre. As a result, a small circular void remains at the centre. Although this empty region decreases in size as \\(n\\) increases, it remains visually distinct from the even case.\nAs \\(n \\to \\infty\\): the vertices become dense on the circle, and the increasing number of chords produces an ever finer mesh.\n\n\n  \n\nFigure 2: Close-up view of large complete graphs \\(K_{10}\\) through \\(K_{15}\\). Notice the visual contrast at the absolute center between the even graphs \\(K_{10}, K_{12}, K_{14}\\), which possess a sharp central intersection point, and the odd graphs \\(K_{11}, K_{13}, K_{15}\\), which maintain a completely clear, circular void in the middle.\nAt a sufficiently abstract level, one may view the universe through the lens of a complete graph. If vertices represent atoms or particles, and an edge is interpreted broadly as some form of physical relation between two entities, then every pair may be regarded as connected."
   },
   {
-    "objectID": "gcse-maths.html",
-    "href": "gcse-maths.html",
-    "title": "Sam Forbes",
-    "section": "",
-    "text": "Welcome to the GCSE mathematics revision resources page. Find a growing archive of downloadable practice worksheets and step-by-step worked solutions, updated regularly.\nRequests for tailored resources are welcome—just get in touch."
-  },
-  {
-    "objectID": "gcse-maths.html#gcse-foundation-worksheets",
-    "href": "gcse-maths.html#gcse-foundation-worksheets",
-    "title": "Sam Forbes",
-    "section": "GCSE Foundation Worksheets",
-    "text": "GCSE Foundation Worksheets\n\nNumber, Ratio & Algebra\n\n\n\nTopic\nSubtopic\nDownload\n\n\n\n\nNon-Calculator Arithmetic\nNegative Numbers\nPDF (Questions & Solutions)\n\n\n\nWhole Number Arithmetic\nPDF (Questions & Solutions)\n\n\n\nDecimal Arithmetic\nPDF (Questions & Solutions)\n\n\n\nOrder of Operations\nPDF (Questions & Solutions)\n\n\n\nNon-Calculator Arithmetic Mix\nPDF (Questions & Solutions)\n\n\nApproximations\nRounding to Decimal Places\nPDF (Questions & Solutions)\n\n\n\nRounding to Significant Figures\nPDF (Questions & Solutions)\n\n\n\nEstimation\nPDF (Questions & Solutions)\n\n\n\nRounding Errors & Bounds\nPDF (Questions & Solutions)\n\n\nPowers & Roots\nSquares, Cubes & Roots\nPDF (Questions & Solutions)\n\n\n\nIndex Laws\nPDF (Questions & Solutions)\n\n\n\nStandard Form\nPDF (Questions & Solutions)\n\n\nMultiples & Factors\nFinding Multiples & Factors\nPDF (Questions & Solutions)\n\n\n\nPrime Numbers\nPDF (Questions & Solutions)\n\n\n\nLCM & HCF\nPDF (Questions & Solutions)\n\n\nFractions\nEquivalent Fractions\nPDF (Questions & Solutions)\n\n\n\nMixed Numbers\nPDF (Questions & Solutions)\n\n\n\nOrdering Fractions\nPDF (Questions & Solutions)\n\n\n\nAdding & Subtracting Fractions\nPDF (Questions & Solutions)\n\n\n\nMultiplying & Dividing Fractions\nPDF (Questions & Solutions)\n\n\n\nFractions & Decimals\nPDF (Questions & Solutions)\n\n\n\nFractions Problems\nPDF (Questions & Solutions)\n\n\nRatios\nRatios & Simplifying\nPDF (Questions & Solutions)\n\n\n\nUsing Ratios\nPDF (Questions & Solutions)\n\n\n\nDividing in a Given Ratio\nPDF (Questions & Solutions)\n\n\n\nRatio Problems\nPDF (Questions & Solutions)\n\n\nPercentages\nPercentages\nPDF (Questions & Solutions)\n\n\n\nPercentages, Fractions & Decimals\nPDF (Questions & Solutions)\n\n\n\nPercentage Increase & Decrease\nPDF (Questions & Solutions)\n\n\n\nCompound Growth & Decay\nPDF (Questions & Solutions)\n\n\n\nPercentages Problems\nPDF (Questions & Solutions)\n\n\nAlgebraic Expressions\nCollecting Like Terms\nPDF (Questions & Solutions)\n\n\n\nExpanding Brackets\nPDF (Questions & Solutions)\n\n\n\nFactorising\nPDF (Questions & Solutions)"
-  },
-  {
-    "objectID": "tutoring.html",
-    "href": "tutoring.html",
-    "title": "Sam Forbes",
-    "section": "",
-    "text": "Mathematics Tutoring & Resources\n\n\nI aim to provide high-quality worksheets, summaries, and learning resources covering all levels of mathematics.\n\n\nMy Workflow & Quality Control\n\n\nTo streamline resource creation, I utilise AI (currently primarily Google Gemini) to assist in drafting questions and solutions. However, every single worksheet undergoes human review to catch and correct errors. These materials are typeset using LaTeX, ensuring clean, professional mathematical formatting.\n\n\nWhile I strive for absolute accuracy, human error can happen—any mistakes are ultimately my own. If you spot an error, have a question, or need tailored resources, please get in touch."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Sam Forbes",
-    "section": "",
-    "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
-  },
-  {
-    "objectID": "essays.html",
-    "href": "essays.html",
-    "title": "Sam Forbes",
-    "section": "",
-    "text": "All essays were conceived and directed by me. AI was used solely as a supporting tool for technical validation (including proofreading and mathematical verification), prose refinement, and code optimisation.\n\nComplete Graphs — 1 July 2026\nChasing Zero — 16 June 2026\nMeasuring Infinity — 14 June 2026"
-  },
-  {
     "objectID": "essays_files/measuring_infinity.html",
     "href": "essays_files/measuring_infinity.html",
     "title": "Measuring Infinity",
@@ -138,6 +103,69 @@
     "title": "Measuring Infinity",
     "section": "Closing thought",
     "text": "Closing thought\nInfinity is where familiar finite intuitions begin to separate. In the finite world, counting, one-to-one correspondence, and the idea that the whole is greater than the part all agree. At infinity, they do not, and one must decide which idea of size to preserve. Indeed, the fact that certain properties coincide in the finite case but come apart in the infinite case may reflect a more general phenomenon, extending beyond mathematics to physics at the quantum and cosmological scales."
+  },
+  {
+    "objectID": "essays.html",
+    "href": "essays.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "All essays were conceived and directed by me. AI was used solely as a supporting tool for technical validation (including proofreading and mathematical verification), prose refinement, and code optimisation.\n\nWorld Population — July 2026\nA simple model for world population.\nComplete Graphs — 1 July 2026\nA couple interesting things about complete graphs.\nChasing Zero — 16 June 2026\nGoing faster makes sense up to a point…\nMeasuring Infinity — 14 June 2026\nCertain properties cannot hold together for infinite sets."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
+  },
+  {
+    "objectID": "tutoring.html",
+    "href": "tutoring.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "Mathematics Tutoring & Resources\n\n\nI aim to provide high-quality worksheets, summaries, and learning resources covering all levels of mathematics.\n\n\nMy Workflow & Quality Control\n\n\nTo streamline resource creation, I utilise AI (currently primarily Google Gemini) to assist in drafting questions and solutions. However, every single worksheet undergoes human review to catch and correct errors. These materials are typeset using LaTeX, ensuring clean, professional mathematical formatting.\n\n\nWhile I strive for absolute accuracy, human error can happen—any mistakes are ultimately my own. If you spot an error, have a question, or need tailored resources, please get in touch."
+  },
+  {
+    "objectID": "gcse-maths.html",
+    "href": "gcse-maths.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "Welcome to the GCSE mathematics revision resources page. Find a growing archive of downloadable practice worksheets and step-by-step worked solutions, updated regularly.\nRequests for tailored resources are welcome—just get in touch."
+  },
+  {
+    "objectID": "gcse-maths.html#gcse-foundation-worksheets",
+    "href": "gcse-maths.html#gcse-foundation-worksheets",
+    "title": "Sam Forbes",
+    "section": "GCSE Foundation Worksheets",
+    "text": "GCSE Foundation Worksheets\n\nNumber, Ratio & Algebra\n\n\n\nTopic\nSubtopic\nDownload\n\n\n\n\nNon-Calculator Arithmetic\nNegative Numbers\nPDF (Questions & Solutions)\n\n\n\nWhole Number Arithmetic\nPDF (Questions & Solutions)\n\n\n\nDecimal Arithmetic\nPDF (Questions & Solutions)\n\n\n\nOrder of Operations\nPDF (Questions & Solutions)\n\n\n\nNon-Calculator Arithmetic Mix\nPDF (Questions & Solutions)\n\n\nApproximations\nRounding to Decimal Places\nPDF (Questions & Solutions)\n\n\n\nRounding to Significant Figures\nPDF (Questions & Solutions)\n\n\n\nEstimation\nPDF (Questions & Solutions)\n\n\n\nRounding Errors & Bounds\nPDF (Questions & Solutions)\n\n\nPowers & Roots\nSquares, Cubes & Roots\nPDF (Questions & Solutions)\n\n\n\nIndex Laws\nPDF (Questions & Solutions)\n\n\n\nStandard Form\nPDF (Questions & Solutions)\n\n\nMultiples & Factors\nFinding Multiples & Factors\nPDF (Questions & Solutions)\n\n\n\nPrime Numbers\nPDF (Questions & Solutions)\n\n\n\nLCM & HCF\nPDF (Questions & Solutions)\n\n\nFractions\nEquivalent Fractions\nPDF (Questions & Solutions)\n\n\n\nMixed Numbers\nPDF (Questions & Solutions)\n\n\n\nOrdering Fractions\nPDF (Questions & Solutions)\n\n\n\nAdding & Subtracting Fractions\nPDF (Questions & Solutions)\n\n\n\nMultiplying & Dividing Fractions\nPDF (Questions & Solutions)\n\n\n\nFractions & Decimals\nPDF (Questions & Solutions)\n\n\n\nFractions Problems\nPDF (Questions & Solutions)\n\n\nRatios\nRatios & Simplifying\nPDF (Questions & Solutions)\n\n\n\nUsing Ratios\nPDF (Questions & Solutions)\n\n\n\nDividing in a Given Ratio\nPDF (Questions & Solutions)\n\n\n\nRatio Problems\nPDF (Questions & Solutions)\n\n\nPercentages\nPercentages\nPDF (Questions & Solutions)\n\n\n\nPercentages, Fractions & Decimals\nPDF (Questions & Solutions)\n\n\n\nPercentage Increase & Decrease\nPDF (Questions & Solutions)\n\n\n\nCompound Growth & Decay\nPDF (Questions & Solutions)\n\n\n\nPercentages Problems\nPDF (Questions & Solutions)\n\n\nAlgebraic Expressions\nCollecting Like Terms\nPDF (Questions & Solutions)\n\n\n\nExpanding Brackets\nPDF (Questions & Solutions)\n\n\n\nFactorising\nPDF (Questions & Solutions)"
+  },
+  {
+    "objectID": "essays_files/world_population.html",
+    "href": "essays_files/world_population.html",
+    "title": "World Population",
+    "section": "",
+    "text": "We present a simple model for fitting and predicting world population. Based on a straightforward ordinary differential equation, the model yields a bell-shaped trajectory that has the functional form of a scaled normal distribution."
+  },
+  {
+    "objectID": "essays_files/world_population.html#introduction",
+    "href": "essays_files/world_population.html#introduction",
+    "title": "World Population",
+    "section": "",
+    "text": "We present a simple model for fitting and predicting world population. Based on a straightforward ordinary differential equation, the model yields a bell-shaped trajectory that has the functional form of a scaled normal distribution."
+  },
+  {
+    "objectID": "essays_files/world_population.html#model",
+    "href": "essays_files/world_population.html#model",
+    "title": "World Population",
+    "section": "Model",
+    "text": "Model\nOver the time period \\((t_0, t_n)\\) assume the equation for population \\(P(t)\\) at time \\(t\\) is \\[\n\\frac{dP(t)}{dt} = r(t)P(t)\n\\] where \\(r(t)\\) is the growth rate. This is a first order, linear, separable differential equation with solution \\[\nP(t) = P(t_0) \\exp \\left( \\int_{t_0}^{t} r(u) \\, du \\right), \\quad u \\in (t_0, t_f).\n\\] Note the growth rate can be written as \\[\nr(t) = \\frac{1}{P(t)}\\frac{dP(t)}{dt} = \\frac{d}{dt}\\log P(t)\n\\] We shall see in the next section that the growth rate follows roughly a linear form \\[\nr(t) = -\\frac{t - \\tau}{\\sigma^2}, \\quad t \\in (t_0, t_n)\n\\tag{1}\\] for the period \\((t_0, t_n)\\) where the parameter \\(\\tau\\) is the shift parameter, and \\(\\sigma\\) is the scale parameter. The latest period where the parameters are fixed is roughly the 60 year period from 1963 to the latest year of data 2023. For simplicity we shall only solve for this period and predict the population with these parameters. With this linear growth rate Equation 1 we can solve to find \\[\nP(t) = P(t_0) \\exp \\left( -\\frac{1}{2\\sigma^2}\\left((t-\\tau)^2-(\\tau-t_0)^2\\right)\\right), \\quad t \\in (t_0, t_n).\n\\tag{2}\\] We note that the maximum occurs at \\(t=\\tau\\) with population \\[\nP_{\\max} = P(\\tau) = P(t_0) \\exp\\left( \\frac{1}{2\\sigma^2}(\\tau - t_0)^2\\right).\n\\] From this we note that Equation 2 equates to the following \\[\nP(t) = P_{\\max} \\exp \\left( -\\frac{1}{2\\sigma^2}(t-\\tau)^2\\right), \\quad t \\in (t_0, t_n)\n\\tag{3}\\]\nWe note Equation 3 is symmetric about \\(t=\\tau\\) and has the scaled form of the density function of the Normal distribution. One can find from Equation 3 the inverse where the time \\(t\\) coincides with a given population \\(P(t)\\): \\[\nt =\n\\begin{cases}\n    \\tau - \\sqrt{2 \\sigma^2 \\log \\left(\\frac{P_{\\max}}{P(t)} \\right) } & \\text{for } t &lt; \\tau \\\\[1.5em]\n    \\tau + \\sqrt{2 \\sigma^2 \\log \\left(\\frac{P_{\\max}}{P(t)} \\right) } & \\text{for } t \\ge \\tau\n\\end{cases}\n\\] Note for \\(t \\neq \\tau\\) we have two times the same amount either side of the peak time \\(\\tau\\) corresponding to \\(P(t)\\)."
+  },
+  {
+    "objectID": "essays_files/world_population.html#fitting-to-data",
+    "href": "essays_files/world_population.html#fitting-to-data",
+    "title": "World Population",
+    "section": "Fitting to Data",
+    "text": "Fitting to Data\nWe use data \\[\n\\{(t_i, P(t_i))\\}_{i=0}^n, \\quad \\text{where } t_0 = 1963, \\, t_n = 2023\n\\]\nTo align the discrete growth rates with our continuous model, we evaluate them at the interval midpoints: \\[\n\\bar{t}_i = \\frac{t_i+t_{i+1}}{2}, \\quad \\bar{r}_i = \\frac{\\log P(t_{i+1}) - \\log P(t_i)}{t_{i+1}-t_i}  \\quad i = 0, 1, \\dots, n-1.\n\\] This yields the approximation \\(\\bar{r}_i \\approx r(\\bar{t}_i)\\). We assume the linear relationship Equation 1 \\[\n\\bar{r}_i = -\\frac{\\bar{t}_i - \\tau}{\\sigma^2}, \\quad i = 0, 1, \\dots, n-1.\n\\] Performing linear regression (which will give some bias) we find estimates for \\((\\tau, P(\\tau))\\) and \\(\\sigma\\) as \\[\n(\\hat{\\tau}, \\, \\hat{P}(\\hat{\\tau})) \\approx (2070, \\, 10.1 \\text{ billion}), \\quad \\hat{\\sigma} \\approx 70.5\n\\tag{4}\\]\nSee Figure 1 below. Thus the model predicts a scaling factor of around 70.5 with peak population of approximately 10.1 billion around 2070. Using these parameters we can predict from 1963 forwards in time. In particular, we predict till 2300, see Figure 2. For some particular population milestones we have the predicted time approximations from the model in Table 1. Naturally, because growth rates fluctuate and we only predict using the roughly fixed growth rate from 1963–2023, these milestones carry increasing uncertainty further into the future; nonetheless, it will be revealing to observe whether the overall macro trend holds true.\n\n\n\n\n\n\nFigure 1: Linear regression of \\(\\bar{t}_i\\) against \\(\\bar{r}_i\\) with parameter fits Equation 4. Data source: HYDE (2023); Gapminder (2022); UN WPP (2024) (2024).\n\n\n\n\n\n\n\n\n\nFigure 2: Predicted world population from 1963 to 2300 using Equation 3 with parameters Equation 4. Data source: HYDE (2023); Gapminder (2022); UN WPP (2024) (2024).\n\n\n\n\n\n\nTable 1: Milestone Analysis for Population Model\n\n\n\n\n\n\n\n\n\n\nPopulation Milestone\nReached on the Way Up\nRecrossed on the Way Down\n\n\n\n\n10.1 Billion (Peak)\n2070\n-\n\n\n10 Billion\n2059\n2081\n\n\n9 Billion\n2036\n2104\n\n\n8 Billion\n2022\n2118\n\n\n7 Billion\n2010\n2131\n\n\n6 Billion\n1998\n2142\n\n\n5 Billion\n1986\n2154\n\n\n4 Billion\n1974\n2166\n\n\n3 Billion\n1960\n2180\n\n\n2 Billion\n1943\n2197\n\n\n1 Billion\n1918\n2222\n\n\n500 Million\n1897\n2243\n\n\n250 Million\n1878\n2262\n\n\n100 Million\n1856\n2284"
   },
   {
     "objectID": "essays_files/complete_graph.html",

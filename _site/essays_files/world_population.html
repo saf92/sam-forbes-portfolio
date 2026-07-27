@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-27">
 
-<title>essays – Sam Forbes</title>
+<title>World Population – Sam Forbes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,26 +24,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,8 +100,37 @@ gtag('js', new Date());
 gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -91,7 +140,7 @@ gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Sam Forbes</span>
     </a>
   </div>
@@ -107,11 +156,11 @@ gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research--essays">    
         <li>
-    <a class="dropdown-item" href="./research.html">
+    <a class="dropdown-item" href="../research.html">
  <span class="dropdown-text">Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./essays.html">
+    <a class="dropdown-item" href="../essays.html">
  <span class="dropdown-text">Essays</span></a>
   </li>  
     </ul>
@@ -122,11 +171,11 @@ gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-tutoring--resources">    
         <li>
-    <a class="dropdown-item" href="./tutoring.html">
+    <a class="dropdown-item" href="../tutoring.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./gcse-maths.html">
+    <a class="dropdown-item" href="../gcse-maths.html">
  <span class="dropdown-text">GCSE Maths</span></a>
   </li>  
     </ul>
@@ -144,30 +193,200 @@ gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">World Population</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<!-- ## Polemics
-
-[Whither Thee, Da Vinci?](essays_files/davinci.qmd)  
-[An Economic Law](essays_files/economic_law.qmd) -->
-<p>All essays were conceived and directed by me. AI was used solely as a supporting tool for technical validation (including proofreading and mathematical verification), prose refinement, and code optimisation.</p>
-<ul>
-<li><p><strong><a href="./essays_files/world_population.html">World Population</a></strong> — <em>July 2026</em><br>
-A simple model for world population.</p></li>
-<li><p><strong><a href="./essays_files/complete_graph.html">Complete Graphs</a></strong> — <em>1 July 2026</em><br>
-A couple interesting things about complete graphs.</p></li>
-<li><p><strong><a href="./essays_files/chasing_zero.html">Chasing Zero</a></strong> — <em>16 June 2026</em><br>
-Going faster makes sense up to a point…</p></li>
-<li><p><strong><a href="./essays_files/measuring_infinity.html">Measuring Infinity</a></strong> — <em>14 June 2026</em><br>
-Certain properties cannot hold together for infinite sets.</p></li>
-</ul>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">27 July 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
-</main> <!-- /main -->
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>We present a simple model for fitting and predicting world population. Based on a straightforward ordinary differential equation, the model yields a bell-shaped trajectory that has the functional form of a scaled normal distribution.</p>
+</section>
+<section id="model" class="level2">
+<h2 class="anchored" data-anchor-id="model">Model</h2>
+<p>Over the time period <span class="math inline">\((t_0, t_n)\)</span> assume the equation for population <span class="math inline">\(P(t)\)</span> at time <span class="math inline">\(t\)</span> is <span class="math display">\[
+\frac{dP(t)}{dt} = r(t)P(t)
+\]</span> where <span class="math inline">\(r(t)\)</span> is the growth rate. This is a first order, linear, separable differential equation with solution <span class="math display">\[
+P(t) = P(t_0) \exp \left( \int_{t_0}^{t} r(u) \, du \right), \quad u \in (t_0, t_f).
+\]</span> Note the growth rate can be written as <span class="math display">\[
+r(t) = \frac{1}{P(t)}\frac{dP(t)}{dt} = \frac{d}{dt}\log P(t)
+\]</span> We shall see in the next section that the growth rate follows roughly a linear form <span id="eq-linear_growth_rate"><span class="math display">\[
+r(t) = -\frac{t - \tau}{\sigma^2}, \quad t \in (t_0, t_n)
+\tag{1}\]</span></span> for the period <span class="math inline">\((t_0, t_n)\)</span> where the parameter <span class="math inline">\(\tau\)</span> is the shift parameter, and <span class="math inline">\(\sigma\)</span> is the scale parameter. The latest period where the parameters are fixed is roughly the 60 year period from 1963 to the latest year of data 2023. For simplicity we shall only solve for this period and predict the population with these parameters. With this linear growth rate <a href="#eq-linear_growth_rate" class="quarto-xref">Equation&nbsp;1</a> we can solve to find <span id="eq-pop_eqn"><span class="math display">\[
+P(t) = P(t_0) \exp \left( -\frac{1}{2\sigma^2}\left((t-\tau)^2-(\tau-t_0)^2\right)\right), \quad t \in (t_0, t_n).
+\tag{2}\]</span></span> We note that the maximum occurs at <span class="math inline">\(t=\tau\)</span> with population <span class="math display">\[
+P_{\max} = P(\tau) = P(t_0) \exp\left( \frac{1}{2\sigma^2}(\tau - t_0)^2\right).
+\]</span> From this we note that <a href="#eq-pop_eqn" class="quarto-xref">Equation&nbsp;2</a> equates to the following <span id="eq-pop_eqn1"><span class="math display">\[
+P(t) = P_{\max} \exp \left( -\frac{1}{2\sigma^2}(t-\tau)^2\right), \quad t \in (t_0, t_n)
+\tag{3}\]</span></span></p>
+<p>We note <a href="#eq-pop_eqn1" class="quarto-xref">Equation&nbsp;3</a> is symmetric about <span class="math inline">\(t=\tau\)</span> and has the scaled form of the density function of the Normal distribution. One can find from <a href="#eq-pop_eqn1" class="quarto-xref">Equation&nbsp;3</a> the inverse where the time <span class="math inline">\(t\)</span> coincides with a given population <span class="math inline">\(P(t)\)</span>: <span class="math display">\[
+t =
+\begin{cases}
+    \tau - \sqrt{2 \sigma^2 \log \left(\frac{P_{\max}}{P(t)} \right) } &amp; \text{for } t &lt; \tau \\[1.5em]
+    \tau + \sqrt{2 \sigma^2 \log \left(\frac{P_{\max}}{P(t)} \right) } &amp; \text{for } t \ge \tau
+\end{cases}
+\]</span> Note for <span class="math inline">\(t \neq \tau\)</span> we have two times the same amount either side of the peak time <span class="math inline">\(\tau\)</span> corresponding to <span class="math inline">\(P(t)\)</span>.</p>
+</section>
+<section id="fitting-to-data" class="level2">
+<h2 class="anchored" data-anchor-id="fitting-to-data">Fitting to Data</h2>
+<p>We use data <span class="math display">\[
+\{(t_i, P(t_i))\}_{i=0}^n, \quad \text{where } t_0 = 1963, \, t_n = 2023
+\]</span></p>
+<p>To align the discrete growth rates with our continuous model, we evaluate them at the interval midpoints: <span class="math display">\[
+\bar{t}_i = \frac{t_i+t_{i+1}}{2}, \quad \bar{r}_i = \frac{\log P(t_{i+1}) - \log P(t_i)}{t_{i+1}-t_i}  \quad i = 0, 1, \dots, n-1.
+\]</span> This yields the approximation <span class="math inline">\(\bar{r}_i \approx r(\bar{t}_i)\)</span>. We assume the linear relationship <a href="#eq-linear_growth_rate" class="quarto-xref">Equation&nbsp;1</a> <span class="math display">\[
+\bar{r}_i = -\frac{\bar{t}_i - \tau}{\sigma^2}, \quad i = 0, 1, \dots, n-1.
+\]</span> Performing linear regression (which will give some bias) we find estimates for <span class="math inline">\((\tau, P(\tau))\)</span> and <span class="math inline">\(\sigma\)</span> as <span id="eq-params_pred"><span class="math display">\[
+(\hat{\tau}, \, \hat{P}(\hat{\tau})) \approx (2070, \, 10.1 \text{ billion}), \quad \hat{\sigma} \approx 70.5
+\tag{4}\]</span></span></p>
+<p>See <a href="#fig-filtered_rate" class="quarto-xref">Figure&nbsp;1</a> below. Thus the model predicts a scaling factor of around 70.5 with peak population of approximately 10.1 billion around 2070. Using these parameters we can predict from 1963 forwards in time. In particular, we predict till 2300, see <a href="#fig-world_pop_pred" class="quarto-xref">Figure&nbsp;2</a>. For some particular population milestones we have the predicted time approximations from the model in <a href="#tbl-population_milestones" class="quarto-xref">Table&nbsp;1</a>. Naturally, <strong>because growth rates fluctuate and we only predict using the roughly fixed growth rate from 1963–2023</strong>, these milestones carry increasing uncertainty further into the future; nonetheless, it will be revealing to observe whether the overall macro trend holds true.</p>
+<div id="fig-filtered_rate" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-filtered_rate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="filtered_rate.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-filtered_rate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Linear regression of <span class="math inline">\(\bar{t}_i\)</span> against <span class="math inline">\(\bar{r}_i\)</span> with parameter fits <a href="#eq-params_pred" class="quarto-xref">Equation&nbsp;4</a>. Data source: <span class="citation" data-cites="owidpopulation">HYDE (2023); Gapminder (2022); UN WPP (2024) (<a href="#ref-owidpopulation" role="doc-biblioref">2024</a>)</span>.
+</figcaption>
+</figure>
+</div>
+<div id="fig-world_pop_pred" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-world_pop_pred-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="world_pop_pred.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-world_pop_pred-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Predicted world population from 1963 to 2300 using <a href="#eq-pop_eqn1" class="quarto-xref">Equation&nbsp;3</a> with parameters <a href="#eq-params_pred" class="quarto-xref">Equation&nbsp;4</a>. Data source: <span class="citation" data-cites="owidpopulation">HYDE (2023); Gapminder (2022); UN WPP (2024) (<a href="#ref-owidpopulation" role="doc-biblioref">2024</a>)</span>.
+</figcaption>
+</figure>
+</div>
+<div id="tbl-population_milestones" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-population_milestones-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Milestone Analysis for Population Model
+</figcaption>
+<div aria-describedby="tbl-population_milestones-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 35%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Population Milestone</th>
+<th style="text-align: center;">Reached on the Way Up</th>
+<th style="text-align: center;">Recrossed on the Way Down</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">10.1 Billion (<strong>Peak</strong>)</td>
+<td style="text-align: center;">2070</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10 Billion</td>
+<td style="text-align: center;">2059</td>
+<td style="text-align: center;">2081</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9 Billion</td>
+<td style="text-align: center;">2036</td>
+<td style="text-align: center;">2104</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8 Billion</td>
+<td style="text-align: center;">2022</td>
+<td style="text-align: center;">2118</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7 Billion</td>
+<td style="text-align: center;">2010</td>
+<td style="text-align: center;">2131</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6 Billion</td>
+<td style="text-align: center;">1998</td>
+<td style="text-align: center;">2142</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5 Billion</td>
+<td style="text-align: center;">1986</td>
+<td style="text-align: center;">2154</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4 Billion</td>
+<td style="text-align: center;">1974</td>
+<td style="text-align: center;">2166</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3 Billion</td>
+<td style="text-align: center;">1960</td>
+<td style="text-align: center;">2180</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2 Billion</td>
+<td style="text-align: center;">1943</td>
+<td style="text-align: center;">2197</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1 Billion</td>
+<td style="text-align: center;">1918</td>
+<td style="text-align: center;">2222</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">500 Million</td>
+<td style="text-align: center;">1897</td>
+<td style="text-align: center;">2243</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">250 Million</td>
+<td style="text-align: center;">1878</td>
+<td style="text-align: center;">2262</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">100 Million</td>
+<td style="text-align: center;">1856</td>
+<td style="text-align: center;">2284</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-owidpopulation" class="csl-entry" role="listitem">
+HYDE (2023); Gapminder (2022); UN WPP (2024). 2024. <em>Population Data</em>. With major processing by Our World in Data. <a href="https://ourworldindata.org/grapher/population">https://ourworldindata.org/grapher/population</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

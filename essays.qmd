@@ -6,10 +6,16 @@
 
 All essays were conceived and directed by me. AI was used solely as a supporting tool for technical validation (including proofreading and mathematical verification), prose refinement, and code optimisation.
 
+* **[World Population](essays_files/world_population.qmd)** — *July 2026*  
+  A simple model for world population.
 
+* **[Complete Graphs](essays_files/complete_graph.qmd)** — *1 July 2026*  
+  A couple interesting things about complete graphs.
 
-* [Complete Graphs](essays_files/complete_graph.qmd) — *1 July 2026* 
-* [Chasing Zero](essays_files/chasing_zero.qmd) — *16 June 2026* 
-* [Measuring Infinity](essays_files/measuring_infinity.qmd) — *14 June 2026* 
+* **[Chasing Zero](essays_files/chasing_zero.qmd)** — *16 June 2026*  
+  Going faster makes sense up to a point...
+
+* **[Measuring Infinity](essays_files/measuring_infinity.qmd)** — *14 June 2026*  
+  Certain properties cannot hold together for infinite sets.
 
 
