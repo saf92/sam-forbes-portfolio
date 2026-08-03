@@ -1,35 +1,6 @@
 Welcome to the GCSE mathematics revision resources page. Find a growing archive of downloadable practice worksheets and step-by-step worked solutions, updated regularly. 
 
 **Requests for tailored resources are welcome—just get in touch.**
-<!-- 
-# Worksheets
-
-## Number Topics
-
-### Non-calculator Arithmetic
-
-* **General Negative Numbers (Foundation)** 
-  * [Download Questions & Solutions (PDF)](gcse_maths_files/negative_numbers.pdf)
- 
-* **General Whole Number Arithmetic (Foundation)**
-  * [Download Questions & Solutions (PDF)](gcse_maths_files/whole_number_arithmetic.pdf)
-
-* **General Decimal Arithmetic (Foundation)**
-  * [Download Questions & Solutions (PDF)](gcse_maths_files/Decimals.pdf)
-
-* **General Order of Operations (Foundation)**
-  * [Download Questions & Solutions (PDF)](gcse_maths_files/order_operations.pdf)
-
-* **Non-Calculator Arithmetic Mix (Foundation)**
-  * [Download Questions & Solutions (PDF)](gcse_maths_files/non_calc_arith_mix.pdf)
-
-### Approximations
-
-* **Rounding to Decimal Places (Foundation)**
-  * [Download Questions & Solutions (PDF)](gcse_maths_files/rounding_decimal_places.pdf)
-
-* **Rounding to Significant Figures (Foundation)**
-  * [Download Questions & Solutions (PDF)](gcse_maths_files/significant_figures.pdf) -->
 
 ## GCSE Foundation Worksheets
 
@@ -100,38 +71,38 @@ Welcome to the GCSE mathematics revision resources page. Find a growing archive 
 | | Inverse Proportion | [PDF (Questions & Solutions)](gcse_maths_files/inverse_proportion.pdf) |
 | | Proportion Problems | [PDF (Questions & Solutions)](gcse_maths_files/proportion_problems.pdf) |
 
-<!-- ### Geometry & Measures -->
+### Geometry & Measures
 
-<!-- | Topic | Subtopic | Download | -->
-<!-- | :--- | :--- | :--- | -->
-<!-- | **Angles & 2D Shapes** | Basic Angle Properties | [PDF (Questions & Solutions)](gcse_maths_files/basic_angle_properties.pdf) | -->
-<!-- | | Triangles | [PDF (Questions & Solutions)](gcse_maths_files/triangles.pdf) | -->
-<!-- | | Parallel & Intersecting Lines | [PDF (Questions & Solutions)](gcse_maths_files/parallel_intersecting_lines.pdf) | -->
-<!-- | | Quadrilaterals | [PDF (Questions & Solutions)](gcse_maths_files/quadrilaterals.pdf) | -->
-<!-- | | Interior & Exterior Angles | [PDF (Questions & Solutions)](gcse_maths_files/interior_exterior_angles.pdf) | -->
-<!-- | | Symmetry | [PDF (Questions & Solutions)](gcse_maths_files/symmetry.pdf) | -->
-<!-- | | Angles & 2D Shapes Problems | [PDF (Questions & Solutions)](gcse_maths_files/angles_2d_shapes_problems.pdf) | -->
-<!-- | **Units, Measuring & Estimating** | Reading Scales | [PDF (Questions & Solutions)](gcse_maths_files/reading_scales.pdf) | -->
-<!-- | | Converting Metric Units | [PDF (Questions & Solutions)](gcse_maths_files/converting_metric_units.pdf) | -->
-<!-- | | Converting Units (Area & Volume) | [PDF (Questions & Solutions)](gcse_maths_files/converting_area_volume.pdf) | -->
-<!-- | | Metric & Imperial Units | [PDF (Questions & Solutions)](gcse_maths_files/metric_imperial_units.pdf) | -->
-<!-- | | Estimating in Real Life | [PDF (Questions & Solutions)](gcse_maths_files/estimating_real_life.pdf) | -->
-<!-- | **Speed, Density & Pressure** | Speed, Distance & Time | [PDF (Questions & Solutions)](gcse_maths_files/speed_distance_time.pdf) | -->
-<!-- | | Density, Mass & Volume | [PDF (Questions & Solutions)](gcse_maths_files/density_mass_volume.pdf) | -->
-<!-- | | Pressure, Force & Area | [PDF (Questions & Solutions)](gcse_maths_files/pressure_force_area.pdf) | -->
-<!-- | | Distance-Time Graphs | [PDF (Questions & Solutions)](gcse_maths_files/distance_time_graphs.pdf) | -->
-<!-- | **Scale Drawings & Bearings** | Scale Drawings | [PDF (Questions & Solutions)](gcse_maths_files/scale_drawings.pdf) | -->
-<!-- | | Bearings | [PDF (Questions & Solutions)](gcse_maths_files/bearings.pdf) | -->
-<!-- | | Scale Drawings & Bearings Problems | [PDF (Questions & Solutions)](gcse_maths_files/scale_drawings_bearings_problems.pdf) | -->
-<!-- | **Pythagoras & Trigonometry** | Pythagoras' Theorem | [PDF (Questions & Solutions)](gcse_maths_files/pythagoras_theorem.pdf) | -->
-<!-- | | Trigonometry (Sin, Cos & Tan) | [PDF (Questions & Solutions)](gcse_maths_files/trigonometry.pdf) | -->
-<!-- | | Pythagoras & Trigonometry Problems | [PDF (Questions & Solutions)](gcse_maths_files/pythagoras_trigonometry_problems.pdf) | -->
-<!-- | **Vectors** | Column Vectors | [PDF (Questions & Solutions)](gcse_maths_files/column_vectors.pdf) | -->
-<!-- | | Vectors Problems | [PDF (Questions & Solutions)](gcse_maths_files/vectors_problems.pdf) | -->
-<!-- | **Constructions** | Circles | [PDF (Questions & Solutions)](gcse_maths_files/circles.pdf) | -->
-<!-- | | Lines, Angles & Triangles | [PDF (Questions & Solutions)](gcse_maths_files/lines_angles_triangles.pdf) | -->
-<!-- | | Constructions | [PDF (Questions & Solutions)](gcse_maths_files/constructions.pdf) | -->
-<!-- | | Loci | [PDF (Questions & Solutions)](gcse_maths_files/loci.pdf) | -->
+| Topic | Subtopic | Download |
+| :--- | :--- | :--- |
+| **Angles & 2D Shapes** | Basic Angle Properties | [PDF (Questions & Solutions)](gcse_maths_files/basic_angle_properties.pdf) |
+| | Triangles | [PDF (Questions & Solutions)](gcse_maths_files/triangles.pdf) |
+| | Parallel & Intersecting Lines | [PDF (Questions & Solutions)](gcse_maths_files/parallel_and_intersecting_lines.pdf) |
+| | Quadrilaterals | [PDF (Questions & Solutions)](gcse_maths_files/quadrilaterals.pdf) |
+| | Interior & Exterior Angles | [PDF (Questions & Solutions)](gcse_maths_files/interior_and_exterior_angles.pdf) |
+| | Symmetry | [PDF (Questions & Solutions)](gcse_maths_files/symmetry.pdf) |
+| | Angles & 2D Shapes Problems | [PDF (Questions & Solutions)](gcse_maths_files/angles_and_2d_shapes_problems.pdf) |
+| **Units, Measuring & Estimating** | Reading Scales | [PDF (Questions & Solutions)](gcse_maths_files/reading_scales.pdf) |
+| | Converting Metric Units | [PDF (Questions & Solutions)](gcse_maths_files/converting_metric_units_length_mass_and_volume.pdf) |
+| | Converting Units (Area & Volume) | [PDF (Questions & Solutions)](gcse_maths_files/converting_units_area_and_volume.pdf) |
+| | Metric & Imperial Units | [PDF (Questions & Solutions)](gcse_maths_files/metric_and_imperial_units.pdf) |
+| | Estimating in Real Life | [PDF (Questions & Solutions)](gcse_maths_files/estimating_in_real_life.pdf) |
+| **Speed, Density & Pressure** | Speed, Distance & Time | [PDF (Questions & Solutions)](gcse_maths_files/speed_distance_time_calculations.pdf) |
+| | Density, Mass & Volume | [PDF (Questions & Solutions)](gcse_maths_files/density_mass_volume_calculations.pdf) |
+| | Pressure, Force & Area | [PDF (Questions & Solutions)](gcse_maths_files/pressure_force_area_calculations.pdf) |
+| | Distance-Time Graphs | [PDF (Questions & Solutions)](gcse_maths_files/distance-time_graphs.pdf) |
+| **Scale Drawings & Bearings** | Scale Drawings | [PDF (Questions & Solutions)](gcse_maths_files/scale_drawings.pdf) |
+| | Bearings | [PDF (Questions & Solutions)](gcse_maths_files/bearings.pdf) |
+| | Scale Drawings & Bearings Problems | [PDF (Questions & Solutions)](gcse_maths_files/scale_drawings_and_bearings_problems.pdf) |
+| **Pythagoras & Trigonometry** | Pythagoras' Theorem | [PDF (Questions & Solutions)](gcse_maths_files/pythagoras_theorem.pdf) |
+| | Trigonometry (Sin, Cos & Tan) | [PDF (Questions & Solutions)](gcse_maths_files/trigonometry_sin_cos_and_tan.pdf) |
+| | Pythagoras & Trigonometry Problems | [PDF (Questions & Solutions)](gcse_maths_files/pythagoras_and_trigonometry_problems.pdf) |
+| **Vectors** | Column Vectors | [PDF (Questions & Solutions)](gcse_maths_files/column_vectors.pdf) |
+| | Vectors Problems | [PDF (Questions & Solutions)](gcse_maths_files/vectors_problems.pdf) |
+| **Constructions** | Circles | [PDF (Questions & Solutions)](gcse_maths_files/circles.pdf) |
+| | Lines, Angles & Triangles | [PDF (Questions & Solutions)](gcse_maths_files/lines_angles_and_triangles.pdf) |
+| | Constructions | [PDF (Questions & Solutions)](gcse_maths_files/constructions.pdf) |
+| | Loci | [PDF (Questions & Solutions)](gcse_maths_files/loci.pdf) |
 <!-- | **Area & Perimeter** | Rectangles & Triangles | [PDF (Questions & Solutions)](gcse_maths_files/rectangles_triangles.pdf) | -->
 <!-- | | Other Quadrilaterals | [PDF (Questions & Solutions)](gcse_maths_files/other_quadrilaterals.pdf) | -->
 <!-- | | Circumference of a Circle | [PDF (Questions & Solutions)](gcse_maths_files/circumference_of_circle.pdf) | -->
