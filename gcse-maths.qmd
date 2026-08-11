@@ -1,4 +1,4 @@
-Welcome to the GCSE mathematics revision resources page. Find a growing archive of downloadable practice worksheets and step-by-step worked solutions, updated regularly. 
+Welcome to the GCSE mathematics revision resources page. 
 
 **Requests for tailored resources are welcome—just get in touch.**
 
@@ -103,44 +103,44 @@ Welcome to the GCSE mathematics revision resources page. Find a growing archive 
 | | Lines, Angles & Triangles | [PDF (Questions & Solutions)](gcse_maths_files/lines_angles_and_triangles.pdf) |
 | | Constructions | [PDF (Questions & Solutions)](gcse_maths_files/constructions.pdf) |
 | | Loci | [PDF (Questions & Solutions)](gcse_maths_files/loci.pdf) |
-<!-- | **Area & Perimeter** | Rectangles & Triangles | [PDF (Questions & Solutions)](gcse_maths_files/rectangles_triangles.pdf) | -->
-<!-- | | Other Quadrilaterals | [PDF (Questions & Solutions)](gcse_maths_files/other_quadrilaterals.pdf) | -->
-<!-- | | Circumference of a Circle | [PDF (Questions & Solutions)](gcse_maths_files/circumference_of_circle.pdf) | -->
-<!-- | | Area of a Circle | [PDF (Questions & Solutions)](gcse_maths_files/area_of_circle.pdf) | -->
-<!-- | | Arcs & Sectors of Circles | [PDF (Questions & Solutions)](gcse_maths_files/arcs_sectors_circles.pdf) | -->
-<!-- | | Area & Perimeter Problems | [PDF (Questions & Solutions)](gcse_maths_files/area_perimeter_problems.pdf) | -->
-<!-- | **3D Shapes** | Nets | [PDF (Questions & Solutions)](gcse_maths_files/nets.pdf) | -->
-<!-- | | Plans & Elevations | [PDF (Questions & Solutions)](gcse_maths_files/plans_elevations.pdf) | -->
-<!-- | | Isometric Drawings | [PDF (Questions & Solutions)](gcse_maths_files/isometric_drawings.pdf) | -->
-<!-- | | Volume | [PDF (Questions & Solutions)](gcse_maths_files/volume.pdf) | -->
-<!-- | | Surface Area | [PDF (Questions & Solutions)](gcse_maths_files/surface_area.pdf) | -->
-<!-- | | 3D Shapes Problems | [PDF (Questions & Solutions)](gcse_maths_files/3d_shapes_problems.pdf) | -->
-<!-- | **Transformations** | Reflection | [PDF (Questions & Solutions)](gcse_maths_files/reflection.pdf) | -->
-<!-- | | Rotation | [PDF (Questions & Solutions)](gcse_maths_files/rotation.pdf) | -->
-<!-- | | Translations | [PDF (Questions & Solutions)](gcse_maths_files/translations.pdf) | -->
-<!-- | | Enlargements | [PDF (Questions & Solutions)](gcse_maths_files/enlargements.pdf) | -->
-<!-- | | Combinations of Transformations | [PDF (Questions & Solutions)](gcse_maths_files/combinations_transformations.pdf) | -->
-<!-- | | Congruence & Similarity | [PDF (Questions & Solutions)](gcse_maths_files/congruence_similarity.pdf) | -->
+| **Area & Perimeter** | Rectangles & Triangles | [PDF (Questions & Solutions)](gcse_maths_files/rectangles_and_triangles.pdf) |
+| | Other Quadrilaterals | [PDF (Questions & Solutions)](gcse_maths_files/other_quadrilaterals.pdf) |
+| | Circumference of a Circle | [PDF (Questions & Solutions)](gcse_maths_files/circumference_of_a_circle.pdf) |
+| | Area of a Circle | [PDF (Questions & Solutions)](gcse_maths_files/area_of_a_circle.pdf) |
+| | Arcs & Sectors of Circles | [PDF (Questions & Solutions)](gcse_maths_files/arcs_and_sectors_of_circles.pdf) |
+| | Area & Perimeter Problems | [PDF (Questions & Solutions)](gcse_maths_files/area_and_perimeter_problems.pdf) |
+| **3D Shapes** | Nets | [PDF (Questions & Solutions)](gcse_maths_files/nets.pdf) |
+| | Plans & Elevations | [PDF (Questions & Solutions)](gcse_maths_files/plans_and_elevations.pdf) |
+| | Isometric Drawings | [PDF (Questions & Solutions)](gcse_maths_files/isometric_drawings.pdf) |
+| | Volume | [PDF (Questions & Solutions)](gcse_maths_files/volume.pdf) |
+| | Surface Area | [PDF (Questions & Solutions)](gcse_maths_files/surface_area.pdf) |
+| | 3D Shapes Problems | [PDF (Questions & Solutions)](gcse_maths_files/3d_shapes_problems.pdf) |
+| **Transformations** | Reflection | [PDF (Questions & Solutions)](gcse_maths_files/reflection.pdf) |
+| | Rotation | [PDF (Questions & Solutions)](gcse_maths_files/rotation.pdf) |
+| | Translations | [PDF (Questions & Solutions)](gcse_maths_files/translations.pdf) |
+| | Enlargements | [PDF (Questions & Solutions)](gcse_maths_files/enlargements.pdf) |
+| | Combinations of Transformations | [PDF (Questions & Solutions)](gcse_maths_files/combinations_of_transformations.pdf) |
+| | Congruence & Similarity | [PDF (Questions & Solutions)](gcse_maths_files/congruence_and_similarity.pdf) |
 
-<!-- ### Statistics & Probability -->
+### Statistics & Probability
 
-<!-- | Topic | Subtopic | Download | -->
-<!-- | :--- | :--- | :--- | -->
-<!-- | **Collecting Data** | Types of Data | [PDF (Questions & Solutions)](gcse_maths_files/types_of_data.pdf) | -->
-<!-- | | Data Collection & Questionnaires | [PDF (Questions & Solutions)](gcse_maths_files/data_collection_questionnaires.pdf) | -->
-<!-- | | Sampling & Bias | [PDF (Questions & Solutions)](gcse_maths_files/sampling_bias.pdf) | -->
-<!-- | **Analysing Data** | Using Lists & Tables | [PDF (Questions & Solutions)](gcse_maths_files/lists_tables.pdf) | -->
-<!-- | | Averages & Range | [PDF (Questions & Solutions)](gcse_maths_files/averages_range.pdf) | -->
-<!-- | | Two-Way Tables | [PDF (Questions & Solutions)](gcse_maths_files/two_way_tables.pdf) | -->
-<!-- | | Bar Charts & Pictograms | [PDF (Questions & Solutions)](gcse_maths_files/bar_charts_pictograms.pdf) | -->
-<!-- | | Stem & Leaf Diagrams | [PDF (Questions & Solutions)](gcse_maths_files/stem_leaf_diagrams.pdf) | -->
-<!-- | | Pie Charts | [PDF (Questions & Solutions)](gcse_maths_files/pie_charts.pdf) | -->
-<!-- | | Time Series | [PDF (Questions & Solutions)](gcse_maths_files/time_series.pdf) | -->
-<!-- | | Scatter Graphs | [PDF (Questions & Solutions)](gcse_maths_files/scatter_graphs.pdf) | -->
-<!-- | **Probability** | Probability Basics | [PDF (Questions & Solutions)](gcse_maths_files/probability_basics.pdf) | -->
-<!-- | | Calculating Probabilities | [PDF (Questions & Solutions)](gcse_maths_files/calculating_probabilities.pdf) | -->
-<!-- | | Listing Outcomes | [PDF (Questions & Solutions)](gcse_maths_files/listing_outcomes.pdf) | -->
-<!-- | | Experimental Probability | [PDF (Questions & Solutions)](gcse_maths_files/experimental_probability.pdf) | -->
-<!-- | | AND / OR Rules | [PDF (Questions & Solutions)](gcse_maths_files/and_or_rules.pdf) | -->
-<!-- | | Tree Diagrams | [PDF (Questions & Solutions)](gcse_maths_files/tree_diagrams.pdf) | -->
-<!-- | | Sets & Venn Diagrams | [PDF (Questions & Solutions)](gcse_maths_files/sets_venn_diagrams.pdf) |  -->
+| Topic | Subtopic | Download |
+| :--- | :--- | :--- |
+| **Collecting Data** | Types of Data | [PDF (Questions & Solutions)](gcse_maths_files/using_different_types_of_data.pdf) |
+| | Data Collection & Questionnaires | [PDF (Questions & Solutions)](gcse_maths_files/data-collection_sheets_and_questionnaires.pdf) |
+| | Sampling & Bias | [PDF (Questions & Solutions)](gcse_maths_files/sampling_and_bias.pdf) |
+| **Analysing Data** | Using Lists & Tables | [PDF (Questions & Solutions)](gcse_maths_files/using_lists_and_tables.pdf) |
+| | Averages & Range | [PDF (Questions & Solutions)](gcse_maths_files/averages_and_range.pdf) |
+| | Two-Way Tables | [PDF (Questions & Solutions)](gcse_maths_files/two-way_tables.pdf) |
+| | Bar Charts & Pictograms | [PDF (Questions & Solutions)](gcse_maths_files/bar_charts_and_pictograms.pdf) |
+| | Stem & Leaf Diagrams | [PDF (Questions & Solutions)](gcse_maths_files/stem_and_leaf_diagrams.pdf) |
+| | Pie Charts | [PDF (Questions & Solutions)](gcse_maths_files/pie_charts.pdf) |
+| | Time Series | [PDF (Questions & Solutions)](gcse_maths_files/time_series.pdf) |
+| | Scatter Graphs | [PDF (Questions & Solutions)](gcse_maths_files/scatter_graphs.pdf) |
+| **Probability** | Probability Basics | [PDF (Questions & Solutions)](gcse_maths_files/probability_the_basics.pdf) |
+| | Calculating Probabilities | [PDF (Questions & Solutions)](gcse_maths_files/calculating_probabilities.pdf) |
+| | Listing Outcomes | [PDF (Questions & Solutions)](gcse_maths_files/listing_outcomes.pdf) |
+| | Experimental Probability | [PDF (Questions & Solutions)](gcse_maths_files/probability_from_experiments.pdf) |
+| | AND / OR Rules | [PDF (Questions & Solutions)](gcse_maths_files/the_and_or_rules.pdf) |
+| | Tree Diagrams | [PDF (Questions & Solutions)](gcse_maths_files/tree_diagrams.pdf) |
+| | Sets & Venn Diagrams | [PDF (Questions & Solutions)](gcse_maths_files/sets_and_venn_diagrams.pdf) | 

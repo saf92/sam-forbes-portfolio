@@ -17,8 +17,10 @@ website:
         menu:
           - text: Overview
             href: tutoring.qmd
+          - text: "---" # Adds a visual divider line in the menu
           - text: GCSE Maths
-            href: gcse-maths.qmd
+          - text: Foundation Worksheets
+            href: gcse-maths_foundation_ws.qmd
 
 format:
   html:
