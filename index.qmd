@@ -17,25 +17,31 @@ This website exists to share my ongoing mathematics and statistics research and 
 
 If you are interested in any of these services, please get in touch.
 
-## Research & Essays
+## Research 
 
 My research interests include:
 
 * Power-law and heavy-tailed distributions
 * Statistics and mathematical modelling applied to macroeconomics, population, and energy/resources
 
+## Essays
+
+I aim to write essays on 'popular maths' covering an array of topics I have found interesting. These are generally written up to an undergraduate mathematics level but have elements and results in them that can be read by a broader audience.
+
 ## Resources
 
-I share free resources for students, tutors, teachers, or anyone interested in learning mathematics. **Requests for tailored worksheets are welcome.**
+I share resources for students, tutors, teachers, or anyone interested in learning mathematics. **Requests for tailored worksheets are welcome.**
 
 ## AI Disclosure
 
 AI is imperfect, but it is a useful tool that I use to accelerate and refine my work. Currently, I primarily use Google Gemini.
 
-## Support & Contact
+## Support
 
 If you would like to support the ongoing development of this website, you can [leave a contribution via Stripe](https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00){target="_blank" style="color: #0066cc;"}.
 
-Email: **forbessam2 [at] gmail [dot] com**
+## Contact
+
+**forbessam2 [at] gmail [dot] com**
 
 </div>
