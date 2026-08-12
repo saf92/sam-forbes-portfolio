@@ -4,43 +4,38 @@ about:
   template: jolla
 ---
 
-<h3 style="text-align: center;">What is this Website For?</h3>
-<p style="text-align: left;">
-Mathematics is a challenging but rewarding subject. This website exists to share my ongoing research and popular maths essays, and to provide quality mathematical services.
-</p>
+<div style="text-align: left !important;" markdown="1">
 
-<h3 style="text-align: center;">Services</h3>
-<p style="text-align: left;">
-I offer the following services:</p>
-<ul style="text-align: left;">
-  <li><strong>Mathematics Tutoring & Resources:</strong> Tailored instruction and educational material creation from school up to university level.</li>
-  <li><strong>Academic Mentoring:</strong> Dedicated support, guidance, and study strategies for mathematics students.</li>
-  <li><strong>Data Consulting & Coding:</strong> Expert statistical analysis, data-driven modeling, and programming support (Python, LaTeX).</li>
-</ul>
-<p style="text-align: left;">
-If you are interested, please get in touch so we can discuss whether I am a good fit for your needs.
-</p>
+## What is this Website For?
 
-<h3 style="text-align: center;">Research & Essays</h3>
-<p style="text-align: left;">
-My primary research interest is in heavy-tailed and power-law distributions, particularly regarding wealth distribution. I completed my PhD thesis on mathematical models and empirical analysis of wealth distribution, and I have a published paper as well as several pre-prints on macro topics including taxation, population dynamics, and stock returns.
-</p>
-<p style="text-align: left;">
-I also write popular maths essays to show how mathematics can be both interesting and useful. The difficulty and mathematical complexity of these essays will vary.
-</p>
+This website exists to share my ongoing mathematics and statistics research and essays, as well as to offer quality academic and professional services.
 
-<h3 style="text-align: center;">Tutoring & Resources</h3>
-<p style="text-align: left;">
-I share free resources here, and my current project focuses on creating GCSE Foundation maths worksheets. **Requests for tailored worksheets are welcome—just get in touch.**
-</p>
+## Services
 
-<h3 style="text-align: center;">AI Disclosure</h3>
-<p style="text-align: left;">
-Some purists argue against using AI entirely. While I understand that perspective, I find it a valuable tool to accelerate workflows, catch errors, and refine my writing. Today, I use AI to assist with aspects of most of my work.
-</p>
+* **Mathematics & Statistics Tutoring and Resource Generation**
+* **Mathematics & Statistics Consulting**
 
-<h3 style="text-align: center;">Support & Contact</h3>
-<p style="text-align: left;">
-If you found anything useful here and would like to support the ongoing development of this website, you can <a href="https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00" target="_blank" style="color: #0066cc;">leave a contribution via Stripe</a>.
-</p>
+If you are interested in any of these services, please get in touch.
+
+## Research & Essays
+
+My research interests include:
+
+* Power-law and heavy-tailed distributions
+* Statistics and mathematical modelling applied to macroeconomics, population, and energy/resources
+
+## Resources
+
+I share free resources for students, tutors, teachers, or anyone interested in learning mathematics. **Requests for tailored worksheets are welcome.**
+
+## AI Disclosure
+
+AI is imperfect, but it is a useful tool that I use to accelerate and refine my work. Currently, I primarily use Google Gemini.
+
+## Support & Contact
+
+If you would like to support the ongoing development of this website, you can [leave a contribution via Stripe](https://buy.stripe.com/4gM3cv3Pz4co7fS8VC53O00){target="_blank" style="color: #0066cc;"}.
+
 Email: **forbessam2 [at] gmail [dot] com**
+
+</div>

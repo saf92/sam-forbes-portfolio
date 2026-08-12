@@ -1,0 +1,6 @@
+## Isometric & Regular Grid Paper
+
+| Paper Type | Download |
+|:---|:---|
+| **Isometric Grid Paper** | [PDF](gcse_maths_files/Isometric_grid.pdf) |
+| **Regular Grid Paper** | [PDF](gcse_maths_files/reg_grid.pdf) |

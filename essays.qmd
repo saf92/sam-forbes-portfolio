@@ -1,10 +1,3 @@
-<!-- ## Polemics
-
-[Whither Thee, Da Vinci?](essays_files/davinci.qmd)  
-[An Economic Law](essays_files/economic_law.qmd) -->
-
-
-All essays were conceived and directed by me. AI was used solely as a supporting tool for technical validation (including proofreading and mathematical verification), prose refinement, and code optimisation.
 
 * **[World Population](essays_files/world_population.qmd)** — *July 2026*  
   A simple model for world population.
