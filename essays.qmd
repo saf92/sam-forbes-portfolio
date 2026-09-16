@@ -1,5 +1,5 @@
 
-* **[World Population](essays_files/world_population.qmd)** — *July 2026*  
+* **[World Population](essays_files/world_population.qmd)** — *27 July 2026*  
   A simple model for world population.
 
 * **[Complete Graphs](essays_files/complete_graph.qmd)** — *1 July 2026*  
