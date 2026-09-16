@@ -1,32 +1,3 @@
-# project:
-#   type: website
-#   output-dir: _site
-
-# website:
-#   title: "Sam Forbes"
-#   google-analytics: "G-NMRLY17Y6E"
-#   navbar:
-#     left:
-#       - text: Research & Essays
-#         menu:
-#           - text: Research
-#             href: research.qmd
-#           - text: Essays
-#             href: essays.qmd
-#       - text: Tutoring & Resources
-#         menu:
-#           - text: Overview
-#             href: tutoring.qmd
-#           - text: "---" # Adds a visual divider line in the menu
-#           - text: GCSE Maths
-#           - text: Foundation Worksheets
-#             href: gcse-maths_foundation_ws.qmd
-
-# format:
-#   html:
-#     theme: cosmo
-#     toc: false
-#     css: styles.css
 project:
   type: website
   output-dir: _site
@@ -44,8 +15,8 @@ website:
             href: essays.qmd
       - text: Resources
         menu:
-          - text: GCSE Maths
-            href: gcse-maths.qmd
+          - text: Worksheets
+            href: Worksheets.qmd
 
 format:
   html:

@@ -8,12 +8,13 @@ about:
 
 ## What is this Website For?
 
-This website exists to share my ongoing mathematics and statistics research and essays, as well as to offer quality academic and professional services.
+This website exists to share my ongoing mathematics and statistics work, as well as offer quality academic and professional services.
 
-## Services
+## Mathematics & Statistics Services
 
-* **Mathematics & Statistics Tutoring and Resource Generation**
-* **Mathematics & Statistics Consulting**
+* Tutoring
+* Resource Generation
+* Consulting
 
 If you are interested in any of these services, please get in touch.
 
@@ -26,15 +27,15 @@ My research interests include:
 
 ## Essays
 
-I aim to write essays on 'popular maths' covering an array of topics I have found interesting. These are generally written up to an undergraduate mathematics level but have elements and results in them that can be read by a broader audience.
+Essays on maths/stats related topics. 
 
 ## Resources
 
-I share resources for students, tutors, teachers, or anyone interested in learning mathematics. **Requests for tailored worksheets are welcome.**
+Resources for anyone learning or teaching mathematics. Requests for resources are welcome. 
 
 ## AI Disclosure
 
-AI is imperfect, but it is a useful tool that I use to accelerate and refine my work. Currently, I primarily use Google Gemini.
+AI is imperfect, but I find it a useful tool. Currently, I primarily use Google Gemini.
 
 ## Support
 
@@ -42,6 +43,7 @@ If you would like to support the ongoing development of this website, you can [l
 
 ## Contact
 
-**forbessam2 [at] gmail [dot] com**
+forbessam2@gmail.com
+
 
 </div>

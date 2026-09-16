@@ -51,5 +51,17 @@
   },
   "grid_paper.qmd": {
     "grid_paper.html": "a9e83557"
+  },
+  "ks3_maths.qmd": {
+    "ks3_maths.html": "4d0709d5"
+  },
+  "ks3_maths_ws.qmd": {
+    "ks3_maths_ws.html": "b5bad29a"
+  },
+  "Worksheets.qmd": {
+    "Worksheets.html": "21e22b22"
+  },
+  "Fundamentals.qmd": {
+    "Fundamentals.html": "f03deff8"
   }
 }

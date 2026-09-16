@@ -1,6 +1,0 @@
----
-title: "GCSE Maths"
----
-
-* [Isometric & Regular Grid Paper](grid_paper.qmd)
-* [Foundation Worksheets](gcse-maths_foundation_ws.qmd)
