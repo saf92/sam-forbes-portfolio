@@ -1,4 +1,7 @@
 
+* **[Transformations in $\mathbb{R}^2$](essays_files/transformations_2d.qmd)** — *27 July 2026*  
+  Discussion of common transformations in $\mathbb{R}^2$.
+
 * **[World Population](essays_files/world_population.qmd)** — *27 July 2026*  
   A simple model for world population.
 

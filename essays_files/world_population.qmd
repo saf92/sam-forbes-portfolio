@@ -3,7 +3,7 @@ title: "World Population"
 date: 2026-07-27
 date-format: "D MMMM YYYY"
 format: html
-bibliography: mybib_world_pop.bib
+bibliography: world_population_files/mybib_world_pop.bib
 ---
 
 ## Introduction
@@ -76,9 +76,9 @@ See @fig-filtered_rate below.
 Thus the model predicts a scaling factor of around 70.5 with peak population of approximately 10.1 billion around 2070. Using these parameters we can predict from 1963 forwards in time. In particular, we predict till 2300, see @fig-world_pop_pred. For some particular population milestones we have the predicted time approximations from the model in @tbl-population_milestones.
 Naturally, **because growth rates fluctuate and we only predict using the roughly fixed growth rate from 1963--2023**, these milestones carry increasing uncertainty further into the future; nonetheless, it will be revealing to observe whether the overall macro trend holds true.
 
-![Linear regression of $\bar{t}_i$ against $\bar{r}_i$ with parameter fits @eq-params_pred. Data source: @owidpopulation.](filtered_rate.png){#fig-filtered_rate width=80%}
+![Linear regression of $\bar{t}_i$ against $\bar{r}_i$ with parameter fits @eq-params_pred. Data source: @owidpopulation.](world_population_files/filtered_rate.png){#fig-filtered_rate width=80%}
 
-![Predicted world population from 1963 to 2300 using @eq-pop_eqn1 with parameters @eq-params_pred. Data source: @owidpopulation.](world_pop_pred.png){#fig-world_pop_pred width=80%}
+![Predicted world population from 1963 to 2300 using @eq-pop_eqn1 with parameters @eq-params_pred. Data source: @owidpopulation.](world_population_files/world_pop_pred.png){#fig-world_pop_pred width=80%}
 
 | Population Milestone | Reached on the Way Up | Recrossed on the Way Down |
 |:---|:---:|:---:|

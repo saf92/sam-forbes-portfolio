@@ -1,4 +1,5 @@
 ## Integer Arithmetic
 
-* Addition of Positive Integers - [Worksheet with Solutions (PDF)](Integer_arithmetic/Addition_positive.pdf)
+* Addition with Positive Integers - [Worksheet with Solutions (PDF)](Integer_arithmetic/Addition_positive.pdf)
+* Subtraction with Positive Integers - [Worksheet with Solutions (PDF)](Integer_arithmetic/subtraction_positive.pdf)
 * Multiplication of Positive Integers - [Worksheet with Solutions (PDF)](Integer_arithmetic/Multiplication_positive.pdf)
