@@ -66,5 +66,29 @@
   },
   "essays_files/transformations_2d.qmd": {
     "transformations_2d.html": "74e8b2da"
+  },
+  "Interactive.qmd": {
+    "Interactive.html": "d5a7820e"
+  },
+  "Interactive/Interactive_addition.qmd": {
+    "Interactive_addition.html": "a734bd62"
+  },
+  "Interactive_addition.qmd": {
+    "Interactive_addition.html": "f67679b0"
+  },
+  "addition.qmd": {
+    "addition.html": "4cf1503c"
+  },
+  "Interactive/addition.qmd": {
+    "addition.html": "563484ea"
+  },
+  "Interactive/subtraction.qmd": {
+    "subtraction.html": "8476718f"
+  },
+  "Interactive/multiplication.qmd": {
+    "multiplication.html": "d01eb04a"
+  },
+  "division.qmd": {
+    "division.html": "b94bddf3"
   }
 }

@@ -1,3 +1,30 @@
+# project:
+#   type: website
+#   output-dir: _site
+
+# website:
+#   title: "Sam Forbes"
+#   google-analytics: "G-NMRLY17Y6E"
+#   navbar:
+#     left:
+#       - text: Research & Essays
+#         menu:
+#           - text: Research
+#             href: research.qmd
+#           - text: Essays
+#             href: essays.qmd
+#       - text: Resources
+#         menu:
+#           - text: Worksheets
+#             href: Worksheets.qmd
+#       - text: Interactive
+#         href: Interactive_addition.html
+
+# format:
+#   html:
+#     theme: cosmo
+#     toc: false
+#     css: styles.css
 project:
   type: website
   output-dir: _site
@@ -7,16 +34,18 @@ website:
   google-analytics: "G-NMRLY17Y6E"
   navbar:
     left:
-      - text: Research & Essays
+      - text: "Research & Essays"
         menu:
-          - text: Research
+          - text: "Research"
             href: research.qmd
-          - text: Essays
+          - text: "Essays"
             href: essays.qmd
-      - text: Resources
+      - text: "Resources"
         menu:
-          - text: Worksheets
+          - text: "Worksheets"
             href: Worksheets.qmd
+          - text: "Interactive"
+            href: Interactive.qmd
 
 format:
   html:

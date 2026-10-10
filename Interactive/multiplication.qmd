@@ -1,0 +1,144 @@
+---
+format: html
+execute:
+  echo: false
+---
+
+<style>
+/* Outer card container layout */
+.multiplication-card {
+  background: #f8f9fa !important;
+  border: 1px solid #ced4da !important;
+  padding: 20px !important;
+  border-radius: 8px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 15px !important;
+  width: 380px !important;
+  box-sizing: border-box !important;
+  margin: 1em 0 !important;
+}
+
+/* Clean text input field */
+.multiplication-card input[type="text"] {
+  padding: 8px 12px !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 4px !important;
+  font-size: 1rem !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Button layout container */
+.button-group {
+  display: flex !important;
+  gap: 10px !important;
+}
+
+/* Base button styling */
+.multiplication-card button {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease !important;
+}
+
+/* Hover state */
+.multiplication-card button:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-color: #000000 !important;
+}
+</style>
+
+```{ojs}
+// Helper function: 10% single-digit, with remaining 90% split equally between double and triple digits
+function getWeightedNumber() {
+  const rand = Math.random();
+  if (rand < 0.10) {
+    return Math.floor(Math.random() * 9) + 1;       // 1 to 9 (10% chance)
+  } else if (rand < 0.55) {
+    return Math.floor(Math.random() * 90) + 10;     // 10 to 99 (45% chance)
+  } else {
+    return Math.floor(Math.random() * 900) + 100;    // 100 to 999 (45% chance)
+  }
+}
+
+num1 = getWeightedNumber()
+num2 = getWeightedNumber()
+product = num1 * num2
+
+// Create a custom interactive form wrapper element
+viewof submission = {
+  const form = document.createElement("div");
+  form.className = "multiplication-card";
+  
+  form.innerHTML = `
+    <div>Calculate the product: <strong>${num1.toLocaleString()} ×${num2.toLocaleString()}</strong></div>
+    <div style="display: flex; flex-direction: column; gap: 5px;">
+      <label style="font-size: 0.9rem; font-weight: 500;">Your Answer:</label>
+      <input type="text" placeholder="Enter product..." autocomplete="off" />
+    </div>
+    <div class="button-group">
+      <button type="button" class="submit-btn">Submit</button>
+      <button type="button" class="refresh-btn">Refresh for another</button>
+    </div>
+  `;
+
+  const inputEl = form.querySelector("input");
+  const submitBtnEl = form.querySelector(".submit-btn");
+  const refreshBtnEl = form.querySelector(".refresh-btn");
+
+  // Initial state
+  form.value = { answer: null, count: 0 };
+
+  let submitCount = 0;
+
+  const triggerSubmit = () => {
+    let val = inputEl.value;
+    if (!val || val.trim() === "") return;
+    
+    submitCount++;
+    form.value = { 
+      answer: val.trim(), 
+      count: submitCount 
+    };
+    
+    inputEl.value = "";
+    inputEl.focus();
+
+    form.dispatchEvent(new CustomEvent("input"));
+  };
+
+  submitBtnEl.onclick = triggerSubmit;
+  refreshBtnEl.onclick = () => location.reload();
+  
+  inputEl.onkeydown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      triggerSubmit();
+    }
+  };
+
+  return form;
+}
+
+// Evaluation block
+{
+  if (!submission || submission.answer === null) {
+    return md``;
+  }
+  
+  let parsed = parseInt(submission.answer.replace(/,/g, ''));
+  
+  if (parsed === product) {
+    return md`<span style="color: #2e7d32; font-weight: bold;">✓ Correct! Excellent work.</span>`;
+  } else {
+    return md`<span style="color: #c62828; font-weight: bold;">✗ Not quite right. Give it another try!</span>`;
+  }
+}
+```
