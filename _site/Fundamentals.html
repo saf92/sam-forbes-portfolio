@@ -80,6 +80,35 @@ gtag('js', new Date());
 gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -149,12 +178,13 @@ gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
 
 
 
-<section id="integer-arithmetic" class="level2">
-<h2 class="anchored" data-anchor-id="integer-arithmetic">Integer Arithmetic</h2>
+<section id="arithmetic-in-mathbbn" class="level2">
+<h2 class="anchored" data-anchor-id="arithmetic-in-mathbbn">Arithmetic in <span class="math inline">\(\mathbb{N}\)</span></h2>
 <ul>
-<li>Addition with Positive Integers - <a href="Integer_arithmetic/Addition_positive.pdf">Worksheet with Solutions (PDF)</a></li>
-<li>Subtraction with Positive Integers - <a href="Integer_arithmetic/subtraction_positive.pdf">Worksheet with Solutions (PDF)</a></li>
-<li>Multiplication of Positive Integers - <a href="Integer_arithmetic/Multiplication_positive.pdf">Worksheet with Solutions (PDF)</a></li>
+<li>Addition - <a href="Integer_arithmetic/Addition_positive.pdf">Worksheet with Solutions (PDF)</a></li>
+<li>Subtraction - <a href="Integer_arithmetic/subtraction_positive.pdf">Worksheet with Solutions (PDF)</a></li>
+<li>Multiplication - <a href="Integer_arithmetic/Multiplication_positive.pdf">Worksheet with Solutions (PDF)</a></li>
+<li>Division - <a href="Integer_arithmetic/Division_positive.pdf">Worksheet with Solutions (PDF)</a></li>
 </ul>
 
 

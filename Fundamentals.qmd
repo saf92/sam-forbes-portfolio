@@ -1,5 +1,6 @@
-## Integer Arithmetic
+## Arithmetic in $\mathbb{N}$
 
-* Addition with Positive Integers - [Worksheet with Solutions (PDF)](Integer_arithmetic/Addition_positive.pdf)
-* Subtraction with Positive Integers - [Worksheet with Solutions (PDF)](Integer_arithmetic/subtraction_positive.pdf)
-* Multiplication of Positive Integers - [Worksheet with Solutions (PDF)](Integer_arithmetic/Multiplication_positive.pdf)
+* Addition - [Worksheet with Solutions (PDF)](Integer_arithmetic/Addition_positive.pdf)
+* Subtraction - [Worksheet with Solutions (PDF)](Integer_arithmetic/subtraction_positive.pdf)
+* Multiplication - [Worksheet with Solutions (PDF)](Integer_arithmetic/Multiplication_positive.pdf)
+* Division - [Worksheet with Solutions (PDF)](Integer_arithmetic/Division_positive.pdf)
