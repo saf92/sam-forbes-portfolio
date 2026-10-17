@@ -1,6 +1,8 @@
 # Personal Maths Website 
 
-Source code for my personal maths website, built using Quarto and deployed via Netlify.
+Source code for my personal maths website, built using Quarto, and deployed via Netlify.
+
+Assistance from primarily google gemini.
 
 ## Tech Stack
 - **Quarto:** Document authouring and static site generation (`.qmd`).
