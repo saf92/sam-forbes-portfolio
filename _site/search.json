@@ -14,6 +14,20 @@
     "text": "Addition - Worksheet with Solutions (PDF)\nSubtraction - Worksheet with Solutions (PDF)\nMultiplication - Worksheet with Solutions (PDF)\nDivision - Worksheet with Solutions (PDF)"
   },
   {
+    "objectID": "Fundamentals.html#arithmetic-in-mathbbz",
+    "href": "Fundamentals.html#arithmetic-in-mathbbz",
+    "title": "Sam Forbes",
+    "section": "Arithmetic in \\(\\mathbb{Z}\\)",
+    "text": "Arithmetic in \\(\\mathbb{Z}\\)\n\nGeneral - Worksheet with Solutions (PDF)\nIndices - Worksheet with Solutions (PDF)"
+  },
+  {
+    "objectID": "Fundamentals.html#notes",
+    "href": "Fundamentals.html#notes",
+    "title": "Sam Forbes",
+    "section": "Notes",
+    "text": "Notes\n\n\\(\\mathbb{N}\\) are the natural numbers: 1, 2, 3, …\n\\(\\mathbb{Z}\\) are the integers: … ,-3, -2, -1, 0, 1, 2, 3, …"
+  },
+  {
     "objectID": "Interactive/addition.html",
     "href": "Interactive/addition.html",
     "title": "Sam Forbes",
@@ -147,11 +161,11 @@
     "text": "Transformations in \\(\\mathbb{R}^2\\) — 4 October 2026\nDiscussion of common transformations in \\(\\mathbb{R}^2\\).\nWorld Population — 27 July 2026\nA simple model for world population.\nComplete Graphs — 1 July 2026\nA couple interesting things about complete graphs.\nChasing Zero — 16 June 2026\nGoing faster makes sense up to a point…\nMeasuring Infinity — 14 June 2026\nCertain properties cannot hold together for infinite sets."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
+    "objectID": "Code.html",
+    "href": "Code.html",
     "title": "Sam Forbes",
     "section": "",
-    "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
+    "text": "Column arithmetic and ‘bus-stop’ method in \\(\\mathbb{N}\\) output in LaTeX: arithmetic-latex-generator GitHub repository."
   },
   {
     "objectID": "Interactive.html",
@@ -166,6 +180,13 @@
     "title": "Sam Forbes",
     "section": "",
     "text": "Addition\nSubtraction\nMultiplication\nDivision"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Sam Forbes",
+    "section": "",
+    "text": "UK Income Inequality and Taxation, 2000–2023: A \\(\\kappa\\)‑generalised Distribution Analysis\narXiv, 2026\nPDF\nOn Properties of a Smooth Income Tax Function with Application to the UK\nviXra, 2025\nPDF\nA Dynamical Systems Model for Population and Depleting Resources\nviXra, 2024\nPDF\nThe \\(\\kappa\\)‑generalised Distribution for Stock Returns\narXiv, 2024\nPDF\nLinear Regression for Power Law Distribution Fitting\narXiv, 2023\nAbstract\nA Study of the Probability Distribution of the Balls‑in‑Bins Process with Power Law Feedback\narXiv, 2023\nAbstract\nA Study of UK Household Wealth Through Empirical Analysis and a Non‑linear Kesten Process\nwith S. Grosskinsky, PLOS ONE, 2022\nArticle\nData Driven Analysis and Modelling of the Wealth Distribution\nPhD thesis, University of Warwick, 2023\nThesis"
   },
   {
     "objectID": "Worksheets.html",

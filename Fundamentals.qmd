@@ -4,3 +4,15 @@
 * Subtraction - [Worksheet with Solutions (PDF)](Integer_arithmetic/subtraction_positive.pdf)
 * Multiplication - [Worksheet with Solutions (PDF)](Integer_arithmetic/Multiplication_positive.pdf)
 * Division - [Worksheet with Solutions (PDF)](Integer_arithmetic/Division_positive.pdf)
+
+## Arithmetic in $\mathbb{Z}$
+* General - [Worksheet with Solutions (PDF)](Integer_arithmetic/general.pdf)
+* Indices - [Worksheet with Solutions (PDF)](Integer_arithmetic/Indices.pdf)
+
+
+
+
+
+## Notes
+- $\mathbb{N}$ are the natural numbers: 1, 2, 3, ...
+- $\mathbb{Z}$ are the integers: ... ,-3, -2, -1, 0, 1, 2, 3, ...

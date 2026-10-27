@@ -1,0 +1,1 @@
+- Column arithmetic and 'bus-stop' method in $\mathbb{N}$ output in LaTeX: [arithmetic-latex-generator GitHub repository](https://github.com/saf92/arithmetic-latex-generator){target="_blank"}.
