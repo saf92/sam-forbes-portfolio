@@ -6,13 +6,21 @@
 * Division - [Worksheet with Solutions (PDF)](Integer_arithmetic/Division_positive.pdf)
 
 ## Arithmetic in $\mathbb{Z}$
-* General - [Worksheet with Solutions (PDF)](Integer_arithmetic/general.pdf)
+* General addition, subtraction, multiplication and division - [Worksheet with Solutions (PDF)](Integer_arithmetic/general.pdf)
 * Indices - [Worksheet with Solutions (PDF)](Integer_arithmetic/Indices.pdf)
 
-
-
-
+## Arithmetic in $\mathbb{Q}$
+* Improper fractions and mixed numbers - [Worksheet with Solutions (PDF)](Rational_arithmetic/mixed_nos.pdf)
+* Addition - [Worksheet with Solutions (PDF)](Rational_arithmetic/addition_rational.pdf)
+* Subtraction - [Worksheet with Solutions (PDF)](Rational_arithmetic/subtraction_rational.pdf)
+* Multiplication - [Worksheet with Solutions (PDF)](Rational_arithmetic/multiplication_rational.pdf)
+* Division - [Worksheet with Solutions (PDF)](Rational_arithmetic/division_rational.pdf)
 
 ## Notes
-- $\mathbb{N}$ are the natural numbers: 1, 2, 3, ...
-- $\mathbb{Z}$ are the integers: ... ,-3, -2, -1, 0, 1, 2, 3, ...
+- $\mathbb{N}$ are the **natural numbers**: 1, 2, 3, ...
+- $\mathbb{Z}$ are the **integers**: ... ,-3, -2, -1, 0, 1, 2, 3, ...
+- $\mathbb{Q}$ are the **rational numbers** (commonly thought of as fractions): $\dfrac{a}{b}$ where $a$ and $b$ are integers and $b \neq 0$, e.g. $\dfrac{1}{2}$. Notice that if we fix $b=1$ and let $a$ be an integer, we obtain the integers ($\mathbb{Z}$); if $a$ is further restricted to a natural number, we recover the natural numbers ($\mathbb{N}$).
+- We have the set inclusion
+$$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q}$$
+
+\

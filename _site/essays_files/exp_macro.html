@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-05-26">
+<meta name="author" content="Samuel Forbes">
+<meta name="dcterms.date" content="2026-11-11">
 
-<title>An Economic Law – Sam Forbes</title>
+<title>Exponential Macroeconomic Variables – Sam Forbes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -81,11 +82,40 @@ gtag('js', new Date());
 gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -144,27 +174,53 @@ gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#model" id="toc-model" class="nav-link" data-scroll-target="#model"><span class="header-section-number">2</span> Model</a></li>
+  <li><a href="#closure-of-the-exponential-function" id="toc-closure-of-the-exponential-function" class="nav-link" data-scroll-target="#closure-of-the-exponential-function"><span class="header-section-number">3</span> Closure of the Exponential Function</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples"><span class="header-section-number">4</span> Examples</a>
+  <ul class="collapse">
+  <li><a href="#gross-national-debt" id="toc-gross-national-debt" class="nav-link" data-scroll-target="#gross-national-debt"><span class="header-section-number">4.1</span> Gross National Debt</a></li>
+  <li><a href="#gross-domestic-product-gdp" id="toc-gross-domestic-product-gdp" class="nav-link" data-scroll-target="#gross-domestic-product-gdp"><span class="header-section-number">4.2</span> Gross Domestic Product (GDP)</a></li>
+  <li><a href="#m2-money-supply" id="toc-m2-money-supply" class="nav-link" data-scroll-target="#m2-money-supply"><span class="header-section-number">4.3</span> M2 Money Supply</a></li>
+  <li><a href="#debt-to-gdp-ratio" id="toc-debt-to-gdp-ratio" class="nav-link" data-scroll-target="#debt-to-gdp-ratio"><span class="header-section-number">4.4</span> Debt-to-GDP Ratio</a></li>
+  <li><a href="#velocity-of-money-gdp-m2" id="toc-velocity-of-money-gdp-m2" class="nav-link" data-scroll-target="#velocity-of-money-gdp-m2"><span class="header-section-number">4.5</span> Velocity of Money (GDP / M2)</a></li>
+  </ul></li>
+  <li><a href="#analysis-of-growth-rates" id="toc-analysis-of-growth-rates" class="nav-link" data-scroll-target="#analysis-of-growth-rates"><span class="header-section-number">5</span> Analysis of Growth Rates</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">6</span> Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">An Economic Law</h1>
+<h1 class="title">Exponential Macroeconomic Variables</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Samuel Forbes </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 26, 2026</p>
+      <p class="date">11 November 2026</p>
     </div>
   </div>
   
@@ -176,23 +232,179 @@ gtag('config', 'G-NMRLY17Y6E', { 'anonymize_ip': true});
 </header>
 
 
-<p>
-If you study economics you get frustrated by the lack of any established laws. Does demand increase supply, do interest rates reduce inflation, does unemployment increase desperation, is anything in equilibrium, do people act in their dog’s self-interest, etc? Mathematics is the economists favourite tool to get no-where with these questions. Anyway I present to you, in this incredible micro-essay, one irrefutable economic law known definitely since the dawn of economics.
-</p>
-<p style="text-align: center; margin: 40px 0;">
-<strong>“There are a few rich who depend on many more poor.”</strong>
-</p>
-<p>
-Ok this may seem basic but is it not true? And if it is obviously true should not economics be based on this law?
-</p>
-<p>
-Mull it over and then you will agree with me.
-</p>
-<p style="text-align: center; font-style: italic;">
-— Fin —
-</p>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>We illustrate mathematically how several macroeconomic variables, GDP, debt, and money supply (and ratios of these), have been (roughly) exponential over significant time periods. We concentrate on the US due to easy access to publicly available Federal Reserve Economic Data (FRED). It is likely exponential growth in macro variables is a global phenomenon. As has been noted by many, in the long term exponential growth is unsustainable in a bounded world.</p>
+<p>These macro variables are linked to each other and population. The exponential growth of population has been enabled by the exponential growth of resource consumption (primarily fossil fuels) due to technological change. Energy extraction and resource consumption are the underlying physical drivers of all these nominal variables. While often overlooked in standard macroeconomic models, economics is fundamentally bounded by physical and thermodynamic realities.</p>
+</section>
+<section id="model" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="model"><span class="header-section-number">2</span> Model</h2>
+<p>From a mathematical perspective we can come up with a standard model of compounding growth that produces the exponential. Indeed it is the same model as in my essay on population growth but with a fixed rate. We will first show how one can derive the continuous differential equation from the discrete.</p>
+<p>Let <span class="math inline">\(X(t)\)</span> denote a macroeconomic variable at time <span class="math inline">\(t \in [0, \infty)\)</span>. Let us start with the discrete time model between time periods of <span class="math inline">\(\Delta t &gt; 0\)</span>:</p>
+<p><span class="math display">\[
+X(t+\Delta t) = (1+k(t)\Delta t)X(t), \quad k(t) \in \mathbb{R}\tag{1} \label{eq_discr}
+\]</span></p>
+<p>where <span class="math inline">\(k(t)\Delta t\)</span> represents the fractional growth during the interval. Rearranging <span class="math inline">\(\eqref{eq_discr}\)</span> gives</p>
+<p><span class="math display">\[
+\frac{X(t+\Delta t)- X(t)}{\Delta t} = k(t)X(t) \tag{2} \label{eq_rear}
+\]</span></p>
+<p>Taking the limit of <span class="math inline">\(\eqref{eq_rear}\)</span> as <span class="math inline">\(\Delta t \rightarrow 0\)</span> gives the differential equation for the continuous time model</p>
+<p><span class="math display">\[
+\frac{\mathrm{d}X}{\mathrm{d}t} = k(t)X(t). \tag{3} \label{eq_inst_rate}
+\]</span></p>
+<p>For <span class="math inline">\(t \in [t_0, t_1]\)</span>, the unique solution is given by</p>
+<p><span class="math display">\[
+X(t) = X(t_0) \exp\left( \int_{t_0}^{t} k(s) \mathrm{d}s \right) . \tag{4} \label{eq_sol}
+\]</span></p>
+<p>If we assume that the <strong>time-averaged growth rate</strong> over <span class="math inline">\([t_0, t]\)</span> is approximately constant, say <span class="math inline">\(r &gt; 0\)</span>, such that</p>
+<p><span class="math display">\[
+\frac{1}{t - t_0} \int_{t_0}^{t} k(s) \mathrm{d}s \approx r , \tag{5} \label{mean_approx}
+\]</span></p>
+<p>then <span class="math inline">\(\eqref{eq_sol}\)</span> reduces to</p>
+<p><span class="math display">\[
+X(t) \approx A e^{rt} , \quad \text{where } A = X(t_0) e^{-rt_0} . \tag{6} \label{eq_exp_lin_model}
+\]</span></p>
+</section>
+<section id="closure-of-the-exponential-function" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="closure-of-the-exponential-function"><span class="header-section-number">3</span> Closure of the Exponential Function</h2>
+<p>The class of exponential functions is closed under standard arithmetic operations, including division. In particular, we will be looking at the ratio of exponentially increasing macroeconomic variables. Thus, suppose two macroeconomic variables <span class="math inline">\(X_1(t)\)</span> and <span class="math inline">\(X_2(t)\)</span> follow the above model; then for <span class="math inline">\(t \in [t_0,t_1]\)</span>:</p>
+<p><span class="math display">\[
+\begin{align*}
+\frac{X_1(t)}{X_2(t)} &amp;= \frac{X_1(t_0)}{X_2(t_0)} \exp\left( \int_{t_0}^{t} (k_1(s) - k_2(s)) \mathrm{d}s \right) \\
+&amp;\approx A \exp((r_1-r_2) t), \quad \text{where } A = \frac{X_1(t_0)}{X_2(t_0)} \exp(-(r_1-r_2) t_0) \tag{7} \label{eq_growth_dif}
+\end{align*}
+\]</span></p>
+<p>However, we will see this approximation is worse due to the volatility and sign changes of <span class="math inline">\(k_1(t) - k_2(t)\)</span>.</p>
+</section>
+<section id="examples" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="examples"><span class="header-section-number">4</span> Examples</h2>
+<p>We now fit an exponential curve to US nominal debt, GDP, and M2, as well as to the debt-to-GDP and velocity of money (GDP to M2) ratios. We use regression as a “good enough” approximation for our needs. With the exception of velocity, we apply a single global fit rather than fitting in segments, even though segmented models better capture changing rates of change.</p>
+<p>We present, apart from velocity, the fits to the raw and log-transformed data side by side. The log-transformed data provides a clearer visual assessment of the fit’s accuracy, as it linearises the exponential trend into a straight line.</p>
+<section id="gross-national-debt" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="gross-national-debt"><span class="header-section-number">4.1</span> Gross National Debt</h3>
+<div id="fig-debt" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-debt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="exp_macro_plots/debt.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-debt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Exponential fit to US Gross National Debt. Growth rate <span class="math inline">\(\hat{r} \approx 7.3\%\)</span>. Source: FRED.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="gross-domestic-product-gdp" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="gross-domestic-product-gdp"><span class="header-section-number">4.2</span> Gross Domestic Product (GDP)</h3>
+<div id="fig-gdp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-gdp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="exp_macro_plots/gdp.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gdp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Exponential fit to US Gross Domestic Product. Growth rate <span class="math inline">\(\hat{r} \approx 4.8\%\)</span>. Note a clear shift of a declining rate around the mid-1980s. Source: FRED.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="m2-money-supply" class="level3" data-number="4.3">
+<h3 data-number="4.3" class="anchored" data-anchor-id="m2-money-supply"><span class="header-section-number">4.3</span> M2 Money Supply</h3>
+<div id="fig-m2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-m2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="exp_macro_plots/m2.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-m2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Exponential fit to US M2 money supply. Growth rate <span class="math inline">\(\hat{r} \approx 6.1\%\)</span>. Source: FRED.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="debt-to-gdp-ratio" class="level3" data-number="4.4">
+<h3 data-number="4.4" class="anchored" data-anchor-id="debt-to-gdp-ratio"><span class="header-section-number">4.4</span> Debt-to-GDP Ratio</h3>
+<div id="fig-debt_to_gdp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-debt_to_gdp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="exp_macro_plots/debt_to_gdp.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-debt_to_gdp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Exponential fit to US Gross National Debt to GDP as a percentage. Growth rate <span class="math inline">\(\hat{r} \approx 2.6\%\)</span>. Source: FRED.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="velocity-of-money-gdp-m2" class="level3" data-number="4.5">
+<h3 data-number="4.5" class="anchored" data-anchor-id="velocity-of-money-gdp-m2"><span class="header-section-number">4.5</span> Velocity of Money (GDP / M2)</h3>
+<div id="fig-velocity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-velocity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="exp_macro_plots/velocity.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-velocity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Exponential fits to velocity (US GDP to M2) during periods before and after 1990. Growth rate pre-1990 <span class="math inline">\(\hat{r} \approx 0.001\%\)</span>, growth rate post-1990 <span class="math inline">\(\hat{r} \approx -0.017\%\)</span>. Source: FRED.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="analysis-of-growth-rates" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="analysis-of-growth-rates"><span class="header-section-number">5</span> Analysis of Growth Rates</h2>
+<p>In this section, we give a brief commentary on the time-averaged growth rates of the US macro variables above. Below is the summary of the growth rates:</p>
+<div id="tbl-us-macro-growth-rates" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-us-macro-growth-rates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Exponential growth rates of US macroeconomic variables.
+</figcaption>
+<div aria-describedby="tbl-us-macro-growth-rates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable</th>
+<th style="text-align: center;">Approx. Growth Rate (<span class="math inline">\(\hat{r}\)</span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Gross National Debt</td>
+<td style="text-align: center;"><span class="math inline">\(7.3\%\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GDP</td>
+<td style="text-align: center;"><span class="math inline">\(4.8\%\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M2 Money Supply</td>
+<td style="text-align: center;"><span class="math inline">\(6.1\%\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Debt-to-GDP Ratio</td>
+<td style="text-align: center;"><span class="math inline">\(2.6\%\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Velocity (GDP/M2) (Pre-1990)</td>
+<td style="text-align: center;"><span class="math inline">\(0.001\%\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Velocity (GDP/M2) (Post-1990)</td>
+<td style="text-align: center;"><span class="math inline">\(-0.017\%\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>We see that the long-run time-averaged growth rate is greatest for debt, followed by M2 and GDP.</p>
+<p>For the ratios, if the variables were exactly exponential, then the growth rate for debt to GDP would be (see equation <span class="math inline">\(\eqref{eq_growth_dif}\)</span>):</p>
+<p><span class="math display">\[
+7.3\% - 4.8\% = 2.5\%
+\]</span></p>
+<p>which is very close to the <span class="math inline">\(2.6\%\)</span> estimated directly from the regression fit. For velocity, fitting GDP and M2 separately across both pre- and post-1990 sub-intervals remains a subject for future work.</p>
+</section>
+<section id="conclusion" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">6</span> Conclusion</h2>
+<p>In this essay, we fitted U.S. nominal money supply, debt, GDP from FRED data, and their respective ratios (debt to GDP and income velocity) to exponential curves using standard regression. While this approach largely reinforces established long term empirical regularities among macroeconomic variables, our focus remains strictly descriptive rather than explanatory. Future research could expand upon this work by employing changepoint analysis to identify structural shifts in growth rates over time. Another promising avenue is a deeper investigation into the velocity of money, particularly its relationship with economic inequality, financialisation, and growth. Ultimately, this inquiry opens up a broader, compelling question: is there a fundamental, invariant economic value underlying the macroeconomy?</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
