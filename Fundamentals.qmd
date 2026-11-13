@@ -9,17 +9,24 @@
 * General addition, subtraction, multiplication and division - [Worksheet with Solutions (PDF)](Integer_arithmetic/general.pdf)
 * Indices - [Worksheet with Solutions (PDF)](Integer_arithmetic/Indices.pdf)
 
+## Number Theory
+* Prime decomposition - [Worksheet with Solutions (PDF)](Number_theory/prime_decomp.pdf)
+* Greatest common divisor (GCD) - [Worksheet with Solutions (PDF)](Number_theory/GCD.pdf)
+* Lowest common multiple (LCM) - [Worksheet with Solutions (PDF)](Number_theory/LCM.pdf)
+
 ## Arithmetic in $\mathbb{Q}$
 * Improper fractions and mixed numbers - [Worksheet with Solutions (PDF)](Rational_arithmetic/mixed_nos.pdf)
-* Addition - [Worksheet with Solutions (PDF)](Rational_arithmetic/addition_rational.pdf)
-* Subtraction - [Worksheet with Solutions (PDF)](Rational_arithmetic/subtraction_rational.pdf)
-* Multiplication - [Worksheet with Solutions (PDF)](Rational_arithmetic/multiplication_rational.pdf)
-* Division - [Worksheet with Solutions (PDF)](Rational_arithmetic/division_rational.pdf)
+* Fraction addition - [Worksheet with Solutions (PDF)](Rational_arithmetic/addition_rational.pdf)
+* Fraction subtraction - [Worksheet with Solutions (PDF)](Rational_arithmetic/subtraction_rational.pdf)
+* Fraction multiplication - [Worksheet with Solutions (PDF)](Rational_arithmetic/multiplication_rational.pdf)
+* Fraction division - [Worksheet with Solutions (PDF)](Rational_arithmetic/division_rational.pdf)
+* Fraction to decimal conversion and vice versa - [Worksheet with Solutions (PDF)](Rational_arithmetic/fraction_decimal.pdf)
+* Decimal addition, subtraction, multiplication and division - [Worksheet with Solutions (PDF)](Rational_arithmetic/decimal_arith.pdf)
 
 ## Notes
 - $\mathbb{N}$ are the **natural numbers**: 1, 2, 3, ...
 - $\mathbb{Z}$ are the **integers**: ... ,-3, -2, -1, 0, 1, 2, 3, ...
-- $\mathbb{Q}$ are the **rational numbers** (commonly thought of as fractions): $\dfrac{a}{b}$ where $a$ and $b$ are integers and $b \neq 0$, e.g. $\dfrac{1}{2}$. Notice that if we fix $b=1$ and let $a$ be an integer, we obtain the integers ($\mathbb{Z}$); if $a$ is further restricted to a natural number, we recover the natural numbers ($\mathbb{N}$).
+- $\mathbb{Q}$ are the **rational numbers**: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point
 - We have the set inclusion
 $$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q}$$
 
