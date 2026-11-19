@@ -1,1 +1,8 @@
+## About
+
+* The worksheets on this site are expanding but will not follow a set curricullum
+* Requests for bespoke worksheets welcome
+
+## Worksheets
+
 * [Mathematics Fundamentals](Fundamentals.qmd)

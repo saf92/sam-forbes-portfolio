@@ -1,5 +1,4 @@
 ---
-title: "Welcome"
 about:
   template: jolla
 ---
@@ -8,34 +7,37 @@ about:
 
 ## What is this Website For?
 
-This website exists to share my ongoing mathematics and statistics work, as well as offer quality academic and professional services.
+To share my ongoing mathematics and statistics work, as well as offer academic and professional services.
+
+## Background
+
+* Freelance consulting across finance, AI and mathematics education.
+* Independent [research across several domains](research.qmd){style="color: #0066cc;"}
+* Tutoring experience from secondary school to university level
+* PhD Mathematics of Systems, University of Warwick, 2023
 
 ## Mathematics & Statistics Services
 
-* Tutoring
-* Resource Generation
 * Consulting
+* Resource Generation
+* Tutoring
 
-If you are interested in any of these services, please get in touch.
-
-## Research 
-
-My research interests include:
+## Research Interests
 
 * Power-law and heavy-tailed distributions
 * Statistics and mathematical modelling applied to macroeconomics, population, and energy/resources
 
 ## Essays
 
-Essays on maths/stats related topics. 
+[A variety of maths/stats related topics](essays.qmd){style="color: #0066cc;"} generally at an undergraduate level.
 
 ## Resources
 
-Resources for anyone learning or teaching mathematics. Requests for resources are welcome. 
+[Practice worksheets and worked solutions](Worksheets.qmd){style="color: #0066cc;"} for anyone learning or teaching mathematics. Requests are welcome. 
 
 ## AI Disclosure
 
-AI is imperfect, but I find it a useful tool. Currently, I primarily use Google Gemini.
+I use AI for efficiency, checked by my own AI: my brain.
 
 ## Support
 
@@ -43,6 +45,6 @@ If you would like to support the ongoing development of this website, you can [l
 
 ## Contact
 
-forbessam2@gmail.com
+contact@samforbes.com
 
 </div>

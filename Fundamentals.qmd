@@ -1,3 +1,12 @@
+## Notes
+
+- $\mathbb{N}$ are the **natural numbers**: 1, 2, 3, ...
+- $\mathbb{Z}$ are the **integers**: ... ,-3, -2, -1, 0, 1, 2, 3, ...
+- $\mathbb{Q}$ are the **rational numbers**: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point
+- We have the set inclusion
+$$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q}$$
+
+
 ## Arithmetic in $\mathbb{N}$
 
 * Addition - [Worksheet with Solutions (PDF)](Integer_arithmetic/Addition_positive.pdf)
@@ -8,6 +17,7 @@
 ## Arithmetic in $\mathbb{Z}$
 * General addition, subtraction, multiplication and division - [Worksheet with Solutions (PDF)](Integer_arithmetic/general.pdf)
 * Indices - [Worksheet with Solutions (PDF)](Integer_arithmetic/Indices.pdf)
+* Order of operations - [Worksheet with Solutions (PDF)](Integer_arithmetic/order_of_op.pdf)
 
 ## Number Theory
 * Prime decomposition - [Worksheet with Solutions (PDF)](Number_theory/prime_decomp.pdf)
@@ -22,12 +32,5 @@
 * Fraction division - [Worksheet with Solutions (PDF)](Rational_arithmetic/division_rational.pdf)
 * Fraction to decimal conversion and vice versa - [Worksheet with Solutions (PDF)](Rational_arithmetic/fraction_decimal.pdf)
 * Decimal addition, subtraction, multiplication and division - [Worksheet with Solutions (PDF)](Rational_arithmetic/decimal_arith.pdf)
+* Order of operations - [Worksheet with Solutions (PDF)](Rational_arithmetic/order_of_op.pdf)
 
-## Notes
-- $\mathbb{N}$ are the **natural numbers**: 1, 2, 3, ...
-- $\mathbb{Z}$ are the **integers**: ... ,-3, -2, -1, 0, 1, 2, 3, ...
-- $\mathbb{Q}$ are the **rational numbers**: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point
-- We have the set inclusion
-$$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q}$$
-
-\
