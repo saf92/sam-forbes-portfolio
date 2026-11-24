@@ -1,10 +1,11 @@
-## Notes
+## Notes on Numbers
 
 - $\mathbb{N}$ are the **natural numbers**: 1, 2, 3, ...
 - $\mathbb{Z}$ are the **integers**: ... ,-3, -2, -1, 0, 1, 2, 3, ...
-- $\mathbb{Q}$ are the **rational numbers**: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point
+- $\mathbb{Q}$ are the **rational numbers**: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point 
+- $\mathbb{R}$ are the **real numbers**: includes decimals with non-repeating digits after the decimal point such as $\sqrt{2}$
 - We have the set inclusion
-$$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q}$$
+$$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 
 
 ## Arithmetic in $\mathbb{N}$
@@ -33,4 +34,13 @@ $$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q}$$
 * Fraction to decimal conversion and vice versa - [Worksheet with Solutions (PDF)](Rational_arithmetic/fraction_decimal.pdf)
 * Decimal addition, subtraction, multiplication and division - [Worksheet with Solutions (PDF)](Rational_arithmetic/decimal_arith.pdf)
 * Order of operations - [Worksheet with Solutions (PDF)](Rational_arithmetic/order_of_op.pdf)
+
+## Arithmetic in $\mathbb{R}$
+
+* Surds - [Worksheet with Solutions (PDF)](Real_arithmetic/surds.pdf)
+* $n$th-Roots - [Worksheet with Solutions (PDF)](Real_arithmetic/nth_roots.pdf)
+
+## Approximations
+* Rounding - [Worksheet with Solutions (PDF)](Approximations/rounding.pdf)
+* Significant figures - [Worksheet with Solutions (PDF)](Approximations/significant_figures.pdf)
 
