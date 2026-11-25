@@ -4,14 +4,14 @@
     "href": "Fundamentals.html",
     "title": "Sam Forbes",
     "section": "",
-    "text": "\\(\\mathbb{N}\\) are the natural numbers: 1, 2, 3, …\n\\(\\mathbb{Z}\\) are the integers: … ,-3, -2, -1, 0, 1, 2, 3, …\n\\(\\mathbb{Q}\\) are the rational numbers: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point\n\\(\\mathbb{R}\\) are the real numbers: includes decimals with non-repeating digits after the decimal point such as \\(\\sqrt{2}\\)\nWe have the set inclusion \\[ \\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\]"
+    "text": "\\(\\mathbb{N}\\) are the natural numbers: 1, 2, 3, …\n\\(\\mathbb{Z}\\) are the integers: … ,-3, -2, -1, 0, 1, 2, 3, …\n\\(\\mathbb{Q}\\) are the rational numbers: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point\n\\(\\mathbb{R}\\) are the real numbers: includes decimals with non-repeating digits after the decimal point such as \\(\\sqrt{2}\\) and \\(\\pi\\)\nWe have the set inclusion \\[ \\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\] i.e. each new set of numbers has the previous one sitting in it"
   },
   {
     "objectID": "Fundamentals.html#notes-on-numbers",
     "href": "Fundamentals.html#notes-on-numbers",
     "title": "Sam Forbes",
     "section": "",
-    "text": "\\(\\mathbb{N}\\) are the natural numbers: 1, 2, 3, …\n\\(\\mathbb{Z}\\) are the integers: … ,-3, -2, -1, 0, 1, 2, 3, …\n\\(\\mathbb{Q}\\) are the rational numbers: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point\n\\(\\mathbb{R}\\) are the real numbers: includes decimals with non-repeating digits after the decimal point such as \\(\\sqrt{2}\\)\nWe have the set inclusion \\[ \\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\]"
+    "text": "\\(\\mathbb{N}\\) are the natural numbers: 1, 2, 3, …\n\\(\\mathbb{Z}\\) are the integers: … ,-3, -2, -1, 0, 1, 2, 3, …\n\\(\\mathbb{Q}\\) are the rational numbers: commonly thought of as fractions or decimals with finite or repeating digits after the decimal point\n\\(\\mathbb{R}\\) are the real numbers: includes decimals with non-repeating digits after the decimal point such as \\(\\sqrt{2}\\) and \\(\\pi\\)\nWe have the set inclusion \\[ \\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\] i.e. each new set of numbers has the previous one sitting in it"
   },
   {
     "objectID": "Fundamentals.html#arithmetic-in-mathbbn",
@@ -39,7 +39,7 @@
     "href": "Fundamentals.html#arithmetic-in-mathbbq",
     "title": "Sam Forbes",
     "section": "Arithmetic in \\(\\mathbb{Q}\\)",
-    "text": "Arithmetic in \\(\\mathbb{Q}\\)\n\nImproper fractions and mixed numbers - Worksheet with Solutions (PDF)\nFraction addition - Worksheet with Solutions (PDF)\nFraction subtraction - Worksheet with Solutions (PDF)\nFraction multiplication - Worksheet with Solutions (PDF)\nFraction division - Worksheet with Solutions (PDF)\nFraction to decimal conversion and vice versa - Worksheet with Solutions (PDF)\nDecimal addition, subtraction, multiplication and division - Worksheet with Solutions (PDF)\nOrder of operations - Worksheet with Solutions (PDF)"
+    "text": "Arithmetic in \\(\\mathbb{Q}\\)\n\nImproper fractions and mixed numbers - Worksheet with Solutions (PDF)\nFraction addition - Worksheet with Solutions (PDF)\nFraction subtraction - Worksheet with Solutions (PDF)\nFraction multiplication - Worksheet with Solutions (PDF)\nFraction division - Worksheet with Solutions (PDF)\nFraction to decimal conversion and vice versa - Worksheet with Solutions (PDF)\nDecimal addition, subtraction, multiplication and division - Worksheet with Solutions (PDF)\nOrder of operations - Worksheet with Solutions (PDF)\nRatios - Worksheet with Solutions (PDF)\nPercentages - Worksheet with Solutions (PDF)"
   },
   {
     "objectID": "Fundamentals.html#arithmetic-in-mathbbr",
@@ -49,11 +49,11 @@
     "text": "Arithmetic in \\(\\mathbb{R}\\)\n\nSurds - Worksheet with Solutions (PDF)\n\\(n\\)th-Roots - Worksheet with Solutions (PDF)"
   },
   {
-    "objectID": "Fundamentals.html#approximations",
-    "href": "Fundamentals.html#approximations",
+    "objectID": "Fundamentals.html#approximations-and-large-numbers",
+    "href": "Fundamentals.html#approximations-and-large-numbers",
     "title": "Sam Forbes",
-    "section": "Approximations",
-    "text": "Approximations\n\nRounding - Worksheet with Solutions (PDF)\nSignificant figures - Worksheet with Solutions (PDF)"
+    "section": "Approximations and Large Numbers",
+    "text": "Approximations and Large Numbers\n\nRounding - Worksheet with Solutions (PDF)\nSignificant figures - Worksheet with Solutions (PDF)\nScientific notation - Worksheet with Solutions (PDF)"
   },
   {
     "objectID": "Interactive/addition.html",
