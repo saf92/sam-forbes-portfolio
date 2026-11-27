@@ -1,4 +1,4 @@
-## Notes on Numbers
+## Notes
 
 - $\mathbb{N}$ are the **natural numbers**: 1, 2, 3, ...
 - $\mathbb{Z}$ are the **integers**: ... ,-3, -2, -1, 0, 1, 2, 3, ...
@@ -7,6 +7,8 @@
 - We have the set inclusion
 $$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 i.e. each new set of numbers has the previous one sitting in it
+- $x \in \mathbb{N}$ means $x$ is a natural number, similarly with 
+$\mathbb{Z}, \, \mathbb{Q} , \, \mathbb{R}$
 
 ## Arithmetic in $\mathbb{N}$
 
@@ -19,6 +21,7 @@ i.e. each new set of numbers has the previous one sitting in it
 * General addition, subtraction, multiplication and division - [Worksheet with Solutions (PDF)](Integer_arithmetic/general.pdf)
 * Indices - [Worksheet with Solutions (PDF)](Integer_arithmetic/Indices.pdf)
 * Order of operations - [Worksheet with Solutions (PDF)](Integer_arithmetic/order_of_op.pdf)
+* Inequalities - [Worksheet with Solutions (PDF)](Integer_arithmetic/inequalities_Z.pdf)
 
 ## Number Theory
 * Prime decomposition - [Worksheet with Solutions (PDF)](Number_theory/prime_decomp.pdf)
@@ -34,6 +37,7 @@ i.e. each new set of numbers has the previous one sitting in it
 * Fraction to decimal conversion and vice versa - [Worksheet with Solutions (PDF)](Rational_arithmetic/fraction_decimal.pdf)
 * Decimal addition, subtraction, multiplication and division - [Worksheet with Solutions (PDF)](Rational_arithmetic/decimal_arith.pdf)
 * Order of operations - [Worksheet with Solutions (PDF)](Rational_arithmetic/order_of_op.pdf)
+* Inequalities - [Worksheet with Solutions (PDF)](Rational_arithmetic/inequalities_Q.pdf)
 * Ratios - [Worksheet with Solutions (PDF)](Rational_arithmetic/ratios.pdf)
 * Percentages - [Worksheet with Solutions (PDF)](Rational_arithmetic/percentages.pdf)
 
@@ -47,3 +51,6 @@ i.e. each new set of numbers has the previous one sitting in it
 * Significant figures - [Worksheet with Solutions (PDF)](Approximations/significant_figures.pdf)
 * Scientific notation - [Worksheet with Solutions (PDF)](Approximations/scientific_notation.pdf)
 
+## Algebra
+* Linear equations - [Worksheet with Solutions (PDF)](Algebra/linear_equations.pdf)
+* Linear inequalities - [Worksheet with Solutions (PDF)](Algebra/linear_inequalities.pdf)
